@@ -10,26 +10,40 @@
     <div class="container animate-in">
         <header>
             <h1>Java Practical Repository</h1>
-            <p style="text-align: center; color: var(--text-dim); margin-top: -30px; margin-bottom: 40px; font-size: 1.2rem;">
+            <p class="hero-subtitle">
                 SPPU MCA Semester II (PBJ555MJP) • 131 Slips Complete
             </p>
         </header>
 
         <main>
-            <input type="text" id="search" placeholder="Search by group name (e.g. Slips 1-10)...">
-            <div id="groups" class="grid">
-                <!-- Groups will be injected here -->
+            <div style="position: relative; max-width: 700px; margin: 0 auto;">
+                <input type="text" id="search" placeholder="Search by topic, group, or slip number...">
+                <div id="search-status" style="text-align: center; margin-top: -40px; margin-bottom: 30px; font-size: 0.85rem; color: var(--primary); opacity: 0; transition: opacity 0.3s;">
+                    Searching across all 131 slips...
+                </div>
+            </div>
+            
+            <div id="results-count" style="text-align: center; margin-bottom: 20px; color: var(--text-dim); display: none;"></div>
+            
+            <div id="display-area" class="grid">
+                <!-- Content will be injected here -->
             </div>
         </main>
         
-        <footer style="margin-top: 80px; text-align: center; color: var(--text-dim); font-size: 0.9rem;">
+        <footer class="footer">
             <p>KES's Pratibha Institute of Business Management • May 2026</p>
+            <p class="disclaimer">
+                All solutions displayed on this website are generated using ai tools. They are meant purely for learning, understanding concepts, and improving coding skills.
+            </p>
         </footer>
     </div>
 
     <script>
         let allGroups = [];
-        const container = document.getElementById('groups');
+        const displayArea = document.getElementById('display-area');
+        const searchInput = document.getElementById('search');
+        const resultsCount = document.getElementById('results-count');
+        const searchStatus = document.getElementById('search-status');
 
         fetch('./data/slips.json')
             .then(r => r.json())
@@ -38,29 +52,91 @@
                 renderGroups(allGroups);
             })
             .catch(err => {
-                container.innerHTML = `<p style="text-align:center; color:#ef4444;">Error loading slips data. Please ensure slips.json is valid.</p>`;
+                displayArea.innerHTML = `<p style="text-align:center; color:#ef4444;">Error loading data.</p>`;
             });
 
         function renderGroups(groups) {
-            container.innerHTML = '';
+            displayArea.innerHTML = '';
+            resultsCount.style.display = 'none';
             groups.forEach((g, index) => {
                 const el = document.createElement('div');
                 el.className = 'card animate-in';
                 el.style.animationDelay = `${index * 0.05}s`;
                 el.innerHTML = `
+                    <div class="tag">Group</div>
                     <h2>${g.name}</h2>
-                    <p>${g.slips.length} Practical Slips</p>
-                    <div style="margin-top: 20px; font-size: 0.8rem; color: var(--primary); font-weight: 600;">VIEW COLLECTION →</div>
+                    <p>Contains slips ${g.slips[0].id} to ${g.slips[g.slips.length-1].id}.</p>
+                    <div class="meta-info">
+                        <span>${g.slips.length} Slips</span>
+                        <span>VIEW ALL →</span>
+                    </div>
                 `;
                 el.onclick = () => window.location.href = `./web-viewer/folder.html?folder=${g.folder}`;
-                container.appendChild(el);
+                displayArea.appendChild(el);
             });
         }
 
-        document.getElementById('search').addEventListener('input', (e) => {
-            const q = e.target.value.toLowerCase();
-            const filtered = allGroups.filter(g => g.name.toLowerCase().includes(q));
-            renderGroups(filtered);
+        function renderSlips(slips) {
+            displayArea.innerHTML = '';
+            resultsCount.style.display = 'block';
+            resultsCount.innerText = `Found ${slips.length} matching slips`;
+            
+            slips.forEach((item, index) => {
+                const s = item.slip;
+                const folder = item.folder;
+                const el = document.createElement('div');
+                el.className = 'card animate-in';
+                el.style.animationDelay = `${index * 0.03}s`;
+                el.innerHTML = `
+                    <div class="tag">Slip ${s.id}</div>
+                    <h2>${s.questions[0].title.length > 40 ? s.questions[0].title.substring(0, 40) + '...' : s.questions[0].title}</h2>
+                    <p>Q2: ${s.questions[1].title}</p>
+                    <div class="meta-info">
+                        <span style="color: var(--text-dim)">Click to view code</span>
+                        <span>OPEN SLIP →</span>
+                    </div>
+                `;
+                el.onclick = () => window.location.href = `./web-viewer/slip.html?folder=${folder}&id=${s.id}`;
+                displayArea.appendChild(el);
+            });
+        }
+
+        searchInput.addEventListener('input', (e) => {
+            const q = e.target.value.toLowerCase().trim();
+            
+            if (q.length > 0) {
+                searchStatus.style.opacity = '1';
+            } else {
+                searchStatus.style.opacity = '0';
+            }
+
+            if (q === '') {
+                renderGroups(allGroups);
+                return;
+            }
+
+            const matchingSlips = [];
+            allGroups.forEach(group => {
+                group.slips.forEach(slip => {
+                    const matchesTitle = slip.questions.some(qn => qn.title.toLowerCase().includes(q));
+                    const matchesId = slip.id.toString() === q || `slip ${slip.id}`.includes(q);
+                    const matchesGroupName = group.name.toLowerCase().includes(q);
+
+                    if (matchesTitle || matchesId || matchesGroupName) {
+                        matchingSlips.push({ slip, folder: group.folder });
+                    }
+                });
+            });
+
+            renderSlips(matchingSlips);
+        });
+
+        // Add some basic keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (e.key === '/' && document.activeElement !== searchInput) {
+                e.preventDefault();
+                searchInput.focus();
+            }
         });
     </script>
 </body>

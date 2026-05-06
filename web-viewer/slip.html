@@ -14,6 +14,13 @@
         <div class="split-layout" id="content">
             <!-- Questions will be injected here -->
         </div>
+
+        <footer class="footer">
+            <p>KES's Pratibha Institute of Business Management • May 2026</p>
+            <p class="disclaimer">
+                All solutions displayed on this website are generated using ai tools. They are meant purely for learning, understanding concepts, and improving coding skills.
+            </p>
+        </footer>
     </div>
 
     <script>
@@ -29,20 +36,14 @@
 
         async function loadQuestionData(path) {
             try {
-                // Try to find the source file
                 const source = await fetchFile(path, ['Main.java', 'index.jsp', 'MyServlet.java', 'StudentServlet.java', 'CalcServlet.java', 'AddServlet.java', 'MulServlet.java', 'WelcomeServlet.java', 'GreetServlet.java', 'LifeServlet.java', 'EmpServlet.java', 'SafeServlet.java']);
-                
                 const [exp, out, run] = await Promise.all([
                     fetch(`../${path}/explanation.md`).then(r => r.ok ? r.text() : "No explanation provided."),
                     fetch(`../${path}/output.txt`).then(r => r.ok ? r.text() : "No output sample available."),
                     fetch(`../${path}/run.md`).then(r => r.ok ? r.text() : "No run instructions provided.")
                 ]);
-                
                 return { code: source.content, filename: source.filename, exp, out, run };
-            } catch(e) { 
-                console.error(e);
-                return null; 
-            }
+            } catch(e) { return null; }
         }
 
         function copyCode(btn) {
@@ -64,38 +65,28 @@
         fetch('../data/slips.json')
             .then(r => r.json())
             .then(async data => {
-                // BUG FIX: Search across ALL groups
                 let slip = null;
                 for (let group of data.groups) {
                     slip = group.slips.find(s => s.id == id);
                     if (slip) break;
                 }
-
-                if (!slip) {
-                    document.getElementById('content').innerHTML = `<p style="text-align:center;">Slip not found.</p>`;
-                    return;
-                }
+                if (!slip) return;
 
                 const container = document.getElementById('content');
-
                 for (let i = 0; i < slip.questions.length; i++) {
                     const q = slip.questions[i];
                     const data = await loadQuestionData(q.path);
-                    
                     if (data) {
                         const section = document.createElement('section');
                         section.className = 'question-section animate-in';
                         section.style.animationDelay = `${i * 0.2}s`;
-                        
                         section.innerHTML = `
                             <div class="tag">Question ${i + 1}</div>
                             <h2 style="margin-bottom: 24px;">${q.title}</h2>
-                            
                             <div style="margin-bottom: 32px;">
                                 <h3 style="color: var(--primary); font-size: 1rem; text-transform: uppercase; letter-spacing: 1px;">Concept Explanation</h3>
                                 <p style="color: var(--text-dim);">${data.exp.replace(/^# .*\n/, '')}</p>
                             </div>
-
                             <div style="margin-bottom: 32px;">
                                 <h3 style="color: var(--primary); font-size: 1rem; text-transform: uppercase; letter-spacing: 1px;">Source Code (${data.filename})</h3>
                                 <div style="position: relative;">
@@ -103,7 +94,6 @@
                                     <pre><code>${data.code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</code></pre>
                                 </div>
                             </div>
-
                             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
                                 <div>
                                     <h3 style="color: var(--primary); font-size: 1rem; text-transform: uppercase; letter-spacing: 1px;">Sample Output</h3>

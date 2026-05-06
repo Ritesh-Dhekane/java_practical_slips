@@ -36,24 +36,31 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: clamp(2rem, 8vw, 3.5rem);
     background: linear-gradient(135deg, #818cf8 0%, #c084fc 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     letter-spacing: -0.02em;
+}
+
+.hero-subtitle {
+    text-align: center; 
+    color: var(--text-dim); 
+    margin-bottom: 50px; 
+    font-size: clamp(1rem, 4vw, 1.25rem);
 }
 
 #search {
     width: 100%;
-    max-width: 600px;
+    max-width: 700px;
     display: block;
     margin: 0 auto 50px;
     background: var(--surface);
     border: 1px solid var(--border);
-    padding: 16px 24px;
-    border-radius: 16px;
+    padding: 18px 28px;
+    border-radius: 20px;
     color: white;
     font-size: 1.1rem;
     font-family: inherit;
@@ -64,13 +71,13 @@ h1 {
 #search:focus {
     outline: none;
     border-color: var(--primary);
-    box-shadow: 0 0 20px var(--primary-glow);
-    transform: scale(1.02);
+    box-shadow: 0 0 25px var(--primary-glow);
+    transform: translateY(-2px);
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 24px;
 }
 
@@ -79,11 +86,13 @@ h1 {
     backdrop-filter: blur(12px);
     border: 1px solid var(--border);
     border-radius: 24px;
-    padding: 32px;
+    padding: clamp(20px, 5vw, 32px);
     cursor: pointer;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .card::before {
@@ -96,7 +105,7 @@ h1 {
 }
 
 .card:hover {
-    transform: translateY(-8px) scale(1.02);
+    transform: translateY(-8px);
     border-color: rgba(99, 102, 241, 0.5);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
@@ -104,8 +113,8 @@ h1 {
 .card:hover::before { opacity: 1; }
 
 .card h2 {
-    font-size: 1.5rem;
-    margin-bottom: 8px;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
     color: var(--text-main);
 }
 
@@ -113,6 +122,19 @@ h1 {
     color: var(--text-dim);
     font-size: 0.95rem;
     margin: 0;
+    flex-grow: 1;
+}
+
+.card .meta-info {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid var(--border);
+    font-size: 0.85rem;
+    color: var(--primary);
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .back-link {
@@ -129,47 +151,40 @@ h1 {
 
 pre {
     background: #010409;
-    padding: 24px;
+    padding: 20px;
     border-radius: 16px;
     overflow-x: auto;
     position: relative;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     border: 1px solid #30363d;
     margin: 20px 0;
 }
 
 .copy-btn {
     position: absolute;
-    top: 12px;
-    right: 12px;
+    top: 10px;
+    right: 10px;
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: var(--text-main);
     padding: 6px 12px;
     border-radius: 8px;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     cursor: pointer;
     backdrop-filter: blur(4px);
-    transition: all 0.2s;
-}
-
-.copy-btn:hover {
-    background: var(--primary);
-    border-color: var(--primary);
-    color: white;
 }
 
 .split-layout {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
 }
 
 .question-section {
     background: var(--surface);
-    border-radius: 32px;
-    padding: 40px;
+    border-radius: 24px;
+    padding: clamp(20px, 5vw, 40px);
     border: 1px solid var(--border);
 }
 
@@ -179,18 +194,51 @@ pre {
     background: var(--primary-glow);
     color: #c7d2fe;
     border-radius: 20px;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: 600;
     margin-bottom: 16px;
     text-transform: uppercase;
 }
 
+.footer {
+    margin-top: 100px;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid var(--border);
+    background: rgba(15, 23, 42, 0.5);
+}
+
+.footer p {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.footer .disclaimer {
+    color: var(--primary);
+    font-weight: 500;
+    margin-top: 15px;
+    display: block;
+}
+
 /* Animations */
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
+    from { opacity: 0; transform: translateY(15px); }
     to { opacity: 1; transform: translateY(0); }
 }
 
 .animate-in {
-    animation: fadeIn 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    animation: fadeIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 640px) {
+    body { padding: 20px 15px; }
+    .grid { grid-template-columns: 1fr; }
+    .card { padding: 24px; }
+    .question-section { padding: 24px; }
+    h1 { margin-bottom: 10px; }
+    .hero-subtitle { margin-bottom: 30px; }
 }
