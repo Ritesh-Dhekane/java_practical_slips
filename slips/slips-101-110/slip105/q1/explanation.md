@@ -1,0 +1,2 @@
+# Explanation
+Scanner Salary Validation

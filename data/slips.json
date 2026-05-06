@@ -460,28 +460,84 @@
     },
     {
       "name": "Slips 81 to 90",
-      "folder": "slips-81-90",
-      "slips": []
+      "folder": "slips-81-100",
+      "slips": [
+        { "id": 81, "questions": [ { "title": "ArrayList - Remove Duplicates", "path": "slips/slips-81-100/slip81/q1" }, { "title": "Employee - Constructors", "path": "slips/slips-81-100/slip81/q2" } ] },
+        { "id": 82, "questions": [ { "title": "Student Distinction Calculator", "path": "slips/slips-81-100/slip82/q1" }, { "title": "String ArrayList Sort", "path": "slips/slips-81-100/slip82/q2" } ] },
+        { "id": 83, "questions": [ { "title": "HashSet - Duplicates", "path": "slips/slips-81-100/slip83/q1" }, { "title": "Employee Salary Exception", "path": "slips/slips-81-100/slip83/q2" } ] },
+        { "id": 84, "questions": [ { "title": "Prime Numbers Thread", "path": "slips/slips-81-100/slip84/q1" }, { "title": "Employee Getters/Setters", "path": "slips/slips-81-100/slip84/q2" } ] },
+        { "id": 85, "questions": [ { "title": "Division Exception Handling", "path": "slips/slips-81-100/slip85/q1" }, { "title": "JSP Addition", "path": "slips/slips-81-100/slip85/q2" } ] },
+        { "id": 86, "questions": [ { "title": "Student Pass/Fail Servlet", "path": "slips/slips-81-100/slip86/q1" }, { "title": "Customer Static Count", "path": "slips/slips-81-100/slip86/q2" } ] },
+        { "id": 87, "questions": [ { "title": "JSP Annual Salary", "path": "slips/slips-81-100/slip87/q1" }, { "title": "Multiple Catch Blocks", "path": "slips/slips-81-100/slip87/q2" } ] },
+        { "id": 88, "questions": [ { "title": "JSP JDBC Student Insert", "path": "slips/slips-81-100/slip88/q1" }, { "title": "Multiple Catch Blocks", "path": "slips/slips-81-100/slip88/q2" } ] },
+        { "id": 89, "questions": [ { "title": "Employee Constructor Chaining", "path": "slips/slips-81-100/slip89/q1" }, { "title": "Factorial/Even Threads", "path": "slips/slips-81-100/slip89/q2" } ] },
+        { "id": 90, "questions": [ { "title": "Array Sort Built-in", "path": "slips/slips-81-100/slip90/q1" }, { "title": "Multiple Catch Blocks", "path": "slips/slips-81-100/slip90/q2" } ] }
+      ]
     },
     {
       "name": "Slips 91 to 100",
-      "folder": "slips-91-100",
-      "slips": []
+      "folder": "slips-81-100",
+      "slips": [
+        { "id": 91, "questions": [ { "title": "Customer ArrayList Filter", "path": "slips/slips-81-100/slip91/q1" }, { "title": "StringBuffer Demo", "path": "slips/slips-81-100/slip91/q2" } ] },
+        { "id": 92, "questions": [ { "title": "Employee Array Alphabetical Sort", "path": "slips/slips-81-100/slip92/q1" }, { "title": "Student Constructors", "path": "slips/slips-81-100/slip92/q2" } ] },
+        { "id": 93, "questions": [ { "title": "HashMap Search", "path": "slips/slips-81-100/slip93/q1" }, { "title": "Servlet Add/Sub", "path": "slips/slips-81-100/slip93/q2" } ] },
+        { "id": 94, "questions": [ { "title": "Multiplication Table Thread", "path": "slips/slips-81-100/slip94/q1" }, { "title": "Shape Area Polymorphism", "path": "slips/slips-81-100/slip94/q2" } ] },
+        { "id": 95, "questions": [ { "title": "String to Int Exception", "path": "slips/slips-81-100/slip95/q1" }, { "title": "Servlet Mul/Div", "path": "slips/slips-81-100/slip95/q2" } ] },
+        { "id": 96, "questions": [ { "title": "Servlet Addition", "path": "slips/slips-81-100/slip96/q1" }, { "title": "Employee Constructors", "path": "slips/slips-81-100/slip96/q2" } ] },
+        { "id": 97, "questions": [ { "title": "JSP Student Percentage", "path": "slips/slips-81-100/slip97/q1" }, { "title": "Sentence Digits/Special Count", "path": "slips/slips-81-100/slip97/q2" } ] },
+        { "id": 98, "questions": [ { "title": "JDBC Update Salary", "path": "slips/slips-81-100/slip98/q1" }, { "title": "Sentence Words/Chars Count", "path": "slips/slips-81-100/slip98/q2" } ] },
+        { "id": 99, "questions": [ { "title": "Encapsulation Person/Employee", "path": "slips/slips-81-100/slip99/q1" }, { "title": "JSP Current Date", "path": "slips/slips-81-100/slip99/q2" } ] },
+        { "id": 100, "questions": [ { "title": "Collection Sort/Unique", "path": "slips/slips-81-100/slip100/q1" }, { "title": "JSP Declaration/Directives", "path": "slips/slips-81-100/slip100/q2" } ] }
+      ]
     },
     {
       "name": "Slips 101 to 110",
       "folder": "slips-101-110",
-      "slips": []
+      "slips": [
+        { "id": 101, "questions": [ { "title": "JSP JDBC Employee Table Count", "path": "slips/slips-101-110/slip101/q1" }, { "title": "Person Variable Demo", "path": "slips/slips-101-110/slip101/q2" } ] },
+        { "id": 102, "questions": [ { "title": "ArrayList Filter < 40", "path": "slips/slips-101-110/slip102/q1" }, { "title": "Employee/Manager Inheritance", "path": "slips/slips-101-110/slip102/q2" } ] },
+        { "id": 103, "questions": [ { "title": "Sentence Word Replace", "path": "slips/slips-101-110/slip103/q1" }, { "title": "Customer String Operations", "path": "slips/slips-101-110/slip103/q2" } ] },
+        { "id": 104, "questions": [ { "title": "Thread Delay Demo", "path": "slips/slips-101-110/slip104/q1" }, { "title": "Servlet Multiplication", "path": "slips/slips-101-110/slip104/q2" } ] },
+        { "id": 105, "questions": [ { "title": "Scanner Salary Validation", "path": "slips/slips-101-110/slip105/q1" }, { "title": "Servlet Greeting Date", "path": "slips/slips-101-110/slip105/q2" } ] },
+        { "id": 106, "questions": [ { "title": "Servlet Greeting", "path": "slips/slips-101-110/slip106/q1" }, { "title": "Sum of Digits Loop", "path": "slips/slips-101-110/slip106/q2" } ] },
+        { "id": 107, "questions": [ { "title": "JSP Addition", "path": "slips/slips-101-110/slip107/q1" }, { "title": "Employee Constructor Chaining", "path": "slips/slips-101-110/slip107/q2" } ] },
+        { "id": 108, "questions": [ { "title": "JSP JDBC Employee Insert", "path": "slips/slips-101-110/slip108/q1" }, { "title": "Array Reverse Sort", "path": "slips/slips-101-110/slip108/q2" } ] },
+        { "id": 109, "questions": [ { "title": "JSP Employee Table Display", "path": "slips/slips-101-110/slip109/q1" }, { "title": "Manager super() Demo", "path": "slips/slips-101-110/slip109/q2" } ] },
+        { "id": 110, "questions": [ { "title": "Array Ascending Sort", "path": "slips/slips-101-110/slip110/q1" }, { "title": "JSP Arithmetic Choice", "path": "slips/slips-101-110/slip110/q2" } ] }
+      ]
     },
     {
       "name": "Slips 111 to 120",
       "folder": "slips-111-120",
-      "slips": []
+      "slips": [
+        { "id": 111, "questions": [ { "title": "Employee Median Salary", "path": "slips/slips-111-120/slip111/q1" }, { "title": "Person Age Exception", "path": "slips/slips-111-120/slip111/q2" } ] },
+        { "id": 112, "questions": [ { "title": "Customer City Filter", "path": "slips/slips-111-120/slip112/q1" }, { "title": "JSP Student Marks Filter", "path": "slips/slips-111-120/slip112/q2" } ] },
+        { "id": 113, "questions": [ { "title": "String Character/Digit/Space Count", "path": "slips/slips-111-120/slip113/q1" }, { "title": "Employee Bonus Overloading", "path": "slips/slips-111-120/slip113/q2" } ] },
+        { "id": 114, "questions": [ { "title": "Thread Custom Name Demo", "path": "slips/slips-111-120/slip114/q1" }, { "title": "JSP JDBC Insert and Display", "path": "slips/slips-111-120/slip114/q2" } ] },
+        { "id": 115, "questions": [ { "title": "NullPointerException Handle", "path": "slips/slips-111-120/slip115/q1" }, { "title": "JSP Annual Salary", "path": "slips/slips-111-120/slip115/q2" } ] },
+        { "id": 116, "questions": [ { "title": "Servlet Add/Sub", "path": "slips/slips-111-120/slip116/q1" }, { "title": "Servlet Exception Handle", "path": "slips/slips-111-120/slip116/q2" } ] },
+        { "id": 117, "questions": [ { "title": "JSP Annual Salary", "path": "slips/slips-111-120/slip117/q1" }, { "title": "ArrayList String Sort", "path": "slips/slips-111-120/slip117/q2" } ] },
+        { "id": 118, "questions": [ { "title": "JSP JDBC Multiple Student Insert", "path": "slips/slips-111-120/slip118/q1" }, { "title": "Customer String Ops", "path": "slips/slips-111-120/slip118/q2" } ] },
+        { "id": 119, "questions": [ { "title": "Multilevel Inheritance", "path": "slips/slips-111-120/slip119/q1" }, { "title": "JSP Student Table Display", "path": "slips/slips-111-120/slip119/q2" } ] },
+        { "id": 120, "questions": [ { "title": "Palindrome Digits Check", "path": "slips/slips-111-120/slip120/q1" }, { "title": "JSP Welcome Message", "path": "slips/slips-111-120/slip120/q2" } ] }
+      ]
     },
     {
-      "name": "Slips 121 to 130",
-      "folder": "slips-121-130",
-      "slips": []
+      "name": "Slips 121 to 131",
+      "folder": "slips-121-131",
+      "slips": [
+        { "id": 121, "questions": [ { "title": "ArrayList Range Display", "path": "slips/slips-121-131/slip121/q1" }, { "title": "StringBuffer Operations", "path": "slips/slips-121-131/slip121/q2" } ] },
+        { "id": 122, "questions": [ { "title": "HashMap Keys/Values Search", "path": "slips/slips-121-131/slip122/q1" }, { "title": "String Vowel/Consonant Count", "path": "slips/slips-121-131/slip122/q2" } ] },
+        { "id": 123, "questions": [ { "title": "String Special Character Count", "path": "slips/slips-121-131/slip123/q1" }, { "title": "JSP Salary Category", "path": "slips/slips-121-131/slip123/q2" } ] },
+        { "id": 124, "questions": [ { "title": "Thread Increment/Display", "path": "slips/slips-121-131/slip124/q1" }, { "title": "Servlet Addition", "path": "slips/slips-121-131/slip124/q2" } ] },
+        { "id": 125, "questions": [ { "title": "ArithmeticException Handling", "path": "slips/slips-121-131/slip125/q1" }, { "title": "Servlet Life Cycle", "path": "slips/slips-121-131/slip125/q2" } ] },
+        { "id": 126, "questions": [ { "title": "Servlet Employee Table", "path": "slips/slips-121-131/slip126/q1" }, { "title": "final Keyword Demo", "path": "slips/slips-121-131/slip126/q2" } ] },
+        { "id": 127, "questions": [ { "title": "JSP Student Details", "path": "slips/slips-121-131/slip127/q1" }, { "title": "this() vs super() Explain", "path": "slips/slips-121-131/slip127/q2" } ] },
+        { "id": 128, "questions": [ { "title": "JSP JDBC Fetch Records", "path": "slips/slips-121-131/slip128/q1" }, { "title": "ArrayList Unique Values", "path": "slips/slips-121-131/slip128/q2" } ] },
+        { "id": 129, "questions": [ { "title": "Runtime Polymorphism Override", "path": "slips/slips-121-131/slip129/q1" }, { "title": "JSP Student Table Display", "path": "slips/slips-121-131/slip129/q2" } ] },
+        { "id": 130, "questions": [ { "title": "Collection Sort List", "path": "slips/slips-121-131/slip130/q1" }, { "title": "JSP JDBC Sorted Employee Display", "path": "slips/slips-121-131/slip130/q2" } ] },
+        { "id": 131, "questions": [ { "title": "Employee IT Dept Filter", "path": "slips/slips-121-131/slip131/q1" }, { "title": "JSP Current Date", "path": "slips/slips-121-131/slip131/q2" } ] }
+      ]
     }
   ]
 }

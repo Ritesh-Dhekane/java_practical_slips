@@ -1,0 +1,2 @@
+# Explanation
+Customer Static Count

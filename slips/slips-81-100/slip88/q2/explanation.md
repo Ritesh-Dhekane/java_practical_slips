@@ -1,0 +1,2 @@
+# Explanation
+Multiple Catch Blocks
