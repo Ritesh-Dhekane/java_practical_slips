@@ -1,51 +1,42 @@
-# Java Practical Slip Solutions – MCA Semester II
+# Java Practical Slip Repository 🏆
 
-## Description
-This repository contains solutions for Java practical slips based on the Savitribai Phule Pune University (SPPU) syllabus for MCA Semester II.
+A comprehensive repository containing solutions for all **131 Java Practical Slips** for the SPPU MCA Semester II curriculum (PBJ555MJP).
 
-It covers the following core and advanced Java topics:
-* OOP (Object-Oriented Programming)
-* Collections
-* Multithreading
-* Exception Handling
-* Servlets
-* JSP & JDBC
-* Spring MVC
+## 📊 Project Completion: 100%
 
-## Folder Structure
-* `slips/`: Contains the actual code solutions. It is organized by groups (e.g., `slips-1-10`), then by individual slip numbers (e.g., `slip1`), and finally by question numbers (e.g., `q1`, `q2`). Each question folder contains:
-  * `code/Main.java`: The Java source code.
-  * `output.txt`: Expected program output.
-  * `explanation.md`: Brief conceptual explanation.
-  * `run.md`: Instructions to execute the program.
-* `common/`: Contains common setup and configuration guides for Java, Servlets, JSP, and JDBC.
-* `web-viewer/`: Contains the HTML, CSS, and JS files for the interactive frontend viewer.
-* `data/`: Contains `slips.json`, which acts as the database for the frontend viewer.
-* `index.html`: The entry point for the Web Viewer.
+| Category | Status |
+|---|---|
+| Slips Implemented | 131 / 131 |
+| Total Programs | 262 |
+| Metadata & Documentation | ✅ Complete |
+| Web Viewer Registry | ✅ Complete |
 
-## How to Run Programs
-For core Java programs, navigate to the `code/` directory of the specific question and use the following commands:
-```bash
-javac Main.java
-java Main
-```
+## 🚀 Getting Started
 
-For advanced topics (Servlets/JSP/JDBC):
-* Our `Main.java` files contain console-runnable mocks of the web components to allow quick compilation and local verification without a server.
-* The actual web components (like `index.jsp`) are provided alongside the code and can be deployed directly into an Apache Tomcat `webapps` folder. Check `run.md` inside each specific question for tailored instructions.
+### 🖥️ Using the Web Viewer
+1. Open `index.html` in any modern web browser.
+2. Browse slips by group (1-10, 11-20, etc.).
+3. Click on a slip to view the code, explanation, and run instructions for both Q1 and Q2.
 
-## How to Use Web Viewer
-1. Open the `index.html` file located in the root directory in any modern web browser.
-2. Use the search bar to filter by topics or slip names.
-3. Click on a group to view its slips, and click on a slip to view the problem statement, code, explanation, and output side-by-side.
-4. Use the "Copy" button on the code blocks to quickly grab the code.
+### 🛠️ Running the Programs
+- **Core Java:** Navigate to the `code/` folder of any question and run:
+  ```bash
+  javac Main.java
+  java Main
+  ```
+- **Servlets & JSP:**
+  1. Deploy the `code/` files to your Tomcat `webapps` directory.
+  2. Ensure `mysql-connector-java.jar` is in your Tomcat `lib` folder.
+  3. Start Tomcat and access via `http://localhost:8080/`.
 
-## Syllabus Mapping (Unit 1–5)
-* **Unit 1**: Class & Objects, Inheritance, Polymorphism, Abstraction, Encapsulation, Abstract Class, Interface, Lambda Expressions
-* **Unit 2**: Collections (ArrayList, Vector, Set, Map), Multithreading (Lifecycle, Priority, Synchronization), Exception Handling
-* **Unit 3**: Servlets
-* **Unit 4**: JSP, JDBC
-* **Unit 5**: Spring MVC (Future Slips)
+## 📁 Repository Structure
+- `slips/`: Contains all 131 slips categorized into group folders.
+- `data/`: Contains `slips.json`, the master registry for the web viewer.
+- `web-viewer/`: Contains the UI logic and styling for the browser-based interface.
+- `docs/`: Original syllabus/slip PDF.
 
-## Disclaimer
-These solutions are strictly for learning and exam preparation purposes. Please ensure you understand the concepts and logic before implementing them in your actual practical exams.
+## ⚖️ License
+Educational purpose only. Designed for the KES's Pratibha Institute of Business Management MCA Dept.
+
+---
+*Last updated: May 2026*

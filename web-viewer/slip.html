@@ -1,53 +1,126 @@
-<!DOCTYPE html><html><head><link rel="stylesheet" href="css/styles.css"><title>Slip Details</title></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Slip Details | Java Repository</title>
+</head>
 <body>
-    <a href="javascript:history.back()">&larr; Back to Slips</a>
-    <h1 id="title">Slip Details</h1>
-    <div class="split" id="content"></div>
+    <div class="container animate-in">
+        <a href="javascript:history.back()" class="back-link">← Back to Slips</a>
+        <h1 id="title">Slip Details</h1>
+        
+        <div class="split-layout" id="content">
+            <!-- Questions will be injected here -->
+        </div>
+    </div>
+
     <script>
-        async function loadContent(path) {
-            try {
-                const [code, exp, out, run] = await Promise.all([
-                    fetch(`../${path}/code/Main.java`).then(r => r.text()),
-                    fetch(`../${path}/explanation.md`).then(r => r.text()),
-                    fetch(`../${path}/output.txt`).then(r => r.text()),
-                    fetch(`../${path}/run.md`).then(r => r.text())
-                ]);
-                return {code, exp, out, run};
-            } catch(e) { return null; }
+        async function fetchFile(path, possibleFiles) {
+            for (let f of possibleFiles) {
+                try {
+                    const res = await fetch(`../${path}/code/${f}`);
+                    if (res.ok) return { content: await res.text(), filename: f };
+                } catch (e) {}
+            }
+            return { content: "// File not found or failed to load.", filename: "unknown" };
         }
 
-        const copyCode = (btn) => {
+        async function loadQuestionData(path) {
+            try {
+                // Try to find the source file
+                const source = await fetchFile(path, ['Main.java', 'index.jsp', 'MyServlet.java', 'StudentServlet.java', 'CalcServlet.java', 'AddServlet.java', 'MulServlet.java', 'WelcomeServlet.java', 'GreetServlet.java', 'LifeServlet.java', 'EmpServlet.java', 'SafeServlet.java']);
+                
+                const [exp, out, run] = await Promise.all([
+                    fetch(`../${path}/explanation.md`).then(r => r.ok ? r.text() : "No explanation provided."),
+                    fetch(`../${path}/output.txt`).then(r => r.ok ? r.text() : "No output sample available."),
+                    fetch(`../${path}/run.md`).then(r => r.ok ? r.text() : "No run instructions provided.")
+                ]);
+                
+                return { code: source.content, filename: source.filename, exp, out, run };
+            } catch(e) { 
+                console.error(e);
+                return null; 
+            }
+        }
+
+        function copyCode(btn) {
             const code = btn.nextElementSibling.innerText;
             navigator.clipboard.writeText(code);
+            const originalText = btn.innerText;
             btn.innerText = 'Copied!';
-            setTimeout(()=> btn.innerText = 'Copy', 2000);
-        };
+            btn.style.background = '#22c55e';
+            setTimeout(() => {
+                btn.innerText = originalText;
+                btn.style.background = '';
+            }, 2000);
+        }
 
         const urlParams = new URLSearchParams(window.location.search);
         const id = urlParams.get('id');
         document.getElementById('title').innerText = `Slip ${id}`;
 
-        fetch('../data/slips.json').then(r=>r.json()).then(async data => {
-            const slip = data.groups[0].slips.find(s => s.id == id);
-            const c = document.getElementById('content');
-
-            for(let q of slip.questions) {
-                const details = await loadContent(q.path);
-                if(details) {
-                    const el = document.createElement('div');
-                    el.className = 'half card';
-                    el.innerHTML = `
-                        <h2>${q.title}</h2>
-                        <p><strong>Explanation:</strong> ${details.exp}</p>
-                        <pre><button class="copy-btn" onclick="copyCode(this)">Copy</button><code>${details.code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</code></pre>
-                        <h3>Output:</h3>
-                        <pre>${details.out}</pre>
-                        <h3>Run:</h3>
-                        <p>${details.run}</p>
-                    `;
-                    c.appendChild(el);
+        fetch('../data/slips.json')
+            .then(r => r.json())
+            .then(async data => {
+                // BUG FIX: Search across ALL groups
+                let slip = null;
+                for (let group of data.groups) {
+                    slip = group.slips.find(s => s.id == id);
+                    if (slip) break;
                 }
-            }
-        });
+
+                if (!slip) {
+                    document.getElementById('content').innerHTML = `<p style="text-align:center;">Slip not found.</p>`;
+                    return;
+                }
+
+                const container = document.getElementById('content');
+
+                for (let i = 0; i < slip.questions.length; i++) {
+                    const q = slip.questions[i];
+                    const data = await loadQuestionData(q.path);
+                    
+                    if (data) {
+                        const section = document.createElement('section');
+                        section.className = 'question-section animate-in';
+                        section.style.animationDelay = `${i * 0.2}s`;
+                        
+                        section.innerHTML = `
+                            <div class="tag">Question ${i + 1}</div>
+                            <h2 style="margin-bottom: 24px;">${q.title}</h2>
+                            
+                            <div style="margin-bottom: 32px;">
+                                <h3 style="color: var(--primary); font-size: 1rem; text-transform: uppercase; letter-spacing: 1px;">Concept Explanation</h3>
+                                <p style="color: var(--text-dim);">${data.exp.replace(/^# .*\n/, '')}</p>
+                            </div>
+
+                            <div style="margin-bottom: 32px;">
+                                <h3 style="color: var(--primary); font-size: 1rem; text-transform: uppercase; letter-spacing: 1px;">Source Code (${data.filename})</h3>
+                                <div style="position: relative;">
+                                    <button class="copy-btn" onclick="copyCode(this)">Copy Code</button>
+                                    <pre><code>${data.code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</code></pre>
+                                </div>
+                            </div>
+
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
+                                <div>
+                                    <h3 style="color: var(--primary); font-size: 1rem; text-transform: uppercase; letter-spacing: 1px;">Sample Output</h3>
+                                    <pre style="background: #161b22; border-color: #30363d; margin: 10px 0;">${data.out}</pre>
+                                </div>
+                                <div>
+                                    <h3 style="color: var(--primary); font-size: 1rem; text-transform: uppercase; letter-spacing: 1px;">Execution Guide</h3>
+                                    <div style="background: rgba(99, 102, 241, 0.05); border: 1px solid var(--primary-glow); padding: 20px; border-radius: 16px; margin-top: 10px; font-size: 0.95rem;">
+                                        ${data.run.replace(/^# .*\n/, '').replace(/\n/g, '<br>')}
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        container.appendChild(section);
+                    }
+                }
+            });
     </script>
-</body></html>
+</body>
+</html>

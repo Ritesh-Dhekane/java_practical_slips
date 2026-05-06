@@ -1,22 +1,50 @@
-<!DOCTYPE html><html><head><link rel="stylesheet" href="css/styles.css"><title>Slips Group</title></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Group Slips | Java Repository</title>
+</head>
 <body>
-    <a href="../index.html">&larr; Back to Groups</a>
-    <h1 id="title">Slips</h1>
-    <div id="slips"></div>
+    <div class="container animate-in">
+        <a href="../index.html" class="back-link">← Back to Groups</a>
+        <h1 id="title">Slips</h1>
+        
+        <div id="slips" class="grid">
+            <!-- Slips will be injected here -->
+        </div>
+    </div>
+
     <script>
         const urlParams = new URLSearchParams(window.location.search);
         const folder = urlParams.get('folder');
-        fetch('../data/slips.json').then(r=>r.json()).then(data => {
-            const group = data.groups.find(g => g.folder === folder);
-            document.getElementById('title').innerText = group.name;
-            const container = document.getElementById('slips');
-            group.slips.forEach(s => {
-                const el = document.createElement('div');
-                el.className = 'card';
-                el.innerHTML = `<h2>Slip ${s.id}</h2>`;
-                el.onclick = () => window.location.href = `slip.html?folder=${folder}&id=${s.id}`;
-                container.appendChild(el);
+        const container = document.getElementById('slips');
+
+        fetch('../data/slips.json')
+            .then(r => r.json())
+            .then(data => {
+                const group = data.groups.find(g => g.folder === folder);
+                if (!group) return;
+
+                document.getElementById('title').innerText = group.name;
+                
+                group.slips.forEach((s, index) => {
+                    const el = document.createElement('div');
+                    el.className = 'card animate-in';
+                    el.style.animationDelay = `${index * 0.02}s`;
+                    el.innerHTML = `
+                        <div class="tag">Slip ${s.id}</div>
+                        <h2>Questions</h2>
+                        <ul style="list-style: none; padding: 0; margin: 0; color: var(--text-dim); font-size: 0.9rem;">
+                            <li style="margin-bottom: 8px;">Q1: ${s.questions[0].title}</li>
+                            <li>Q2: ${s.questions[1].title}</li>
+                        </ul>
+                    `;
+                    el.onclick = () => window.location.href = `slip.html?folder=${folder}&id=${s.id}`;
+                    container.appendChild(el);
+                });
             });
-        });
     </script>
-</body></html>
+</body>
+</html>

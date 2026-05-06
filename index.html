@@ -1,23 +1,57 @@
-<!DOCTYPE html><html><head><link rel="stylesheet" href="./web-viewer/css/styles.css"><title>Java Practical Slips</title></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./web-viewer/css/styles.css">
+    <title>Java Practical Repository | MCA Sem II</title>
+</head>
 <body>
-    <h1>SPPU MCA Sem II Java Practical Slips</h1>
-    <input type="text" id="search" placeholder="Search slips...">
-    <div id="groups"></div>
-    <script src="./data/slips.json" id="data"></script>
+    <div class="container animate-in">
+        <header>
+            <h1>Java Practical Repository</h1>
+            <p style="text-align: center; color: var(--text-dim); margin-top: -30px; margin-bottom: 40px; font-size: 1.2rem;">
+                SPPU MCA Semester II (PBJ555MJP) • 131 Slips Complete
+            </p>
+        </header>
+
+        <main>
+            <input type="text" id="search" placeholder="Search by group name (e.g. Slips 1-10)...">
+            <div id="groups" class="grid">
+                <!-- Groups will be injected here -->
+            </div>
+        </main>
+        
+        <footer style="margin-top: 80px; text-align: center; color: var(--text-dim); font-size: 0.9rem;">
+            <p>KES's Pratibha Institute of Business Management • May 2026</p>
+        </footer>
+    </div>
+
     <script>
         let allGroups = [];
-        fetch('./data/slips.json').then(r=>r.json()).then(data => {
-            allGroups = data.groups;
-            renderGroups(allGroups);
-        });
+        const container = document.getElementById('groups');
+
+        fetch('./data/slips.json')
+            .then(r => r.json())
+            .then(data => {
+                allGroups = data.groups;
+                renderGroups(allGroups);
+            })
+            .catch(err => {
+                container.innerHTML = `<p style="text-align:center; color:#ef4444;">Error loading slips data. Please ensure slips.json is valid.</p>`;
+            });
 
         function renderGroups(groups) {
-            const container = document.getElementById('groups');
             container.innerHTML = '';
-            groups.forEach(g => {
+            groups.forEach((g, index) => {
                 const el = document.createElement('div');
-                el.className = 'card';
-                el.innerHTML = `<h2>${g.name}</h2><p>Click to view slips</p>`;
+                el.className = 'card animate-in';
+                el.style.animationDelay = `${index * 0.05}s`;
+                el.innerHTML = `
+                    <h2>${g.name}</h2>
+                    <p>${g.slips.length} Practical Slips</p>
+                    <div style="margin-top: 20px; font-size: 0.8rem; color: var(--primary); font-weight: 600;">VIEW COLLECTION →</div>
+                `;
                 el.onclick = () => window.location.href = `./web-viewer/folder.html?folder=${g.folder}`;
                 container.appendChild(el);
             });
@@ -29,4 +63,5 @@
             renderGroups(filtered);
         });
     </script>
-</body></html>
+</body>
+</html>
