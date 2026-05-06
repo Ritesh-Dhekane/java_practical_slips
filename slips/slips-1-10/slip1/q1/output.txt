@@ -1,0 +1,6 @@
+Employees sorted by salary:
+ID: 4, Name: David, Salary: 35000.0
+ID: 2, Name: Bob, Salary: 40000.0
+ID: 5, Name: Eve, Salary: 45000.0
+ID: 1, Name: Alice, Salary: 50000.0
+ID: 3, Name: Charlie, Salary: 60000.0

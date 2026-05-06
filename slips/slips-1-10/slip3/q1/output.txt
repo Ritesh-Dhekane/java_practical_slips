@@ -1,0 +1,5 @@
+Initial Set: [Bob, Alice, Charlie]
+Attempt to insert duplicate 'Alice' successful? false
+Final Set: [Bob, Alice, Charlie]
+
+Explanation: HashSet does not allow duplicate elements...

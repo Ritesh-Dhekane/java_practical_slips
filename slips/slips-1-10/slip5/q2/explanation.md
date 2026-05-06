@@ -1,0 +1,1 @@
+Theoretical explanation of Servlet Lifecycle mocked through core Java to ensure code compilability. (Unit 3: Servlets)

@@ -1,0 +1,1 @@
+Sorts the ArrayList in descending order and picks the second element. (Unit 2: Collections)

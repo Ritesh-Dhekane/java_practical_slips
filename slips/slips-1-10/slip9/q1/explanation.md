@@ -1,0 +1,1 @@
+JSP page connecting to a database using JDBC and retrieving records. (Unit 4: JSP, JDBC)

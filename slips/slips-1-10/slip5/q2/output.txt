@@ -1,0 +1,5 @@
+--- Servlet Life Cycle Demonstration ---
+init() - Called once when Servlet is created.
+service() - Called for every request.
+service() - Called for every request.
+destroy() - Called once when Servlet is stopped.

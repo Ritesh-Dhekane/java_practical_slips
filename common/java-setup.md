@@ -1,0 +1,2 @@
+# Core Java Setup
+Install JDK 17. Use `javac Main.java` and `java Main`.

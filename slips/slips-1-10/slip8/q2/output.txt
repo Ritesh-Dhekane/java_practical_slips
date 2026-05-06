@@ -1,0 +1,2 @@
+Employee Salary: Base Salary
+Manager Salary: Base Salary + Bonus

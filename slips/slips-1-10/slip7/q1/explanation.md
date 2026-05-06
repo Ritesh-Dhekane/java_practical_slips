@@ -1,0 +1,1 @@
+Mocks a Servlet capturing an HTML form parameter and displaying a welcome message. (Unit 3: Servlets)

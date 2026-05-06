@@ -1,0 +1,53 @@
+<!DOCTYPE html><html><head><link rel="stylesheet" href="css/styles.css"><title>Slip Details</title></head>
+<body>
+    <a href="javascript:history.back()">&larr; Back to Slips</a>
+    <h1 id="title">Slip Details</h1>
+    <div class="split" id="content"></div>
+    <script>
+        async function loadContent(path) {
+            try {
+                const [code, exp, out, run] = await Promise.all([
+                    fetch(`../${path}/code/Main.java`).then(r => r.text()),
+                    fetch(`../${path}/explanation.md`).then(r => r.text()),
+                    fetch(`../${path}/output.txt`).then(r => r.text()),
+                    fetch(`../${path}/run.md`).then(r => r.text())
+                ]);
+                return {code, exp, out, run};
+            } catch(e) { return null; }
+        }
+
+        const copyCode = (btn) => {
+            const code = btn.nextElementSibling.innerText;
+            navigator.clipboard.writeText(code);
+            btn.innerText = 'Copied!';
+            setTimeout(()=> btn.innerText = 'Copy', 2000);
+        };
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = urlParams.get('id');
+        document.getElementById('title').innerText = `Slip ${id}`;
+
+        fetch('../data/slips.json').then(r=>r.json()).then(async data => {
+            const slip = data.groups[0].slips.find(s => s.id == id);
+            const c = document.getElementById('content');
+
+            for(let q of slip.questions) {
+                const details = await loadContent(q.path);
+                if(details) {
+                    const el = document.createElement('div');
+                    el.className = 'half card';
+                    el.innerHTML = `
+                        <h2>${q.title}</h2>
+                        <p><strong>Explanation:</strong> ${details.exp}</p>
+                        <pre><button class="copy-btn" onclick="copyCode(this)">Copy</button><code>${details.code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</code></pre>
+                        <h3>Output:</h3>
+                        <pre>${details.out}</pre>
+                        <h3>Run:</h3>
+                        <p>${details.run}</p>
+                    `;
+                    c.appendChild(el);
+                }
+            }
+        });
+    </script>
+</body></html>

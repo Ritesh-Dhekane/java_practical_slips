@@ -1,0 +1,1 @@
+Demonstrates HashSet properties and its duplicate rejection behavior. (Unit 2: Collections)

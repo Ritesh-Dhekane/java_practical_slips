@@ -1,0 +1,32 @@
+<!DOCTYPE html><html><head><link rel="stylesheet" href="./web-viewer/css/styles.css"><title>Java Practical Slips</title></head>
+<body>
+    <h1>SPPU MCA Sem II Java Practical Slips</h1>
+    <input type="text" id="search" placeholder="Search slips...">
+    <div id="groups"></div>
+    <script src="./data/slips.json" id="data"></script>
+    <script>
+        let allGroups = [];
+        fetch('./data/slips.json').then(r=>r.json()).then(data => {
+            allGroups = data.groups;
+            renderGroups(allGroups);
+        });
+
+        function renderGroups(groups) {
+            const container = document.getElementById('groups');
+            container.innerHTML = '';
+            groups.forEach(g => {
+                const el = document.createElement('div');
+                el.className = 'card';
+                el.innerHTML = `<h2>${g.name}</h2><p>Click to view slips</p>`;
+                el.onclick = () => window.location.href = `./web-viewer/folder.html?folder=${g.folder}`;
+                container.appendChild(el);
+            });
+        }
+
+        document.getElementById('search').addEventListener('input', (e) => {
+            const q = e.target.value.toLowerCase();
+            const filtered = allGroups.filter(g => g.name.toLowerCase().includes(q));
+            renderGroups(filtered);
+        });
+    </script>
+</body></html>

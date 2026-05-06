@@ -1,0 +1,1 @@
+Demonstrates encapsulation by keeping fields private and providing public getters/setters. (Unit 1: Encapsulation)

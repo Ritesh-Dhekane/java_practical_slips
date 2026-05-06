@@ -1,0 +1,20 @@
+{
+  "groups": [
+    {
+      "name": "Slips 1 to 10",
+      "folder": "slips-1-10",
+      "slips": [
+        { "id": 1, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip1/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip1/q2" } ] },
+        { "id": 2, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip2/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip2/q2" } ] },
+        { "id": 3, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip3/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip3/q2" } ] },
+        { "id": 4, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip4/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip4/q2" } ] },
+        { "id": 5, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip5/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip5/q2" } ] },
+        { "id": 6, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip6/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip6/q2" } ] },
+        { "id": 7, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip7/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip7/q2" } ] },
+        { "id": 8, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip8/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip8/q2" } ] },
+        { "id": 9, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip9/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip9/q2" } ] },
+        { "id": 10, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip10/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip10/q2" } ] }
+      ]
+    }
+  ]
+}

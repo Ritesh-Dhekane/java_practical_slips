@@ -1,0 +1,1 @@
+Differentiates abstract class (has state/constructors) from interface (pure abstraction). (Unit 1: Abstract Class, Interface)

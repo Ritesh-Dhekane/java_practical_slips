@@ -1,0 +1,1 @@
+Demonstrates the use of Lambda Expression to implement a functional interface for calculating power. (Unit 1: Lambda Expressions)

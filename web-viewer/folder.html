@@ -1,0 +1,22 @@
+<!DOCTYPE html><html><head><link rel="stylesheet" href="css/styles.css"><title>Slips Group</title></head>
+<body>
+    <a href="../index.html">&larr; Back to Groups</a>
+    <h1 id="title">Slips</h1>
+    <div id="slips"></div>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const folder = urlParams.get('folder');
+        fetch('../data/slips.json').then(r=>r.json()).then(data => {
+            const group = data.groups.find(g => g.folder === folder);
+            document.getElementById('title').innerText = group.name;
+            const container = document.getElementById('slips');
+            group.slips.forEach(s => {
+                const el = document.createElement('div');
+                el.className = 'card';
+                el.innerHTML = `<h2>Slip ${s.id}</h2>`;
+                el.onclick = () => window.location.href = `slip.html?folder=${folder}&id=${s.id}`;
+                container.appendChild(el);
+            });
+        });
+    </script>
+</body></html>

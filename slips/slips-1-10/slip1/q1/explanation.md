@@ -1,0 +1,1 @@
+This program uses `ArrayList` to store objects and implements `Comparable` to sort them based on salary. (Unit 2: Collections)

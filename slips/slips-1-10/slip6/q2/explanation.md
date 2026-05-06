@@ -1,0 +1,1 @@
+Theoretical explanation of JSP Implicit Objects printed via Java application. (Unit 4: JSP)

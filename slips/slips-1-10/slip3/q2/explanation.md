@@ -1,0 +1,1 @@
+Demonstrates Abstract Class concept where the abstract method is implemented by a subclass. (Unit 1: Abstract Class)

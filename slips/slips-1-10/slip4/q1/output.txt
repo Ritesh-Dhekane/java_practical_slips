@@ -1,0 +1,7 @@
+Enter 5 salaries:
+5000
+7000
+3000
+9000
+8000
+Second highest salary: 8000.0
