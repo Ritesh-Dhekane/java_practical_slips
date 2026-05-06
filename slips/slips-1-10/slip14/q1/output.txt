@@ -1,0 +1,12 @@
+Initial LinkedList: [Mumbai, Pune, Nashik, Nagpur, Kolhapur]
+
+Enter city name to remove: Nashik
+"Nashik" removed successfully.
+
+Remaining elements: [Mumbai, Pune, Nagpur, Kolhapur]
+Size after removal : 4
+
+--- Second run (element not found) ---
+Enter city name to remove: Delhi
+"Delhi" not found in the list.
+Remaining elements: [Mumbai, Pune, Nashik, Nagpur, Kolhapur]

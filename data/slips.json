@@ -79,7 +79,78 @@
     {
       "name": "Slips 11 to 20",
       "folder": "slips-11-20",
-      "slips": []
+      "slips": [
+        {
+          "id": 11,
+          "questions": [
+            { "title": "ArrayList – Store Departments, Search by User Input", "path": "slips/slips-1-10/slip11/q1" },
+            { "title": "Runtime Polymorphism – Employee & Manager (Polymorphic Array)", "path": "slips/slips-1-10/slip11/q2" }
+          ]
+        },
+        {
+          "id": 12,
+          "questions": [
+            { "title": "TreeMap – Insert 5 Entries, Display Sorted by Key", "path": "slips/slips-1-10/slip12/q1" },
+            { "title": "final Keyword – Variable, Method, and Class", "path": "slips/slips-1-10/slip12/q2" }
+          ]
+        },
+        {
+          "id": 13,
+          "questions": [
+            { "title": "ArrayList – Accept 5 Names, Convert to Uppercase", "path": "slips/slips-1-10/slip13/q1" },
+            { "title": "Interface vs Abstract Class – Side-by-Side Comparison", "path": "slips/slips-1-10/slip13/q2" }
+          ]
+        },
+        {
+          "id": 14,
+          "questions": [
+            { "title": "LinkedList – Add 5 Elements, Remove User Element, Display", "path": "slips/slips-1-10/slip14/q1" },
+            { "title": "Constructor Overloading in Person Class", "path": "slips/slips-1-10/slip14/q2" }
+          ]
+        },
+        {
+          "id": 15,
+          "questions": [
+            { "title": "Array – Accept 5 Integers, Copy in Reverse Order", "path": "slips/slips-1-10/slip15/q1" },
+            { "title": "Types of Inheritance – Single, Multilevel, Hierarchical", "path": "slips/slips-1-10/slip15/q2" }
+          ]
+        },
+        {
+          "id": 16,
+          "questions": [
+            { "title": "Student – Marks of 3 Subjects, Total & Percentage", "path": "slips/slips-1-10/slip16/q1" },
+            { "title": "Method Overloading – add() in Calculator Class", "path": "slips/slips-1-10/slip16/q2" }
+          ]
+        },
+        {
+          "id": 17,
+          "questions": [
+            { "title": "Vector – Store Employee Names, Search by User Input", "path": "slips/slips-1-10/slip17/q1" },
+            { "title": "Checked vs Unchecked Exceptions", "path": "slips/slips-1-10/slip17/q2" }
+          ]
+        },
+        {
+          "id": 18,
+          "questions": [
+            { "title": "Servlet – Display Current System Date and Time", "path": "slips/slips-1-10/slip18/q1" },
+            { "title": "Method Overloading – add() in Calculator (long, double)", "path": "slips/slips-1-10/slip18/q2" }
+          ]
+        },
+        {
+          "id": 19,
+          "questions": [
+            { "title": "JSP – Accept Customer Name & City, Display via Expression Tags", "path": "slips/slips-1-10/slip19/q1" },
+            { "title": "Thread Priority – MIN, NORM, MAX Priority Demo", "path": "slips/slips-1-10/slip19/q2" }
+          ]
+        },
+        {
+          "id": 20,
+          "questions": [
+            { "title": "JSP + JDBC – Insert Multiple Employee Records", "path": "slips/slips-1-10/slip20/q1" },
+            { "title": "Reverse Entire Sentence using StringBuilder", "path": "slips/slips-1-10/slip20/q2" }
+          ]
+        }
+      ]
     },
     {
       "name": "Slips 21 to 30",

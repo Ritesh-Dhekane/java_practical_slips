@@ -1,0 +1,8 @@
+Available Departments: [IT, HR, Finance, Marketing, Operations]
+
+Enter department name to search: IT
+"IT" department EXISTS in the list.
+
+--- Second run ---
+Enter department name to search: Sales
+"Sales" department does NOT exist in the list.

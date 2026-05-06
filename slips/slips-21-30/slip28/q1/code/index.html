@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Student Record</title>
+    <style>
+        body { font-family: Arial; margin: 50px; background: #fce4ec; }
+        .box { background: white; padding: 30px; border-radius: 8px; width: 320px; }
+        input[type=number] { width: 100%; padding: 8px; margin: 8px 0; box-sizing: border-box; }
+        input[type=submit] { background: #c62828; color: white; padding: 10px 20px;
+                             border: none; cursor: pointer; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Delete Student Record</h2>
+        <form action="delete.jsp" method="post">
+            <label>Roll Number to Delete:</label>
+            <input type="number" name="rollNo" placeholder="Enter roll number" required />
+            <br/><br/>
+            <input type="submit" value="Delete Record" />
+        </form>
+    </div>
+</body>
+</html>

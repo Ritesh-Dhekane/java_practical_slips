@@ -1,0 +1,13 @@
+===== Abstract Class Demo =====
+Bruno breathes air.
+Bruno says: Woof!
+Whiskers breathes air.
+Whiskers says: Meow!
+
+===== Interface Demo (Multiple) =====
+Donald can fly!
+Donald can swim!
+
+===== Key Differences =====
+Abstract Class : Has constructor, can have concrete methods, single inheritance.
+Interface      : No constructor, all abstract, supports multiple implementation.

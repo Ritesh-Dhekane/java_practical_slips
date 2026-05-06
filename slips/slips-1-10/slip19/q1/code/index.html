@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+    Slip 19 - Question 1 (HTML Form)
+    Accept customer name and city, submit to display.jsp
+-->
+<html>
+<head>
+    <title>Customer Details</title>
+    <style>
+        body { font-family: Arial; margin: 50px; background: #f3f4f6; }
+        .box { background: white; padding: 30px; border-radius: 8px; width: 350px; }
+        input[type=text] { width: 100%; padding: 8px; margin: 8px 0; box-sizing: border-box; }
+        input[type=submit] { background: #7c3aed; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Customer Registration</h2>
+        <form action="display.jsp" method="post">
+            <label>Customer Name:</label>
+            <input type="text" name="custName" placeholder="Enter name" required />
+            <label>City:</label>
+            <input type="text" name="city" placeholder="Enter city" required />
+            <br/><br/>
+            <input type="submit" value="Display Details" />
+        </form>
+    </div>
+</body>
+</html>

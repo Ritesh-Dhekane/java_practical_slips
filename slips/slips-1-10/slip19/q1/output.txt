@@ -1,0 +1,8 @@
+Browser Output (after submitting "Rahul" and "Pune"):
+=====================================================
+Customer Details
+
+| Customer Name | Rahul |
+| City          | Pune  |
+
+[← Go Back]

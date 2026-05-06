@@ -1,0 +1,19 @@
+=== Checked vs Unchecked Exceptions ===
+
+--- Checked Exception (IOException) ---
+Caught IOException: nonexistent.txt (The system cannot find the file specified)
+IOException is CHECKED – compiler forces you to handle it.
+
+--- Unchecked Exception (ArithmeticException) ---
+Caught ArithmeticException: / by zero
+ArithmeticException is UNCHECKED – compiler does NOT force handling.
+
+--- Unchecked Exception (NullPointerException) ---
+Caught NullPointerException: Cannot invoke "String.length()" because "s" is null
+
+--- Unchecked Exception (ArrayIndexOutOfBoundsException) ---
+Caught ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 3
+
+Summary:
+CHECKED   – IOException, SQLException, FileNotFoundException
+UNCHECKED – ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException

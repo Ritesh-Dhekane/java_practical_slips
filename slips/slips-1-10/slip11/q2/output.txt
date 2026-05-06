@@ -1,0 +1,29 @@
+=== Direct Object Calls ===
+[ Employee ]
+  Name   : Arun Joshi
+  Salary : Rs. 40000.0
+Arun Joshi is an employee.
+
+[ Manager ]
+  Name       : Pooja Sharma
+  Salary     : Rs. 85000.0
+  Department : IT
+Pooja Sharma is a manager of the IT department.
+
+=== Runtime Polymorphism (Employee reference → Manager object) ===
+[ Employee ]
+  Name   : Ravi Kumar
+  Salary : Rs. 38000.0
+Ravi Kumar is an employee.
+
+[ Manager ]
+  Name       : Sneha Nair
+  Salary     : Rs. 92000.0
+  Department : Finance
+Sneha Nair is a manager of the Finance department.
+
+[ Manager ]
+  Name       : Ajay Verma
+  Salary     : Rs. 78000.0
+  Department : HR
+Ajay Verma is a manager of the HR department.

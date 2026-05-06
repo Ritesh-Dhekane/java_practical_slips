@@ -1,0 +1,17 @@
+=== 1. Single Inheritance ===
+Animal eats food.
+Dog barks.
+
+=== 2. Multilevel Inheritance ===
+GrandParent: grandMethod()
+Parent: parentMethod()
+Child: childMethod()
+
+=== 3. Hierarchical Inheritance ===
+Vehicle runs on fuel.
+Car: drive()
+Vehicle runs on fuel.
+Bike: ride()
+
+Note: Java does NOT support Multiple Inheritance via classes.
+      Use interfaces to achieve multiple inheritance.

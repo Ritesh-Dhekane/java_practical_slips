@@ -1,0 +1,14 @@
+Browser Output:
+========================================
+Insert Employee Records – JDBC
+
+✔ Successfully inserted 5 employee records.
+
+| Emp ID | Name         | Department | Salary   |
+|--------|--------------|------------|----------|
+| E001   | Amit Sharma  | IT         | Rs. 55000|
+| E002   | Priya Patel  | HR         | Rs. 42000|
+| E003   | Rahul Verma  | Finance    | Rs. 60000|
+| E004   | Sneha Joshi  | IT         | Rs. 48000|
+| E005   | Rohan Desai  | Sales      | Rs. 38000|
+========================================

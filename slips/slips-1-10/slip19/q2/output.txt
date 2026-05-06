@@ -1,0 +1,25 @@
+=== Thread Priority Demo ===
+
+Priority Constants:
+  MIN_PRIORITY  = 1
+  NORM_PRIORITY = 5
+  MAX_PRIORITY  = 10
+
+Thread: HighPriority   | Priority: 10 | State: RUNNABLE
+  [HighPriority] step 1
+  [HighPriority] step 2
+  [HighPriority] step 3
+  [HighPriority] finished.
+Thread: NormalPriority | Priority: 5  | State: RUNNABLE
+  [NormalPriority] step 1
+  [NormalPriority] step 2
+  [NormalPriority] step 3
+  [NormalPriority] finished.
+Thread: LowPriority    | Priority: 1  | State: RUNNABLE
+  [LowPriority] step 1
+  [LowPriority] step 2
+  [LowPriority] step 3
+  [LowPriority] finished.
+
+All threads completed.
+Note: High priority thread gets more CPU time but order is JVM-dependent.

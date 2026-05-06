@@ -1,0 +1,9 @@
+Original Names: [anjali mehta, rahul sharma, priya patel, vikram nair, sneha joshi]
+Uppercase Names: [ANJALI MEHTA, RAHUL SHARMA, PRIYA PATEL, VIKRAM NAIR, SNEHA JOSHI]
+
+Formatted Output:
+1. ANJALI MEHTA
+2. RAHUL SHARMA
+3. PRIYA PATEL
+4. VIKRAM NAIR
+5. SNEHA JOSHI

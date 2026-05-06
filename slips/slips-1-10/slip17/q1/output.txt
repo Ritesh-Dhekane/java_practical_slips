@@ -1,0 +1,9 @@
+Employee List (Vector): [Amit Sharma, Priya Patel, Rahul Verma, Sneha Joshi, Rohan Desai]
+Total employees: 5
+
+Enter employee name to search: Rahul Verma
+"Rahul Verma" FOUND at index 2.
+
+--- Second run ---
+Enter employee name to search: John Doe
+"John Doe" NOT FOUND in the employee list.

@@ -1,0 +1,8 @@
+Enter a sentence: Hello World Java
+Original  : Hello World Java
+Reversed  : avaJ dlroW olleH
+
+--- Second run ---
+Enter a sentence: MCA Semester II
+Original  : MCA Semester II
+Reversed  : II retseM ACM

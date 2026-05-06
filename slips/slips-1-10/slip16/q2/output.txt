@@ -1,0 +1,10 @@
+=== Method Overloading – Calculator.add() ===
+
+add(10, 20)           = 30
+add(10, 20, 30)        = 60
+add(5.5, 3.2)          = 8.7
+add(10, 3.14)          = 13.14
+add("Hello", " World") = Hello World
+
+Same method name 'add', different parameters – that is Method Overloading.
+Java selects the correct version at COMPILE time (static polymorphism).

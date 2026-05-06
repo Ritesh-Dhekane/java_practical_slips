@@ -1,0 +1,2 @@
+Original Array : 10 25 38 47 56
+Reversed Array : 56 47 38 25 10

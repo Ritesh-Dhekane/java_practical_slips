@@ -1,0 +1,13 @@
+=== 1. final Variable ===
+MAX = 50
+
+=== 2. final Class ===
+Constants: PI = 3.14159265, MAX_SIZE = 100
+Constants.PI = 3.14159265
+Constants class is final – it cannot be extended.
+
+=== 3. final Method ===
+Area of circle (r=7): 153.94
+computeCircleArea() is final – cannot be overridden.
+Shape class – non-final method, can be overridden.
+Circle class – overrides display() from Shape.
