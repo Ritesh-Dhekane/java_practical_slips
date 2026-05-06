@@ -1,0 +1,18 @@
+Browser Output:
+===========================================
+JSP Scripting Elements Demo
+
+1. Scriptlet <% %>
+   Contains Java code executed each time the page is requested.
+   Visit count: 1
+   User: Student
+
+2. Expression Tag <%= %>
+   Evaluates an expression and outputs it directly into HTML.
+   Greeting: Hello, Student! Welcome to JSP scripting elements demo.
+   Date/Time: Thu May 07 00:00:00 IST 2026
+
+3. Declaration Tag <%! %>
+   Declares class-level variables and methods.
+   Factorial of 5: 120
+===========================================

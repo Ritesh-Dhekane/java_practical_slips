@@ -1,0 +1,4 @@
+Input: "50000" -> Valid salary: Rs. 50000.0
+Input: "abc" -> Invalid! Not a number
+Input: "-100" -> Invalid! Salary cannot be negative.
+Input: "75000.50" -> Valid salary: Rs. 75000.5

@@ -155,12 +155,124 @@
     {
       "name": "Slips 21 to 30",
       "folder": "slips-21-30",
-      "slips": []
+      "slips": [
+        {
+          "id": 21,
+          "questions": [
+            { "title": "static Variables & Methods in Person Class", "path": "slips/slips-21-30/slip21/q1" },
+            { "title": "JSP Scripting Elements – Scriptlet, Expression, Declaration", "path": "slips/slips-21-30/slip21/q2" }
+          ]
+        },
+        {
+          "id": 22,
+          "questions": [
+            { "title": "Array – Count Names Starting with Vowel", "path": "slips/slips-21-30/slip22/q1" },
+            { "title": "Abstraction – Vehicle & Car", "path": "slips/slips-21-30/slip22/q2" }
+          ]
+        },
+        {
+          "id": 23,
+          "questions": [
+            { "title": "ArrayList – Display Numbers in Given Range", "path": "slips/slips-21-30/slip23/q1" },
+            { "title": "User-Defined InvalidSalaryException", "path": "slips/slips-21-30/slip23/q2" }
+          ]
+        },
+        {
+          "id": 24,
+          "questions": [
+            { "title": "Two Threads – Print 1–5 and 6–10", "path": "slips/slips-21-30/slip24/q1" },
+            { "title": "Manager Class – Parameterized Constructor", "path": "slips/slips-21-30/slip24/q2" }
+          ]
+        },
+        {
+          "id": 25,
+          "questions": [
+            { "title": "Multiple Exception Handling – Multiple Catch Blocks", "path": "slips/slips-21-30/slip25/q1" },
+            { "title": "Servlet Cookies – Set and Retrieve", "path": "slips/slips-21-30/slip25/q2" }
+          ]
+        },
+        {
+          "id": 26,
+          "questions": [
+            { "title": "Servlet – Read Two Numbers, Display Sum", "path": "slips/slips-21-30/slip26/q1" },
+            { "title": "throw and throws Keywords Demo", "path": "slips/slips-21-30/slip26/q2" }
+          ]
+        },
+        {
+          "id": 27,
+          "questions": [
+            { "title": "JSP – Employee Details Using Implicit Objects", "path": "slips/slips-21-30/slip27/q1" },
+            { "title": "JSP Directives – page, include, taglib", "path": "slips/slips-21-30/slip27/q2" }
+          ]
+        },
+        {
+          "id": 28,
+          "questions": [
+            { "title": "JSP + JDBC – Delete Student by Roll Number", "path": "slips/slips-21-30/slip28/q1" },
+            { "title": "Interface Shape – Circle, Rectangle, Triangle", "path": "slips/slips-21-30/slip28/q2" }
+          ]
+        },
+        {
+          "id": 29,
+          "questions": [
+            { "title": "Manager extends Employee with Bonus", "path": "slips/slips-21-30/slip29/q1" },
+            { "title": "Servlet – Store/Retrieve Username Cookie", "path": "slips/slips-21-30/slip29/q2" }
+          ]
+        },
+        {
+          "id": 30,
+          "questions": [
+            { "title": "Sort Employee Names Alphabetically", "path": "slips/slips-21-30/slip30/q1" },
+            { "title": "JSP – Accept Two Numbers, Display Addition", "path": "slips/slips-21-30/slip30/q2" }
+          ]
+        }
+      ]
     },
     {
       "name": "Slips 31 to 40",
       "folder": "slips-31-40",
-      "slips": []
+      "slips": [
+        { "id": 31, "questions": [
+            { "title": "Employee Array – Filter by IT Department", "path": "slips/slips-31-40/slip31/q1" },
+            { "title": "JSP – Display Current Date and Time", "path": "slips/slips-31-40/slip31/q2" }
+        ]},
+        { "id": 32, "questions": [
+            { "title": "Student Array – Find Highest Marks", "path": "slips/slips-31-40/slip32/q1" },
+            { "title": "JSP – Accept Salary, Display Annual", "path": "slips/slips-31-40/slip32/q2" }
+        ]},
+        { "id": 33, "questions": [
+            { "title": "ArrayList Cities – Filter by Starting Letter", "path": "slips/slips-31-40/slip33/q1" },
+            { "title": "JSP – Student Marks Total & Percentage", "path": "slips/slips-31-40/slip33/q2" }
+        ]},
+        { "id": 34, "questions": [
+            { "title": "HashMap – keySet() and values()", "path": "slips/slips-31-40/slip34/q1" },
+            { "title": "JSP + JDBC – Insert Employee Details", "path": "slips/slips-31-40/slip34/q2" }
+        ]},
+        { "id": 35, "questions": [
+            { "title": "Thread – Display Multiplication Table", "path": "slips/slips-31-40/slip35/q1" },
+            { "title": "JSP + JDBC – Insert & Display Students", "path": "slips/slips-31-40/slip35/q2" }
+        ]},
+        { "id": 36, "questions": [
+            { "title": "NullPointerException Handling", "path": "slips/slips-31-40/slip36/q1" },
+            { "title": "JSP + JDBC – Update Employee Salary", "path": "slips/slips-31-40/slip36/q2" }
+        ]},
+        { "id": 37, "questions": [
+            { "title": "Servlet – Accept & Display Employee Details", "path": "slips/slips-31-40/slip37/q1" },
+            { "title": "Thread with Custom Name", "path": "slips/slips-31-40/slip37/q2" }
+        ]},
+        { "id": 38, "questions": [
+            { "title": "JSP – Factorial Calculator", "path": "slips/slips-31-40/slip38/q1" },
+            { "title": "Types of Constructors – Default, Parameterized, Copy", "path": "slips/slips-31-40/slip38/q2" }
+        ]},
+        { "id": 39, "questions": [
+            { "title": "JSP + JDBC – Search Student by Roll Number", "path": "slips/slips-31-40/slip39/q1" },
+            { "title": "Salary Input with Exception Handling", "path": "slips/slips-31-40/slip39/q2" }
+        ]},
+        { "id": 40, "questions": [
+            { "title": "Manager – Parameterized Constructor", "path": "slips/slips-31-40/slip40/q1" },
+            { "title": "JSP + JDBC – Delete Student Record", "path": "slips/slips-31-40/slip40/q2" }
+        ]}
+      ]
     },
     {
       "name": "Slips 41 to 50",

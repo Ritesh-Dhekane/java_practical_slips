@@ -1,0 +1,7 @@
+Browser Output (Store):
+Cookie stored! Username: Ritesh
+[Retrieve in Next Request]
+
+Browser Output (Retrieve):
+Retrieved from Cookie – Username: Ritesh
+[Start Over]

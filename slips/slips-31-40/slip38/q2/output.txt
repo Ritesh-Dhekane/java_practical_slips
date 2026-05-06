@@ -1,0 +1,7 @@
+=== Types of Constructors ===
+Default      : Unknown by Unknown - Rs.0.0
+Parameterized: Java Complete by Herbert - Rs.550.0
+Copy         : Java Complete by Herbert - Rs.550.0
+b3 is a copy of b2. Changing b3 won't affect b2.
+b2 after b3 change: Java Complete by Herbert - Rs.550.0
+b3 after change   : Java Complete by Herbert - Rs.999.0

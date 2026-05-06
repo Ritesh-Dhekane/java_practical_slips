@@ -1,0 +1,3 @@
+Browser: Salary updated!
+| ID | Name | Dept | Salary |
+| E001 | Amit | IT | 65000 |

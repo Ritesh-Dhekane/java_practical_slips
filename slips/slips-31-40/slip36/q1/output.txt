@@ -1,0 +1,6 @@
+=== NullPointerException Demo ===
+Test 1 - Caught NullPointerException
+  Cause: tried to call method on null reference.
+Test 2 - Caught NullPointerException
+  Cause: array element is null by default.
+Safe access: 4

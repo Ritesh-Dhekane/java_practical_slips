@@ -1,0 +1,20 @@
+=== Abstraction – Vehicle & Car ===
+
+Brand : Toyota
+Speed : 180 km/h
+Model : Fortuner
+Doors : 4
+Fuel  : Petrol / Diesel
+Toyota Fortuner: Engine started. Vroom!
+Toyota Fortuner: Engine stopped.
+
+Brand : Tesla
+Speed : 250 km/h
+Fuel  : Electric Battery
+Range : 500 km per charge
+Tesla: Electric motor activated silently.
+Tesla: Motor deactivated.
+
+Vehicle reference (Abstraction in action):
+Honda City: Engine started. Vroom!
+Fuel: Petrol / Diesel

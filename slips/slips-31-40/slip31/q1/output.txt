@@ -1,0 +1,12 @@
+All Employees:
+  ID  | Name            | Dept
+  101 | Amit Sharma     | IT
+  102 | Priya Patel     | HR
+  103 | Rahul Verma     | IT
+  104 | Sneha Joshi     | Finance
+  105 | Rohan Desai     | IT
+
+IT Department Only:
+  101 | Amit Sharma     | IT
+  103 | Rahul Verma     | IT
+  105 | Rohan Desai     | IT

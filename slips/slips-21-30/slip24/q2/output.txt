@@ -1,0 +1,23 @@
+================================
+Manager Details
+================================
+Manager ID : 301
+Name       : Anil Sharma
+Department : IT
+================================
+
+================================
+Manager Details
+================================
+Manager ID : 302
+Name       : Sunita Patel
+Department : Finance
+================================
+
+================================
+Manager Details
+================================
+Manager ID : 303
+Name       : Rajesh Verma
+Department : HR
+================================

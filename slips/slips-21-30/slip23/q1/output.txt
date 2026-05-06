@@ -1,0 +1,7 @@
+ArrayList: [5, 12, 34, 7, 89, 21, 45, 3, 67, 15]
+
+Enter lower bound: 10
+Enter upper bound: 50
+
+Numbers between 10 and 50 (inclusive):
+[12, 34, 21, 45, 15]

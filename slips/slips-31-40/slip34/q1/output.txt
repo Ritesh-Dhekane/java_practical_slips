@@ -1,0 +1,9 @@
+Using keySet():
+  Key: 101 -> Value: Amit
+  Key: 102 -> Value: Priya
+  Key: 103 -> Value: Rahul
+Using values():
+  [Amit, Priya, Rahul, Sneha, Rohan]
+Using entrySet():
+  101 = Amit
+  102 = Priya

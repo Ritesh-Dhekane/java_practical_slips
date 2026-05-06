@@ -1,0 +1,6 @@
+All Cities: [Mumbai, Pune, Nagpur, Nashik, Kolhapur, Nanded, Pimpri, Aurangabad]
+Enter starting letter: N
+Cities starting with 'N':
+  - Nagpur
+  - Nashik
+  - Nanded

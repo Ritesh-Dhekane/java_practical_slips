@@ -1,0 +1,13 @@
+=== Static Variable & Method Demo ===
+
+Total Person objects created: 0
+Name: Amit, Age: 22
+Name: Priya, Age: 25
+Name: Rahul, Age: 21
+
+Total Person objects created: 3
+p1.count = 3
+p2.count = 3
+(Both p1 and p2 see the same count – it is shared!)
+
+Institution: KES Pratibha Institute

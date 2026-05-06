@@ -1,0 +1,10 @@
+Browser Output (Set):
+Cookies SET successfully!
+username = Ritesh
+role = Admin
+[Click to Retrieve Cookies]
+
+Browser Output (Get):
+Retrieved Cookies:
+• username = Ritesh
+• role = Admin

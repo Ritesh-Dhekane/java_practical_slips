@@ -1,0 +1,17 @@
+Main thread: main
+Thread-1 (1-5) started.
+Thread-2 (6-10) started.
+Thread-1 (1-5) → 1
+Thread-2 (6-10) → 6
+Thread-1 (1-5) → 2
+Thread-2 (6-10) → 7
+Thread-1 (1-5) → 3
+Thread-2 (6-10) → 8
+Thread-1 (1-5) → 4
+Thread-2 (6-10) → 9
+Thread-1 (1-5) → 5
+Thread-2 (6-10) → 10
+Thread-1 (1-5) finished.
+Thread-2 (6-10) finished.
+
+Both threads completed.

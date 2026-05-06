@@ -1,0 +1,4 @@
+=== Manager Details ===
+ID: 401 | Name: Sunita Rao | Dept: IT
+ID: 402 | Name: Kiran Mehta | Dept: Finance
+ID: 403 | Name: Rajesh Verma | Dept: HR

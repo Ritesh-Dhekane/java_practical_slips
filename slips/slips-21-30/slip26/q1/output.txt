@@ -1,0 +1,6 @@
+Browser Output (input: 25, 17):
+Sum Result
+Number 1 : 25.0
+Number 2 : 17.0
+25.0 + 17.0 = 42.0
+[← Calculate Again]

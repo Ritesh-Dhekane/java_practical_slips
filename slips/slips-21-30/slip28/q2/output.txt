@@ -1,0 +1,7 @@
+=== Interface Shape – Area & Perimeter ===
+
+Shape     Details                       Area           Perimeter
+----------------------------------------------------------------------
+Circle    | Radius    : 7.00 | Area : 153.94 | Perimeter : 43.98
+Rectangle | L=10.00 W=5.00 | Area : 50.00 | Perimeter : 30.00
+Triangle  | Sides 3.00,4.00,5.00 | Area : 6.00 | Perimeter : 12.00

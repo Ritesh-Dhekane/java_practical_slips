@@ -1,0 +1,11 @@
+Customer Names:
+1. Anjali Mehta
+2. Rahul Sharma
+3. Uday Patil
+4. Isha Verma
+5. Suresh Nair
+  → "Anjali Mehta" starts with vowel 'A'
+  → "Uday Patil" starts with vowel 'U'
+  → "Isha Verma" starts with vowel 'I'
+
+Total names starting with a vowel: 3

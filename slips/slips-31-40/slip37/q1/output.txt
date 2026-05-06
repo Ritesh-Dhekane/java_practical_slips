@@ -1,0 +1,4 @@
+Browser: Employee Details
+| Name | Amit |
+| Department | IT |
+| Salary | Rs. 55000 |

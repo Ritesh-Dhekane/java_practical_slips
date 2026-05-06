@@ -1,0 +1,12 @@
+Browser Output:
+JSP Directives Demo
+
+1. Page Directive <%@ page %>
+   Current date: Thu May 07 00:00:00 IST 2026
+   Session active: true
+
+2. Include Directive <%@ include file="..." %>
+   Used for common headers, footers, and navigation bars.
+
+3. Taglib Directive <%@ taglib %>
+   Declares JSTL tag library for use: <c:forEach>, <c:if>, etc.

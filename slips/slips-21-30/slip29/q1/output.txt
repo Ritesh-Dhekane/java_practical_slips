@@ -1,0 +1,17 @@
+=== Manager Details ===
+Emp ID     : 501
+Name       : Sunita Rao
+Department : IT
+Salary     : Rs. 85000.0
+Bonus      : Rs. 15000.0
+Total Pkg  : Rs. 100000.0
+=======================
+
+=== Manager Details ===
+Emp ID     : 502
+Name       : Kiran Mehta
+Department : Finance
+Salary     : Rs. 92000.0
+Bonus      : Rs. 18000.0
+Total Pkg  : Rs. 110000.0
+=======================

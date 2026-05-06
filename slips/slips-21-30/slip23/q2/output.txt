@@ -1,0 +1,9 @@
+=== InvalidSalaryException Demo ===
+
+Employee created: ID: 101 | Name: Amit Sharma | Salary: Rs. 35000.0
+
+Caught InvalidSalaryException!
+Message : Invalid salary: Rs. 8500.0. Salary must be >= Rs. 10,000.
+Invalid salary was: Rs. 8500.0
+
+Employee created: ID: 103 | Name: Sneha Joshi | Salary: Rs. 10000.0

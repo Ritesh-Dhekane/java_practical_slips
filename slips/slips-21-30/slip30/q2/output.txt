@@ -1,0 +1,6 @@
+Browser Output (input: 45, 30):
+Addition Result
+Number 1 : 45.0
+Number 2 : 30.0
+45.0 + 30.0 = 75.0
+[← Calculate Again]

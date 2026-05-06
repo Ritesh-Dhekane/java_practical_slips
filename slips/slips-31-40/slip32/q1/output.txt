@@ -1,0 +1,9 @@
+All Students:
+  1 | Amit            | 85
+  2 | Priya           | 91
+  3 | Rahul           | 78
+  4 | Sneha           | 95
+  5 | Rohan           | 88
+
+Highest Marks:
+  4 | Sneha           | 95

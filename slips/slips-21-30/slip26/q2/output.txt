@@ -1,0 +1,8 @@
+=== throw and throws Demo ===
+
+Withdrawn Rs.2000.0 | Remaining balance: Rs.3000.0
+Caught: Insufficient balance. Balance: Rs.3000.0, Requested: Rs.10000.0
+
+Age 21 is valid. Eligible to vote.
+AgeException: Age 15 is below 18. Not eligible to vote.
+Age 18 is valid. Eligible to vote.

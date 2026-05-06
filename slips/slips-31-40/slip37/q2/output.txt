@@ -1,0 +1,7 @@
+[Worker-Alpha] Step 1
+[Worker-Beta] Step 1
+[Worker-Alpha] Step 2
+...(interleaved)
+[Worker-Alpha] finished.
+[Worker-Beta] finished.
+Main thread done.

@@ -1,0 +1,17 @@
+=== Multiple Exception Handling Demo ===
+
+--- Test 1: ArithmeticException ---
+Caught ArithmeticException: / by zero
+finally block executed.
+
+--- Test 2: ArrayIndexOutOfBoundsException ---
+Caught ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 3
+finally block executed.
+
+--- Test 3: NumberFormatException ---
+Caught NumberFormatException: For input string: "abc"
+finally block executed.
+
+--- Test 4: NullPointerException ---
+Caught NullPointerException.
+finally block executed.

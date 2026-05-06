@@ -1,0 +1,13 @@
+Browser Output:
+Employee Information
+Employee Name : Amit Sharma
+Employee ID   : E-1001
+Department    : IT
+Salary        : Rs. 55000
+Request Information
+Method        : GET
+URI           : /EmployeeApp/employee.jsp
+Remote Host   : 127.0.0.1
+Application Information
+Company       : KES Pratibha Institute
+Server Info   : Apache Tomcat/9.0.x
