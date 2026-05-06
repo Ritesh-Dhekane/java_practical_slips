@@ -1,0 +1,7 @@
+Browser: Amit's Result
+Sub 1: 85
+Sub 2: 90
+Sub 3: 75
+Sub 4: 88
+Sub 5: 92
+Total: 430/500 | Percentage: 86.00%

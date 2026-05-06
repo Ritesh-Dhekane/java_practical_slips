@@ -1,0 +1,12 @@
+=== join() and yield() Demo ===
+
+Thread-A - step 1
+Thread-A - step 2
+Thread-A - step 3
+Thread-A finished (join). Starting Thread-B...
+
+Thread-B - step 1
+Thread-B - step 2
+Thread-B - step 3
+
+Both threads done. Main exits.

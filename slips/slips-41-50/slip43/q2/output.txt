@@ -1,0 +1,4 @@
+Senior Citizen: Ramesh, Age: 65
+InvalidAgeException: Sunil age 55 is below 60. Not a senior citizen.
+Senior Citizen: Kamala, Age: 72
+InvalidAgeException: Aarti age 45 is below 60. Not a senior citizen.

@@ -1,0 +1,3 @@
+Browser: Registered successfully!
+| ID | Name | Email | Course | CGPA | Skills |
+| 1 | Amit | amit@mail | MCA | 8.5 | Java |

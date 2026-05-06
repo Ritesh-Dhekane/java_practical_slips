@@ -1,0 +1,6 @@
+=== Object Counter Demo ===
+  Person: Amit, Age: 25 | Total objects so far: 1
+  Person: Priya, Age: 30 | Total objects so far: 2
+  Person: Rahul, Age: 22 | Total objects so far: 3
+
+Final total count: 3

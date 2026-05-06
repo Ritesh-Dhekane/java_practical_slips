@@ -1,0 +1,3 @@
+Browser: Patient recorded successfully!
+| ID | Name | Age | Disease |
+| 1 | Ramesh | 45 | Fever |

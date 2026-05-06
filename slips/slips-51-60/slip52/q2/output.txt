@@ -1,0 +1,3 @@
+Browser: Registered successfully for Convocation!
+| ID | Name | Roll No | Batch |
+| 1 | Amit | 101 | 2026 |

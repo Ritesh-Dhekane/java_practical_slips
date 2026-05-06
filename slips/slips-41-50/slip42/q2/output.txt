@@ -1,0 +1,12 @@
+=== this() and super() Demo ===
+
+--- new Dog() ---
+Animal(Dog) via super()
+Dog(Labrador) called super("Dog")
+Dog() called this("Labrador")
+Type: Dog, Breed: Labrador
+
+--- new Dog("Pug") ---
+Animal(Dog) via super()
+Dog(Pug) called super("Dog")
+Type: Dog, Breed: Pug

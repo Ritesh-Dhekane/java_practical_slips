@@ -1,0 +1,4 @@
+=== Customer Object Counter ===
+Customer: Amit | Mobile: 9876543210 | Address: Pune  -> Total customers created so far: 1
+...
+Final Count = 3

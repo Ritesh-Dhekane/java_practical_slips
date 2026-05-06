@@ -1,0 +1,9 @@
+=== join() Method Explanation ===
+Main thread is waiting for Thread-1 to finish using t1.join()...
+Thread-1 - 1
+Thread-1 - 2
+Thread-1 - 3
+Thread-1 has finished. Main thread resumes.
+Starting Thread-2...
+Thread-2 - 1
+...

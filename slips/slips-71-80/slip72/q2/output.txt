@@ -1,0 +1,6 @@
+Cities: [Pune, Mumbai, Delhi, Patna, Chennai, Panaji]
+Enter starting letter: P
+Cities starting with 'P':
+ - Pune
+ - Patna
+ - Panaji

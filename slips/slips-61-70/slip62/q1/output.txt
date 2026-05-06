@@ -1,0 +1,5 @@
+All Employees:
+ID: 101 | Name: Amit | Salary: Rs.55000.0
+...
+Employee with Minimum Salary:
+ID: 104 | Name: Sneha | Salary: Rs.42000.0

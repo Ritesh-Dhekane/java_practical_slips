@@ -1,0 +1,3 @@
+=== Payment Interface Demo ===
+Paid Rs. 500.0 in CASH.
+Paid Rs. 1250.75 via ONLINE transfer (UPI).

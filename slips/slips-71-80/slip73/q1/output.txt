@@ -1,0 +1,6 @@
+Enter a string: Java
+Character Array elements:
+Index 0 : J
+Index 1 : a
+Index 2 : v
+Index 3 : a

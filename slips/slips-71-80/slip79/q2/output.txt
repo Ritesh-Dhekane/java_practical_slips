@@ -1,0 +1,6 @@
+=== Constructor Chaining Demo ===
+Full constructor initializing values.
+Default constructor called.
+Customer ID: 0 | Name: Unknown | City: Unknown
+...
+Customer ID: 102 | Name: Priya Patel | City: Pune

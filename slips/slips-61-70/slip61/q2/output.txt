@@ -1,0 +1,3 @@
+Browser: Employees with Salary > 30,000
+| ID | Name | Dept | Salary |
+| 101 | Amit | IT | 55000.0 |

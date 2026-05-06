@@ -1,0 +1,3 @@
+Full ArrayList: [10, 20, 30, 40, 50, 60, 70, 80]
+SubList from index 2 to 5:
+[30, 40, 50, 60]

@@ -1,0 +1,2 @@
+Browser: Student Details Submitted
+Name: Amit | Age: 22 | Course: MCA

@@ -1,0 +1,7 @@
+=== super() Demo ===
+
+Person constructor called
+Employee constructor called
+
+Name: Amit Sharma, Age: 28
+EmpID: 101, Salary: Rs.55000.0

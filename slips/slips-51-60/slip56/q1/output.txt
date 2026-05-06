@@ -1,0 +1,13 @@
+=== this() and this Demo ===
+
+Creating p1 (Default):
+Default constructor called this(...)
+  Name: Unknown Name | Aadhar: Unknown Aadhar | Address: Unknown Address
+
+Creating p2 (Partial):
+Partial constructor called this(...)
+  Name: Amit Sharma | Aadhar: 1234-5678 | Address: Not Provided
+
+Creating p3 (Full):
+Full constructor initializing attributes.
+  Name: Priya Patel | Aadhar: 9876-5432 | Address: Pune

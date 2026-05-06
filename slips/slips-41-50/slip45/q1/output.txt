@@ -1,0 +1,9 @@
+Even numbers (1-20):
+  Even: 2
+  Even: 4
+...(interleaved)...
+Odd numbers (1-20):
+  Odd: 1
+  Odd: 3
+...
+Both threads completed.

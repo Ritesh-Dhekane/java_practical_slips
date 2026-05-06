@@ -1,0 +1,2 @@
+Side of Square : 15.5
+Area of Square : 240.25

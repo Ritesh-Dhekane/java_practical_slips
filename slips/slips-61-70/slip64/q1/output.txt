@@ -1,0 +1,2 @@
+Original Array: [45, 12, 89, 33, 71, 5, 99]
+Descending Order: [99, 89, 71, 45, 33, 12, 5]

@@ -1,0 +1,2 @@
+Original ArrayList: [10, 50, 30, 80, 25, 90, 35, 45, 100]
+Updated ArrayList (removed < 40): [50, 80, 90, 45, 100]

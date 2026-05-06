@@ -1,0 +1,2 @@
+Enter a string: Hello World
+Number of vowels present: 3

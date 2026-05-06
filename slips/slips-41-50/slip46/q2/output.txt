@@ -1,0 +1,7 @@
+Default constructor. Count: 1
+  Unknown | N/A | Rs.0.0
+Param constructor. Count: 2
+  Amit | Manager | Rs.75000.0
+Param constructor. Count: 3
+  Priya | Developer | Rs.60000.0
+Total objects: 3

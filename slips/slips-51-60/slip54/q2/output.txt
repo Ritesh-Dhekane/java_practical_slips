@@ -1,0 +1,4 @@
+Browser: Servlet Life Cycle Demo
+init() called: 1 time(s) (only once per servlet lifecycle)
+service() called: 1 time(s) (once per request)
+destroy() will be called when server shuts down.

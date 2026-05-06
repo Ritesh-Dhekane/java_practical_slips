@@ -83,71 +83,71 @@
         {
           "id": 11,
           "questions": [
-            { "title": "ArrayList – Store Departments, Search by User Input", "path": "slips/slips-1-10/slip11/q1" },
-            { "title": "Runtime Polymorphism – Employee & Manager (Polymorphic Array)", "path": "slips/slips-1-10/slip11/q2" }
+            { "title": "ArrayList – Store Departments, Search by User Input", "path": "slips/slips-11-20/slip11/q1" },
+            { "title": "Runtime Polymorphism – Employee & Manager (Polymorphic Array)", "path": "slips/slips-11-20/slip11/q2" }
           ]
         },
         {
           "id": 12,
           "questions": [
-            { "title": "TreeMap – Insert 5 Entries, Display Sorted by Key", "path": "slips/slips-1-10/slip12/q1" },
-            { "title": "final Keyword – Variable, Method, and Class", "path": "slips/slips-1-10/slip12/q2" }
+            { "title": "TreeMap – Insert 5 Entries, Display Sorted by Key", "path": "slips/slips-11-20/slip12/q1" },
+            { "title": "final Keyword – Variable, Method, and Class", "path": "slips/slips-11-20/slip12/q2" }
           ]
         },
         {
           "id": 13,
           "questions": [
-            { "title": "ArrayList – Accept 5 Names, Convert to Uppercase", "path": "slips/slips-1-10/slip13/q1" },
-            { "title": "Interface vs Abstract Class – Side-by-Side Comparison", "path": "slips/slips-1-10/slip13/q2" }
+            { "title": "ArrayList – Accept 5 Names, Convert to Uppercase", "path": "slips/slips-11-20/slip13/q1" },
+            { "title": "Interface vs Abstract Class – Side-by-Side Comparison", "path": "slips/slips-11-20/slip13/q2" }
           ]
         },
         {
           "id": 14,
           "questions": [
-            { "title": "LinkedList – Add 5 Elements, Remove User Element, Display", "path": "slips/slips-1-10/slip14/q1" },
-            { "title": "Constructor Overloading in Person Class", "path": "slips/slips-1-10/slip14/q2" }
+            { "title": "LinkedList – Add 5 Elements, Remove User Element, Display", "path": "slips/slips-11-20/slip14/q1" },
+            { "title": "Constructor Overloading in Person Class", "path": "slips/slips-11-20/slip14/q2" }
           ]
         },
         {
           "id": 15,
           "questions": [
-            { "title": "Array – Accept 5 Integers, Copy in Reverse Order", "path": "slips/slips-1-10/slip15/q1" },
-            { "title": "Types of Inheritance – Single, Multilevel, Hierarchical", "path": "slips/slips-1-10/slip15/q2" }
+            { "title": "Array – Accept 5 Integers, Copy in Reverse Order", "path": "slips/slips-11-20/slip15/q1" },
+            { "title": "Types of Inheritance – Single, Multilevel, Hierarchical", "path": "slips/slips-11-20/slip15/q2" }
           ]
         },
         {
           "id": 16,
           "questions": [
-            { "title": "Student – Marks of 3 Subjects, Total & Percentage", "path": "slips/slips-1-10/slip16/q1" },
-            { "title": "Method Overloading – add() in Calculator Class", "path": "slips/slips-1-10/slip16/q2" }
+            { "title": "Student – Marks of 3 Subjects, Total & Percentage", "path": "slips/slips-11-20/slip16/q1" },
+            { "title": "Method Overloading – add() in Calculator Class", "path": "slips/slips-11-20/slip16/q2" }
           ]
         },
         {
           "id": 17,
           "questions": [
-            { "title": "Vector – Store Employee Names, Search by User Input", "path": "slips/slips-1-10/slip17/q1" },
-            { "title": "Checked vs Unchecked Exceptions", "path": "slips/slips-1-10/slip17/q2" }
+            { "title": "Vector – Store Employee Names, Search by User Input", "path": "slips/slips-11-20/slip17/q1" },
+            { "title": "Checked vs Unchecked Exceptions", "path": "slips/slips-11-20/slip17/q2" }
           ]
         },
         {
           "id": 18,
           "questions": [
-            { "title": "Servlet – Display Current System Date and Time", "path": "slips/slips-1-10/slip18/q1" },
-            { "title": "Method Overloading – add() in Calculator (long, double)", "path": "slips/slips-1-10/slip18/q2" }
+            { "title": "Servlet – Display Current System Date and Time", "path": "slips/slips-11-20/slip18/q1" },
+            { "title": "Method Overloading – add() in Calculator (long, double)", "path": "slips/slips-11-20/slip18/q2" }
           ]
         },
         {
           "id": 19,
           "questions": [
-            { "title": "JSP – Accept Customer Name & City, Display via Expression Tags", "path": "slips/slips-1-10/slip19/q1" },
-            { "title": "Thread Priority – MIN, NORM, MAX Priority Demo", "path": "slips/slips-1-10/slip19/q2" }
+            { "title": "JSP – Accept Customer Name & City, Display via Expression Tags", "path": "slips/slips-11-20/slip19/q1" },
+            { "title": "Thread Priority – MIN, NORM, MAX Priority Demo", "path": "slips/slips-11-20/slip19/q2" }
           ]
         },
         {
           "id": 20,
           "questions": [
-            { "title": "JSP + JDBC – Insert Multiple Employee Records", "path": "slips/slips-1-10/slip20/q1" },
-            { "title": "Reverse Entire Sentence using StringBuilder", "path": "slips/slips-1-10/slip20/q2" }
+            { "title": "JSP + JDBC – Insert Multiple Employee Records", "path": "slips/slips-11-20/slip20/q1" },
+            { "title": "Reverse Entire Sentence using StringBuilder", "path": "slips/slips-11-20/slip20/q2" }
           ]
         }
       ]
@@ -277,22 +277,186 @@
     {
       "name": "Slips 41 to 50",
       "folder": "slips-41-50",
-      "slips": []
+      "slips": [
+        { "id": 41, "questions": [
+            { "title": "ArrayList – Count Numbers > 30", "path": "slips/slips-41-50/slip41/q1" },
+            { "title": "join() and yield() in Multithreading", "path": "slips/slips-41-50/slip41/q2" }
+        ]},
+        { "id": 42, "questions": [
+            { "title": "HashSet – Store Integers, Display Unique Count", "path": "slips/slips-41-50/slip42/q1" },
+            { "title": "this() and super() Demo", "path": "slips/slips-41-50/slip42/q2" }
+        ]},
+        { "id": 43, "questions": [
+            { "title": "Reverse Names in Array", "path": "slips/slips-41-50/slip43/q1" },
+            { "title": "InvalidAgeException for Senior Citizen", "path": "slips/slips-41-50/slip43/q2" }
+        ]},
+        { "id": 44, "questions": [
+            { "title": "Merge Two Integer Arrays", "path": "slips/slips-41-50/slip44/q1" },
+            { "title": "JSP+JDBC – Placement Portal Registration", "path": "slips/slips-41-50/slip44/q2" }
+        ]},
+        { "id": 45, "questions": [
+            { "title": "Two Threads – Even and Odd Numbers", "path": "slips/slips-41-50/slip45/q1" },
+            { "title": "super() for Base Class Initialization", "path": "slips/slips-41-50/slip45/q2" }
+        ]},
+        { "id": 46, "questions": [
+            { "title": "Multiple Exceptions Handling", "path": "slips/slips-41-50/slip46/q1" },
+            { "title": "Employee Static Count and Constructors", "path": "slips/slips-41-50/slip46/q2" }
+        ]},
+        { "id": 47, "questions": [
+            { "title": "Servlet – Multiplication Table", "path": "slips/slips-41-50/slip47/q1" },
+            { "title": "Thread – Even Numbers Every 5 Seconds", "path": "slips/slips-41-50/slip47/q2" }
+        ]},
+        { "id": 48, "questions": [
+            { "title": "JSP – Student Result", "path": "slips/slips-41-50/slip48/q1" },
+            { "title": "Demonstrate 'this' Keyword", "path": "slips/slips-41-50/slip48/q2" }
+        ]},
+        { "id": 49, "questions": [
+            { "title": "JSP+JDBC – Count Records", "path": "slips/slips-41-50/slip49/q1" },
+            { "title": "ArrayList and LinkedList Demonstration", "path": "slips/slips-41-50/slip49/q2" }
+        ]},
+        { "id": 50, "questions": [
+            { "title": "Person Class", "path": "slips/slips-41-50/slip50/q1" },
+            { "title": "Thread Synchronization Demo", "path": "slips/slips-41-50/slip50/q2" }
+        ]}
+      ]
     },
     {
       "name": "Slips 51 to 60",
       "folder": "slips-51-60",
-      "slips": []
+      "slips": [
+        { "id": 51, "questions": [
+            { "title": "TreeSet – Store Integers, Display Sorted", "path": "slips/slips-51-60/slip51/q1" },
+            { "title": "Student Percentage Calculation", "path": "slips/slips-51-60/slip51/q2" }
+        ]},
+        { "id": 52, "questions": [
+            { "title": "ArrayList – Remove Elements < 40", "path": "slips/slips-51-60/slip52/q1" },
+            { "title": "JSP+JDBC – Convocation Registration", "path": "slips/slips-51-60/slip52/q2" }
+        ]},
+        { "id": 53, "questions": [
+            { "title": "String – Count Vowels", "path": "slips/slips-51-60/slip53/q1" },
+            { "title": "JSP+JDBC – Patient Registration", "path": "slips/slips-51-60/slip53/q2" }
+        ]},
+        { "id": 54, "questions": [
+            { "title": "Check Palindrome Number", "path": "slips/slips-51-60/slip54/q1" },
+            { "title": "Servlet Life Cycle Demonstration", "path": "slips/slips-51-60/slip54/q2" }
+        ]},
+        { "id": 55, "questions": [
+            { "title": "Thread – Print Numbers 10 to 1", "path": "slips/slips-51-60/slip55/q1" },
+            { "title": "JSP+JDBC – Student Details using PreparedStatement", "path": "slips/slips-51-60/slip55/q2" }
+        ]},
+        { "id": 56, "questions": [
+            { "title": "Person Class – Constructors & this()", "path": "slips/slips-51-60/slip56/q1" },
+            { "title": "Servlet – Welcome User", "path": "slips/slips-51-60/slip56/q2" }
+        ]},
+        { "id": 57, "questions": [
+            { "title": "Servlet – Addition of Two Numbers", "path": "slips/slips-51-60/slip57/q1" },
+            { "title": "User-defined NotEligibleException", "path": "slips/slips-51-60/slip57/q2" }
+        ]},
+        { "id": 58, "questions": [
+            { "title": "JSP – Login Form and Display", "path": "slips/slips-51-60/slip58/q1" },
+            { "title": "User-defined InsufficientFundException", "path": "slips/slips-51-60/slip58/q2" }
+        ]},
+        { "id": 59, "questions": [
+            { "title": "JSP+JDBC – Update Marks of a Student", "path": "slips/slips-51-60/slip59/q1" },
+            { "title": "Person Class – Display Method", "path": "slips/slips-51-60/slip59/q2" }
+        ]},
+        { "id": 60, "questions": [
+            { "title": "Employee Array – Display using Loop", "path": "slips/slips-51-60/slip60/q1" },
+            { "title": "Person Class – Constructors & this()", "path": "slips/slips-51-60/slip60/q2" }
+        ]}
+      ]
     },
     {
       "name": "Slips 61 to 70",
       "folder": "slips-61-70",
-      "slips": []
+      "slips": [
+        { "id": 61, "questions": [
+            { "title": "Customer Class – Display Name Length > 5", "path": "slips/slips-61-70/slip61/q1" },
+            { "title": "JSP+JDBC – Employees with Salary > 30000", "path": "slips/slips-61-70/slip61/q2" }
+        ]},
+        { "id": 62, "questions": [
+            { "title": "Employee Array – Minimum Salary", "path": "slips/slips-61-70/slip62/q1" },
+            { "title": "Explain Use of static Keyword", "path": "slips/slips-61-70/slip62/q2" }
+        ]},
+        { "id": 63, "questions": [
+            { "title": "String – Count Uppercase Characters", "path": "slips/slips-61-70/slip63/q1" },
+            { "title": "JSP+JDBC – Count Total Records in Student Table", "path": "slips/slips-61-70/slip63/q2" }
+        ]},
+        { "id": 64, "questions": [
+            { "title": "Array – Sort Descending Order", "path": "slips/slips-61-70/slip64/q1" },
+            { "title": "Person Class – Static Object Counter", "path": "slips/slips-61-70/slip64/q2" }
+        ]},
+        { "id": 65, "questions": [
+            { "title": "Thread – Print Squares 1 to 10", "path": "slips/slips-61-70/slip65/q1" },
+            { "title": "Lambda Expression – Area of Triangle", "path": "slips/slips-61-70/slip65/q2" }
+        ]},
+        { "id": 66, "questions": [
+            { "title": "User-defined InvalidAgeException", "path": "slips/slips-61-70/slip66/q1" },
+            { "title": "JSP Page and Include Directives", "path": "slips/slips-61-70/slip66/q2" }
+        ]},
+        { "id": 67, "questions": [
+            { "title": "Servlet – Welcome Message & Date", "path": "slips/slips-61-70/slip67/q1" },
+            { "title": "Lambda Expression – Area of Square", "path": "slips/slips-61-70/slip67/q2" }
+        ]},
+        { "id": 68, "questions": [
+            { "title": "JSP – Current System Date", "path": "slips/slips-61-70/slip68/q1" },
+            { "title": "ArrayList – Display Elements within Range", "path": "slips/slips-61-70/slip68/q2" }
+        ]},
+        { "id": 69, "questions": [
+            { "title": "JSP+JDBC – Insert Multiple Records", "path": "slips/slips-61-70/slip69/q1" },
+            { "title": "Customer Class – Static Object Counter", "path": "slips/slips-61-70/slip69/q2" }
+        ]},
+        { "id": 70, "questions": [
+            { "title": "Manager Extends Employee", "path": "slips/slips-61-70/slip70/q1" },
+            { "title": "ArrayList of Strings – Sort Alphabetically", "path": "slips/slips-61-70/slip70/q2" }
+        ]}
+      ]
     },
     {
       "name": "Slips 71 to 80",
       "folder": "slips-71-80",
-      "slips": []
+      "slips": [
+        { "id": 71, "questions": [
+            { "title": "Employee Department Count", "path": "slips/slips-71-80/slip71/q1" },
+            { "title": "Compare ArrayList and LinkedList", "path": "slips/slips-71-80/slip71/q2" }
+        ]},
+        { "id": 72, "questions": [
+            { "title": "Identify Duplicate Elements in Array", "path": "slips/slips-71-80/slip72/q1" },
+            { "title": "Cities starting with Given Letter", "path": "slips/slips-71-80/slip72/q2" }
+        ]},
+        { "id": 73, "questions": [
+            { "title": "String – Convert to Character Array", "path": "slips/slips-71-80/slip73/q1" },
+            { "title": "Servlet – Student Details Form", "path": "slips/slips-71-80/slip73/q2" }
+        ]},
+        { "id": 74, "questions": [
+            { "title": "Thread – Fibonacci Series", "path": "slips/slips-71-80/slip74/q1" },
+            { "title": "Explain join() Method in Threads", "path": "slips/slips-71-80/slip74/q2" }
+        ]},
+        { "id": 75, "questions": [
+            { "title": "Handle NumberFormatException", "path": "slips/slips-71-80/slip75/q1" },
+            { "title": "Two Threads – Numbers and Squares", "path": "slips/slips-71-80/slip75/q2" }
+        ]},
+        { "id": 76, "questions": [
+            { "title": "Servlet – Student Details Form", "path": "slips/slips-71-80/slip76/q1" },
+            { "title": "Customer Class – Static Object Counter", "path": "slips/slips-71-80/slip76/q2" }
+        ]},
+        { "id": 77, "questions": [
+            { "title": "JSP – Arithmetic Operations", "path": "slips/slips-71-80/slip77/q1" },
+            { "title": "Abstract Class Vehicle", "path": "slips/slips-71-80/slip77/q2" }
+        ]},
+        { "id": 78, "questions": [
+            { "title": "JSP+JDBC – Fetch Sorted Records", "path": "slips/slips-71-80/slip78/q1" },
+            { "title": "Interface Payment", "path": "slips/slips-71-80/slip78/q2" }
+        ]},
+        { "id": 79, "questions": [
+            { "title": "Employee – Calculate Bonus", "path": "slips/slips-71-80/slip79/q1" },
+            { "title": "Customer Class – Constructor Chaining", "path": "slips/slips-71-80/slip79/q2" }
+        ]},
+        { "id": 80, "questions": [
+            { "title": "Reverse Each Word in Sentence", "path": "slips/slips-71-80/slip80/q1" },
+            { "title": "Inheritance – Student extends Person", "path": "slips/slips-71-80/slip80/q2" }
+        ]}
+      ]
     },
     {
       "name": "Slips 81 to 90",

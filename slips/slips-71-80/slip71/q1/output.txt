@@ -1,0 +1,4 @@
+=== Employee Department Count ===
+Department: Finance | Count: 1
+Department: HR | Count: 2
+Department: IT | Count: 3

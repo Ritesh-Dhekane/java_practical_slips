@@ -1,0 +1,3 @@
+Enter name: Rahul
+Enter age : 16
+Exception Caught: Rahul, age 16 is not eligible.

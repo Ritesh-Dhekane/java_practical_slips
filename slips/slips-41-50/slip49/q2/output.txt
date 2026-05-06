@@ -1,0 +1,6 @@
+ArrayList : [Java, Python, C++]
+LinkedList: [Spring, Hibernate, JSP]
+
+After modifications:
+ArrayList : [Java, Kotlin, Python, C++]
+LinkedList: [Servlet, Spring, Hibernate, JSP, JDBC]

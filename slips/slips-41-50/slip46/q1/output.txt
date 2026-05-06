@@ -1,0 +1,3 @@
+ArithmeticException: / by zero
+ArrayIndexOutOfBounds: Index 10 out of bounds for length 3
+Program continues after exceptions.

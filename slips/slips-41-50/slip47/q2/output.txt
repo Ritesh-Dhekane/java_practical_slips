@@ -1,0 +1,9 @@
+Printing even numbers 1-50 (every 5 sec)...
+(Showing first 5 for demo)
+
+Even: 2
+Even: 4
+Even: 6
+Even: 8
+Even: 10
+...(continues every 5 sec up to 50)

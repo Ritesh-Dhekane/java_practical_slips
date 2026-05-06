@@ -1,0 +1,3 @@
+Browser: Student added!
+| Roll No | Name | Class | Marks |
+| 101 | Amit | MCA | 85.5 |

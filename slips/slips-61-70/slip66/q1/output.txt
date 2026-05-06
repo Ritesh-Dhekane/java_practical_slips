@@ -1,0 +1,3 @@
+Enter Employee Name: Amit
+Enter Employee Age: 16
+Error: Age 16 is less than 18. Invalid employee age.

@@ -1,0 +1,5 @@
+Original ArrayList:
+[Orange, Apple, Banana, Mango, Grapes]
+
+Sorted ArrayList (Alphabetical):
+[Apple, Banana, Grapes, Mango, Orange]

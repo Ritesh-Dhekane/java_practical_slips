@@ -1,0 +1,3 @@
+Browser: Inserted 3 products successfully via Batch Processing!
+| ID | Product Name | Price |
+| 1 | Laptop | 45000.0 |

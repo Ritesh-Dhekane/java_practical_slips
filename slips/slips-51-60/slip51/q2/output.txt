@@ -1,0 +1,6 @@
+=== Student Percentages ===
+Roll: 1  | Name: Amit         | Class: MCA  | Percentage: 85.00%
+Roll: 2  | Name: Priya        | Class: MCA  | Percentage: 75.00%
+Roll: 3  | Name: Rahul        | Class: MCA  | Percentage: 90.00%
+Roll: 4  | Name: Sneha        | Class: MCA  | Percentage: 65.00%
+Roll: 5  | Name: Rohan        | Class: MCA  | Percentage: 87.17%

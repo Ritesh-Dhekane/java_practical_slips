@@ -1,0 +1,7 @@
+=== Thread Synchronization Demo ===
+
+Thread-1 done. Count so far: 1105
+Thread-3 done. Count so far: 2314
+Thread-2 done. Count so far: 3000
+
+Final count: 3000 (expected: 3000)

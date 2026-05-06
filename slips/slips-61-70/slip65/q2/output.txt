@@ -1,0 +1,3 @@
+Base   : 10.0
+Height : 5.0
+Area of Triangle = 25.0

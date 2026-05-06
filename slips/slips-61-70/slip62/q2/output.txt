@@ -1,0 +1,11 @@
+=== static Keyword Demo ===
+Creating object c1:
+instanceVar: 1 | staticVar: 1
+Creating object c2:
+instanceVar: 1 | staticVar: 2
+Creating object c3:
+instanceVar: 1 | staticVar: 3
+
+Explanation:
+ - instanceVar resets for every object (always 1).
+ - staticVar is shared, so it increments across all objects.

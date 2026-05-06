@@ -1,0 +1,6 @@
+=== Student Details using super() ===
+Person (Base) Constructor called.
+Student (Derived) Constructor called.
+
+Name: Amit Sharma | Age: 22
+Course: MCA | Marks: 85

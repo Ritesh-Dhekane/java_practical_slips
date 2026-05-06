@@ -1,0 +1,2 @@
+Enter a sentence: Java is awesome
+Reversed Words: avaJ si emosewa

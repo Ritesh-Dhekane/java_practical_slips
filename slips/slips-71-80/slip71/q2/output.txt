@@ -1,0 +1,10 @@
+ArrayList : [Java, Python, C++]
+LinkedList: [Java, Python, C++]
+
+After Removal:
+ArrayList : [Java, C++]
+LinkedList: [Java, C++]
+
+Comparison:
+- ArrayList uses dynamic array. Faster for search/access.
+- LinkedList uses doubly linked list. Faster for insertions/deletions.

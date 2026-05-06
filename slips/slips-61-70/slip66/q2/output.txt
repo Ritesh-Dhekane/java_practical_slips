@@ -1,0 +1,5 @@
+Browser: JSP Directives Demonstration
+1. Page Directive: Used to import java.util.Date at the top.
+2. Include Directive: Including a static file 'header.html' below.
+This is header.html!
+Included successfully using the <%@ include %> directive.
