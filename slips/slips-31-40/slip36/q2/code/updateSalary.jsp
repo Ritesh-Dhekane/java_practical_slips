@@ -18,13 +18,13 @@ th{background:#e65100;color:white;padding:8px}td{border:1px solid #ddd;padding:8
             ps.setDouble(1,Double.parseDouble(request.getParameter("newSalary")));
             ps.setString(2,eid);
             int rows=ps.executeUpdate();
-            out.println(rows>0?"<p class='ok'>Salary updated!</p>":"<p style='color:red'>Employee not found.</p>");
+            out.println(rows>0?"<p class="ok">Salary updated!</p>":"<p style="color:red">Employee not found.</p>");
         }
         st=con.createStatement();rs=st.executeQuery("SELECT * FROM emp");
 %><table><tr><th>ID</th><th>Name</th><th>Dept</th><th>Salary</th></tr>
 <%while(rs.next()){%><tr><td><%=rs.getString(1)%></td><td><%=rs.getString(2)%></td>
 <td><%=rs.getString(3)%></td><td><%=rs.getDouble(4)%></td></tr><%}%></table>
-<%}catch(Exception e){out.println("<p style='color:red'>"+e.getMessage()+"</p>");}
+<%}catch(Exception e){out.println("<p style="color:red">"+e.getMessage()+"</p>");}
 finally{try{if(con!=null)con.close();}catch(Exception x){}}%>
 <hr/><form method="post">Emp ID:<input name="empId"/> New Salary:<input name="newSalary" type="number"/>
 <input type="submit" value="Update"/></form>

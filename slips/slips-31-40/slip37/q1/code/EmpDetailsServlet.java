@@ -16,6 +16,6 @@ public class EmpDetailsServlet extends HttpServlet {
         out.println("<tr><td><b>Name</b></td><td>" + name + "</td></tr>");
         out.println("<tr><td><b>Department</b></td><td>" + dept + "</td></tr>");
         out.println("<tr><td><b>Salary</b></td><td>Rs. " + sal + "</td></tr>");
-        out.println("</table><br/><a href='index.html'>Back</a></body></html>");
+        out.println("</table><br/><a href="index.html">Back</a></body></html>");
     }
 }

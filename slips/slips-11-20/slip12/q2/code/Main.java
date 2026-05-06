@@ -1,6 +1,6 @@
 /**
  * Slip 12 - Question 2
- * Program: Demonstrate the 'final' keyword with variables, methods, and classes.
+ * Program: Demonstrate the "final" keyword with variables, methods, and classes.
  * Concepts: final variable, final method, final class
  * Unit: UNIT 1 – Class & Objects
  */

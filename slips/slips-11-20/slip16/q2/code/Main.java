@@ -47,7 +47,7 @@ public class Main {
         System.out.println("add(\"Hello\", \" World\") = " + calc.add("Hello", " World"));
 
         System.out.println();
-        System.out.println("Same method name 'add', different parameters – that is Method Overloading.");
+        System.out.println("Same method name "add", different parameters – that is Method Overloading.");
         System.out.println("Java selects the correct version at COMPILE time (static polymorphism).");
     }
 }

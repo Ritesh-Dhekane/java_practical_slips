@@ -14,5 +14,5 @@ th{background:#2e7d32;color:white;padding:8px}td{border:1px solid #ddd;padding:8
 %><table><tr><th>ID</th><th>Name</th><th>Dept</th><th>Salary</th></tr>
 <%while(rs.next()){%><tr><td><%=rs.getString("emp_id")%></td><td><%=rs.getString("name")%></td>
 <td><%=rs.getString("dept")%></td><td><%=rs.getDouble("salary")%></td></tr><%}%></table>
-<%}catch(Exception e){out.println("<p style='color:red'>"+e.getMessage()+"</p>");}%>
+<%}catch(Exception e){out.println("<p style="color:red">"+e.getMessage()+"</p>");}%>
 </body></html>

@@ -19,13 +19,13 @@ th{background:#00695c;color:white;padding:8px}td{border:1px solid #ddd;padding:8
             ps.setString(1,nm);ps.setString(2,request.getParameter("email"));
             ps.setString(3,request.getParameter("course"));ps.setDouble(4,Double.parseDouble(request.getParameter("cgpa")));
             ps.setString(5,request.getParameter("skills"));ps.executeUpdate();
-            out.println("<p class='ok'>Registered successfully!</p>");
+            out.println("<p class="ok">Registered successfully!</p>");
         }
         rs=st.executeQuery("SELECT * FROM placement");
 %><table><tr><th>ID</th><th>Name</th><th>Email</th><th>Course</th><th>CGPA</th><th>Skills</th></tr>
 <%while(rs.next()){%><tr><td><%=rs.getInt(1)%></td><td><%=rs.getString(2)%></td><td><%=rs.getString(3)%></td>
 <td><%=rs.getString(4)%></td><td><%=rs.getDouble(5)%></td><td><%=rs.getString(6)%></td></tr><%}%></table>
-<%}catch(Exception e){out.println("<p style='color:red'>"+e.getMessage()+"</p>");}
+<%}catch(Exception e){out.println("<p style="color:red">"+e.getMessage()+"</p>");}
 finally{try{if(con!=null)con.close();}catch(Exception x){}}%>
 <hr/><form method="post">Name:<input name="name"/> Email:<input name="email"/>
 Course:<input name="course"/> CGPA:<input name="cgpa" type="number" step="0.01"/>

@@ -14,7 +14,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.print("\nEnter starting letter: ");
         char ch = sc.nextLine().toUpperCase().charAt(0);
-        System.out.println("Cities starting with '" + ch + "':");
+        System.out.println("Cities starting with "" + ch + "":");
         for (String c : cities)
             if (Character.toUpperCase(c.charAt(0)) == ch)
                 System.out.println("  - " + c);

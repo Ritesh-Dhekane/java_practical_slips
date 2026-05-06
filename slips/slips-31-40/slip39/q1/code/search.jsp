@@ -20,8 +20,8 @@ th{background:#7b1fa2;color:white;padding:8px}td{border:1px solid #ddd;padding:8
 %><table><tr><th>Roll</th><th>Name</th><th>Course</th><th>Marks</th></tr>
 <tr><td><%=rs.getInt(1)%></td><td><%=rs.getString(2)%></td>
 <td><%=rs.getString(3)%></td><td><%=rs.getInt(4)%></td></tr></table>
-<%          }else{ out.println("<p class='nf'>No student found with Roll No " + roll + ".</p>"); }
-        }catch(Exception e){out.println("<p class='nf'>"+e.getMessage()+"</p>");}
+<%          }else{ out.println("<p class="nf">No student found with Roll No " + roll + ".</p>"); }
+        }catch(Exception e){out.println("<p class="nf">"+e.getMessage()+"</p>");}
         finally{try{if(con!=null)con.close();}catch(Exception x){}}
     }
 %>

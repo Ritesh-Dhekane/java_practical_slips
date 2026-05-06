@@ -23,13 +23,13 @@ th{background:#b71c1c;color:white;padding:8px}td{border:1px solid #ddd;padding:8
         if(name!=null && !name.isEmpty()){
             ps=con.prepareStatement("INSERT INTO patient(name,age,disease) VALUES(?,?,?)");
             ps.setString(1,name); ps.setInt(2,Integer.parseInt(request.getParameter("age"))); ps.setString(3,request.getParameter("disease"));
-            ps.executeUpdate(); out.println("<p class='ok'>Patient recorded successfully!</p>");
+            ps.executeUpdate(); out.println("<p class="ok">Patient recorded successfully!</p>");
         }
         rs=st.executeQuery("SELECT * FROM patient");
 %><table><tr><th>ID</th><th>Name</th><th>Age</th><th>Disease</th></tr>
 <%while(rs.next()){%><tr><td><%=rs.getInt(1)%></td><td><%=rs.getString(2)%></td>
 <td><%=rs.getInt(3)%></td><td><%=rs.getString(4)%></td></tr><%}%></table>
-<%}catch(Exception e){out.println("<p style='color:red'>"+e.getMessage()+"</p>");}
+<%}catch(Exception e){out.println("<p style="color:red">"+e.getMessage()+"</p>");}
 finally{try{if(con!=null)con.close();}catch(Exception x){}}%>
 <hr/><h3>Add Patient</h3>
 <form method="post">Name: <input name="name" required/> Age: <input name="age" type="number" required/>

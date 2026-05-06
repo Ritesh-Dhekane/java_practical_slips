@@ -1,2 +1,2 @@
-<%@ page import='java.sql.*' %>
-<% Connection con = DriverManager.getConnection('jdbc:mysql://localhost:3306/college_db','root','root'); ResultSet rs = con.createStatement().executeQuery('select * from emp'); while(rs.next()) out.println(rs.getString(1)); %>
+<%@ page import="java.sql.*" %>
+<% Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/college_db","root","root"); ResultSet rs = con.createStatement().executeQuery("select * from emp"); while(rs.next()) out.println(rs.getString(1)); %>

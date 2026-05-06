@@ -1,2 +1,2 @@
-<%@ page import='java.util.*' %>
+<%@ page import="java.util.*" %>
 <html><body>Date: <%= new Date() %></body></html>

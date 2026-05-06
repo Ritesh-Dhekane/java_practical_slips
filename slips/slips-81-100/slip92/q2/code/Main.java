@@ -1,6 +1,6 @@
 class Student {
     int roll; String name;
-    Student() { roll=0; name='None'; }
+    Student() { roll=0; name="None"; }
     Student(int r, String n) { roll=r; name=n; }
     void display() { System.out.println(roll + ' ' + name); }
 }

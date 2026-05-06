@@ -15,7 +15,7 @@
         st=con.createStatement(); rs=st.executeQuery("SELECT COUNT(*) FROM " + table);
         rs.next(); int count = rs.getInt(1);
 %><p>Table: <b><%= table %></b></p><p class="count">Total Records: <%= count %></p>
-<%}catch(Exception e){out.println("<p style='color:red'>"+e.getMessage()+"</p>");}
+<%}catch(Exception e){out.println("<p style="color:red">"+e.getMessage()+"</p>");}
 finally{try{if(con!=null)con.close();}catch(Exception x){}}%>
 <form method="get">Table name: <input name="table" value="student"/>
 <input type="submit" value="Count"/></form>

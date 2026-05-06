@@ -1,2 +1,2 @@
-<%@ page language='java' %>
-Annual: <%= Double.parseDouble(request.getParameter('s')) * 12 %>
+<%@ page language="java" %>
+Annual: <%= Double.parseDouble(request.getParameter("s")) * 12 %>

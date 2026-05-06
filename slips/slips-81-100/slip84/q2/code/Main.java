@@ -6,6 +6,6 @@ class Employee {
 }
 public class Main {
     public static void main(String[] args) {
-        Employee e = new Employee(); e.setName('Ritesh'); System.out.println(e.getName());
+        Employee e = new Employee(); e.setName("Ritesh"); System.out.println(e.getName());
     }
 }

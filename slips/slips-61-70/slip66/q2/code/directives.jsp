@@ -11,7 +11,7 @@
     <p>1. <b>Page Directive:</b> Used to import java.util.Date at the top.</p>
     <p>Current Date via import: <%= new Date() %></p>
     
-    <p>2. <b>Include Directive:</b> Including a static file 'header.html' below.</p>
+    <p>2. <b>Include Directive:</b> Including a static file "header.html" below.</p>
     
     <div class="box">
         <%@ include file="header.html" %>

@@ -33,7 +33,7 @@ public class WelcomeServlet extends HttpServlet {
                   + "width: 400px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }");
         out.println("h2 { color: #2e7d32; }");
         out.println("</style></head><body>");
-        out.println("<div class='msg'>");
+        out.println("<div class="msg">");
 
         if (empName != null && !empName.trim().isEmpty()) {
             out.println("<h2>Welcome " + empName.trim() + "!</h2>");
@@ -43,7 +43,7 @@ public class WelcomeServlet extends HttpServlet {
             out.println("<p>No name was provided.</p>");
         }
 
-        out.println("<br/><a href='index.html'>Go Back</a>");
+        out.println("<br/><a href="index.html">Go Back</a>");
         out.println("</div></body></html>");
     }
 }

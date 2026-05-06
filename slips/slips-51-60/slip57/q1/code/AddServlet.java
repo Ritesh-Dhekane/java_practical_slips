@@ -15,8 +15,8 @@ public class AddServlet extends HttpServlet {
             out.println("<h2>Addition Result</h2>");
             out.println("<p>" + num1 + " + " + num2 + " = <b>" + (num1 + num2) + "</b></p>");
         } catch (NumberFormatException e) {
-            out.println("<p style='color:red'>Invalid input! Please enter numbers.</p>");
+            out.println("<p style="color:red">Invalid input! Please enter numbers.</p>");
         }
-        out.println("<a href='index.html'>Back</a>");
+        out.println("<a href="index.html">Back</a>");
     }
 }

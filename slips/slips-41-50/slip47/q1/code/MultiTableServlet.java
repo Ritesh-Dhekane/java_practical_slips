@@ -11,6 +11,6 @@ public class MultiTableServlet extends HttpServlet {
         out.println("<html><body><h2>Multiplication Table of " + num + "</h2><table border='1' cellpadding='6'>");
         for (int i=1; i<=10; i++)
             out.println("<tr><td>"+num+" x "+i+"</td><td>= "+(num*i)+"</td></tr>");
-        out.println("</table><br/><a href='index.html'>Back</a></body></html>");
+        out.println("</table><br/><a href="index.html">Back</a></body></html>");
     }
 }

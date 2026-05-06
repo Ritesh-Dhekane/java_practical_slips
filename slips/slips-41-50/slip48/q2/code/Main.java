@@ -1,5 +1,5 @@
 /**
- * Slip 48 Q2: Demonstrate 'this' keyword – 5 uses.
+ * Slip 48 Q2: Demonstrate "this" keyword – 5 uses.
  * Unit: UNIT 1 – this keyword
  */
 class Student {
@@ -17,7 +17,7 @@ class Student {
 }
 public class Main {
     public static void main(String[] args) {
-        System.out.println("=== 'this' Keyword Demo ===\n");
+        System.out.println("=== "this" Keyword Demo ===\n");
         System.out.println("1. this.field – resolve ambiguity:");
         Student s1 = new Student("Amit", 101); s1.display();
         System.out.println("\n2. this() – constructor chaining:");

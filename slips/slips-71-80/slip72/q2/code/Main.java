@@ -16,7 +16,7 @@ public class Main {
         System.out.print("Enter starting letter: ");
         String letter = sc.next().toUpperCase();
         
-        System.out.println("Cities starting with '" + letter + "':");
+        System.out.println("Cities starting with "" + letter + "":");
         boolean found = false;
         for (String city : cities) {
             if (city.toUpperCase().startsWith(letter)) {

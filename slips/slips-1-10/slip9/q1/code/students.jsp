@@ -67,15 +67,15 @@
 <%
         }
         if (!hasData) {
-            out.println("<tr><td colspan='4'>No records found.</td></tr>");
+            out.println("<tr><td colspan="4">No records found.</td></tr>");
         }
 %>
 </table>
 <%
     } catch (ClassNotFoundException e) {
-        out.println("<p class='error'>Driver not found: " + e.getMessage() + "</p>");
+        out.println("<p class="error">Driver not found: " + e.getMessage() + "</p>");
     } catch (SQLException e) {
-        out.println("<p class='error'>DB Error: " + e.getMessage() + "</p>");
+        out.println("<p class="error">DB Error: " + e.getMessage() + "</p>");
     } finally {
         // Step 5: Close resources
         try { if (rs  != null) rs.close();  } catch (Exception e) {}

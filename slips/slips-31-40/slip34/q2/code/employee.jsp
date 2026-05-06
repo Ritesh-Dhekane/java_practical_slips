@@ -21,13 +21,13 @@ th{background:#1565c0;color:white;padding:8px}td{border:1px solid #ddd;padding:8
             ps.setString(3,request.getParameter("dept"));
             ps.setDouble(4,Double.parseDouble(request.getParameter("salary")));
             ps.executeUpdate();
-            out.println("<p class='ok'>Record inserted!</p>");
+            out.println("<p class="ok">Record inserted!</p>");
         }
         rs = st.executeQuery("SELECT * FROM emp");
 %><table><tr><th>ID</th><th>Name</th><th>Dept</th><th>Salary</th></tr>
 <% while(rs.next()){%><tr><td><%=rs.getString(1)%></td><td><%=rs.getString(2)%></td>
 <td><%=rs.getString(3)%></td><td><%=rs.getDouble(4)%></td></tr><%}%></table>
-<%} catch(Exception e){out.println("<p style='color:red'>"+e.getMessage()+"</p>");}
+<%} catch(Exception e){out.println("<p style="color:red">"+e.getMessage()+"</p>");}
   finally{try{if(rs!=null)rs.close();}catch(Exception x){}try{if(con!=null)con.close();}catch(Exception x){}}%>
 <hr/><h3>Add Employee</h3>
 <form method="post">ID:<input name="empId"/> Name:<input name="name"/> Dept:<input name="dept"/>

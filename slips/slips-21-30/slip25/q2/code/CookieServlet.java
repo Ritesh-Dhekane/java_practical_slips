@@ -38,9 +38,9 @@ public class CookieServlet extends HttpServlet {
             roleCookie.setMaxAge(60 * 60);
             response.addCookie(roleCookie);
 
-            out.println("<p style='color:green'><b>Cookies SET successfully!</b></p>");
+            out.println("<p style="color:green"><b>Cookies SET successfully!</b></p>");
             out.println("<p>username = Ritesh</p><p>role = Admin</p>");
-            out.println("<br/><a href='cookie?action=get'>Click to Retrieve Cookies</a>");
+            out.println("<br/><a href="cookie?action=get">Click to Retrieve Cookies</a>");
 
         } else if ("get".equals(action)) {
             // RETRIEVE Cookies
@@ -56,7 +56,7 @@ public class CookieServlet extends HttpServlet {
             out.println("</ul>");
 
         } else {
-            out.println("<a href='cookie?action=set'>Set Cookies</a>");
+            out.println("<a href="cookie?action=set">Set Cookies</a>");
         }
 
         out.println("</body></html>");

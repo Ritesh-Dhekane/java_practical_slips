@@ -1,2 +1,2 @@
-<%@ page language='java' %>
-Welcome <%= request.getParameter('user') %>
+<%@ page language="java" %>
+Welcome <%= request.getParameter("user") %>

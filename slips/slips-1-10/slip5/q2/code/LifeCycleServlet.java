@@ -50,7 +50,7 @@ public class LifeCycleServlet extends HttpServlet {
         out.println("<p><b>service()</b>: Called for each request. Request # " + requestCount + "</p>");
         out.println("<p><b>destroy()</b>: Called once when servlet is removed.</p>");
         out.println("<hr>");
-        out.println("<p>Visit <a href='lifecycle'>this page</a> again to see request count increase.</p>");
+        out.println("<p>Visit <a href="lifecycle">this page</a> again to see request count increase.</p>");
         out.println("</body></html>");
     }
 

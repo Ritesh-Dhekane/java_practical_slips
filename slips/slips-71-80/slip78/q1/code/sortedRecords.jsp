@@ -15,5 +15,5 @@ th{background:#4527a0;color:white;padding:8px}td{border:1px solid #ddd;padding:8
 %><table><tr><th>Roll No</th><th>Name</th><th>Course</th><th>Marks</th></tr>
 <%while(rs.next()){%><tr><td><%=rs.getInt(1)%></td><td><%=rs.getString(2)%></td>
 <td><%=rs.getString(3)%></td><td><%=rs.getInt(4)%></td></tr><%}%></table>
-<%}catch(Exception e){out.println("<p style='color:red'>"+e.getMessage()+"</p>");}%>
+<%}catch(Exception e){out.println("<p style="color:red">"+e.getMessage()+"</p>");}%>
 </body></html>

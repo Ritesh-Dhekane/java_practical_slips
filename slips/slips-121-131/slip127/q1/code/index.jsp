@@ -1,2 +1,2 @@
-<%@ page language='java' %>
-Name: <%= request.getParameter('n') %>
+<%@ page language="java" %>
+Name: <%= request.getParameter("n") %>

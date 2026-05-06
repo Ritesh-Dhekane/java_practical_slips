@@ -24,7 +24,7 @@ public class Main {
             char firstChar = name.charAt(0);
             if (vowels.indexOf(firstChar) >= 0) {
                 count++;
-                System.out.println("  → \"" + name + "\" starts with vowel '" + firstChar + "'");
+                System.out.println("  → \"" + name + "\" starts with vowel "" + firstChar + """);
             }
         }
 

@@ -81,9 +81,9 @@
     </tr>
 <%      }
     } catch (ClassNotFoundException e) {
-        out.println("<p class='err'>Driver error: " + e.getMessage() + "</p>");
+        out.println("<p class="err">Driver error: " + e.getMessage() + "</p>");
     } catch (SQLException e) {
-        out.println("<p class='err'>SQL error: " + e.getMessage() + "</p>");
+        out.println("<p class="err">SQL error: " + e.getMessage() + "</p>");
     } finally {
         try { if (ps  != null) ps.close();  } catch(Exception e) {}
         try { if (con != null) con.close(); } catch(Exception e) {}

@@ -1,2 +1,2 @@
-<%@ page language='java' %>
-Salary: <%= Double.parseDouble(request.getParameter('sal')) * 12 %>
+<%@ page language="java" %>
+Salary: <%= Double.parseDouble(request.getParameter("sal")) * 12 %>

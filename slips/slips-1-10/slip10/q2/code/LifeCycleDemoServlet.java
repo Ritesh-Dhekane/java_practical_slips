@@ -53,12 +53,12 @@ public class LifeCycleDemoServlet extends HttpServlet {
         out.println("body{font-family:Arial,sans-serif;margin:40px;background:#e8eaf6}");
         out.println(".card{background:white;padding:30px;border-radius:8px;max-width:600px;box-shadow:0 2px 8px rgba(0,0,0,0.15)}");
         out.println("h2{color:#3f51b5}.phase{background:#f3f4f6;padding:12px;margin:10px 0;border-left:4px solid #3f51b5;border-radius:4px}");
-        out.println("</style></head><body><div class='card'>");
+        out.println("</style></head><body><div class="card">");
         out.println("<h2>Servlet Life Cycle Demo</h2>");
-        out.println("<div class='phase'><b>Phase 1 – init()</b><br/>Called once at startup.<br/>Init time: " + initTime + "</div>");
-        out.println("<div class='phase'><b>Phase 2 – service() / doGet()</b><br/>Called for every request.<br/>Request count: <b>" + requestCount + "</b></div>");
-        out.println("<div class='phase'><b>Phase 3 – destroy()</b><br/>Called once when server shuts down. Check server console.</div>");
-        out.println("<br/><a href='lifecycle'>Refresh to see request count increase</a>");
+        out.println("<div class="phase"><b>Phase 1 – init()</b><br/>Called once at startup.<br/>Init time: " + initTime + "</div>");
+        out.println("<div class="phase"><b>Phase 2 – service() / doGet()</b><br/>Called for every request.<br/>Request count: <b>" + requestCount + "</b></div>");
+        out.println("<div class="phase"><b>Phase 3 – destroy()</b><br/>Called once when server shuts down. Check server console.</div>");
+        out.println("<br/><a href="lifecycle">Refresh to see request count increase</a>");
         out.println("</div></body></html>");
     }
 

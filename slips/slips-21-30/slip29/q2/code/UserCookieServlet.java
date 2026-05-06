@@ -32,7 +32,7 @@ public class UserCookieServlet extends HttpServlet {
             c.setMaxAge(60 * 30);
             response.addCookie(c);
             out.println("<p><b>Cookie stored!</b> Username: " + username + "</p>");
-            out.println("<a href='user?action=retrieve'>Retrieve in Next Request</a>");
+            out.println("<a href="user?action=retrieve">Retrieve in Next Request</a>");
 
         } else if ("retrieve".equals(action)) {
             Cookie[] cookies = request.getCookies();
@@ -41,12 +41,12 @@ public class UserCookieServlet extends HttpServlet {
                 for (Cookie c : cookies)
                     if ("username".equals(c.getName())) { username = c.getValue(); break; }
             out.println("<p>Retrieved from Cookie – Username: <b>" + username + "</b></p>");
-            out.println("<a href='user'>Start Over</a>");
+            out.println("<a href="user">Start Over</a>");
 
         } else {
-            out.println("<form method='get'><input type='hidden' name='action' value='store'/>");
-            out.println("Username: <input type='text' name='username'/>");
-            out.println("<input type='submit' value='Store Cookie'/></form>");
+            out.println("<form method="get"><input type="hidden" name="action" value="store"/>");
+            out.println("Username: <input type="text" name="username"/>");
+            out.println("<input type="submit" value="Store Cookie"/></form>");
         }
         out.println("</body></html>");
     }

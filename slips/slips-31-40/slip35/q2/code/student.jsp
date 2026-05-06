@@ -19,13 +19,13 @@ th{background:#388e3c;color:white;padding:8px}td{border:1px solid #ddd;padding:8
             ps=con.prepareStatement("INSERT INTO student VALUES(?,?,?,?)");
             ps.setInt(1,Integer.parseInt(roll));ps.setString(2,request.getParameter("name"));
             ps.setString(3,request.getParameter("course"));ps.setInt(4,Integer.parseInt(request.getParameter("marks")));
-            ps.executeUpdate();out.println("<p class='ok'>Inserted!</p>");
+            ps.executeUpdate();out.println("<p class="ok">Inserted!</p>");
         }
         rs=st.executeQuery("SELECT * FROM student");
 %><table><tr><th>Roll</th><th>Name</th><th>Course</th><th>Marks</th></tr>
 <%while(rs.next()){%><tr><td><%=rs.getInt(1)%></td><td><%=rs.getString(2)%></td>
 <td><%=rs.getString(3)%></td><td><%=rs.getInt(4)%></td></tr><%}%></table>
-<%}catch(Exception e){out.println("<p style='color:red'>"+e.getMessage()+"</p>");}
+<%}catch(Exception e){out.println("<p style="color:red">"+e.getMessage()+"</p>");}
 finally{try{if(con!=null)con.close();}catch(Exception x){}}%>
 <hr/><form method="post">Roll:<input name="rollNo" type="number"/> Name:<input name="name"/>
 Course:<input name="course"/> Marks:<input name="marks" type="number"/>

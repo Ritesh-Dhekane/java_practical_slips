@@ -5,6 +5,6 @@ class Customer {
 public class Main {
     public static void main(String[] args) {
         new Customer('A'); new Customer('B');
-        System.out.println('Total: ' + Customer.count);
+        System.out.println("Total: " + Customer.count);
     }
 }

@@ -17,13 +17,13 @@ th{background:#4527a0;color:white;padding:8px}td{border:1px solid #ddd;padding:8
         if(name!=null && !name.isEmpty()){
             ps=con.prepareStatement("INSERT INTO convocation(name,roll_no,batch) VALUES(?,?,?)");
             ps.setString(1,name); ps.setString(2,request.getParameter("roll")); ps.setString(3,request.getParameter("batch"));
-            ps.executeUpdate(); out.println("<p class='ok'>Registered successfully for Convocation!</p>");
+            ps.executeUpdate(); out.println("<p class="ok">Registered successfully for Convocation!</p>");
         }
         rs=st.executeQuery("SELECT * FROM convocation");
 %><table><tr><th>ID</th><th>Name</th><th>Roll No</th><th>Batch</th></tr>
 <%while(rs.next()){%><tr><td><%=rs.getInt(1)%></td><td><%=rs.getString(2)%></td>
 <td><%=rs.getString(3)%></td><td><%=rs.getString(4)%></td></tr><%}%></table>
-<%}catch(Exception e){out.println("<p style='color:red'>"+e.getMessage()+"</p>");}
+<%}catch(Exception e){out.println("<p style="color:red">"+e.getMessage()+"</p>");}
 finally{try{if(con!=null)con.close();}catch(Exception x){}}%>
 <hr/><h3>Register Form</h3>
 <form method="post">Name: <input name="name" required/> Roll No: <input name="roll" required/>

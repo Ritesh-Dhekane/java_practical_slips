@@ -28,14 +28,14 @@ th{background:#d84315;color:white;padding:8px}td{border:1px solid #ddd;padding:8
             
             ps.executeBatch();
             con.commit();
-            out.println("<p class='ok'>Inserted 3 products successfully via Batch Processing!</p>");
+            out.println("<p class="ok">Inserted 3 products successfully via Batch Processing!</p>");
         }
         
         rs=st.executeQuery("SELECT * FROM product");
 %><table><tr><th>ID</th><th>Product Name</th><th>Price</th></tr>
 <%while(rs.next()){%><tr><td><%=rs.getInt(1)%></td><td><%=rs.getString(2)%></td>
 <td><%=rs.getDouble(3)%></td></tr><%}%></table>
-<%}catch(Exception e){out.println("<p style='color:red'>"+e.getMessage()+"</p>");}
+<%}catch(Exception e){out.println("<p style="color:red">"+e.getMessage()+"</p>");}
 finally{try{if(con!=null)con.close();}catch(Exception x){}}%>
 <hr/><form method="post"><input type="hidden" name="insert" value="yes"/>
 <input type="submit" value="Insert 3 Sample Products Now"/></form>

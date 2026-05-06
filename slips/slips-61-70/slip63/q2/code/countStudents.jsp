@@ -15,5 +15,5 @@
          int count = rs.getInt(1);
 %>
     <p class="count"><%= count %> Students found.</p>
-<%}catch(Exception e){out.println("<p style='color:red'>"+e.getMessage()+"</p>");}%>
+<%}catch(Exception e){out.println("<p style="color:red">"+e.getMessage()+"</p>");}%>
 </body></html>

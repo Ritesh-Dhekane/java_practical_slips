@@ -21,6 +21,6 @@ public class StudentServlet extends HttpServlet {
         out.println("<tr><td><b>Age</b></td><td>" + age + "</td></tr>");
         out.println("<tr><td><b>Course</b></td><td>" + course + "</td></tr>");
         out.println("</table>");
-        out.println("<br/><a href='index.html'>Back</a></body></html>");
+        out.println("<br/><a href="index.html">Back</a></body></html>");
     }
 }

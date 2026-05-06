@@ -14,10 +14,10 @@ public class LoginServlet extends HttpServlet {
         
         out.println("<html><body>");
         if ("scott".equals(u) && "tiger".equals(p)) {
-            out.println("<h2 style='color:green'>Welcome user " + u + "!</h2>");
+            out.println("<h2 style="color:green">Welcome user " + u + "!</h2>");
         } else {
-            out.println("<h2 style='color:red'>Sorry wrong details.</h2>");
+            out.println("<h2 style="color:red">Sorry wrong details.</h2>");
         }
-        out.println("<br/><a href='index.html'>Back</a></body></html>");
+        out.println("<br/><a href="index.html">Back</a></body></html>");
     }
 }

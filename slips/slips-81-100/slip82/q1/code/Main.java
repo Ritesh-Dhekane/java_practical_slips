@@ -9,6 +9,6 @@ public class Main {
         ArrayList<Student> students = new ArrayList<>();
         students.add(new Student(1, 'A', new int[]{80,90,85}));
         students.add(new Student(2, 'B', new int[]{60,70,65}));
-        for(Student s : students) if(s.getPct() >= 75) System.out.println(s.name + ' secured distinction');
+        for(Student s : students) if(s.getPct() >= 75) System.out.println(s.name + " secured distinction");
     }
 }

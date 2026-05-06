@@ -17,10 +17,10 @@ class BankAccount {
         this.balance = balance;
     }
 
-    // 'throws' declares that this method can throw an exception
+    // "throws" declares that this method can throw an exception
     void withdraw(double amount) throws Exception {
         if (amount <= 0) {
-            // 'throw' creates and throws the exception object
+            // "throw" creates and throws the exception object
             throw new IllegalArgumentException("Withdrawal amount must be positive. Got: " + amount);
         }
         if (amount > balance) {
@@ -32,7 +32,7 @@ class BankAccount {
 }
 
 class Voter {
-    // 'throws' in method signature – caller must handle
+    // "throws" in method signature – caller must handle
     static void validateAge(int age) throws AgeException {
         if (age < 18) {
             throw new AgeException("Age " + age + " is below 18. Not eligible to vote.");
