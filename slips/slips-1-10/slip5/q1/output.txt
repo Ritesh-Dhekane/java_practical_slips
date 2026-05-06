@@ -1,4 +1,16 @@
-NumberPrinterThread : 1
-NumberPrinterThread : 2
-...
-NumberPrinterThread : 10
+Main thread: main
+
+Thread started: NumberThread-1
+NumberThread-1 -> 1
+NumberThread-1 -> 2
+NumberThread-1 -> 3
+NumberThread-1 -> 4
+NumberThread-1 -> 5
+NumberThread-1 -> 6
+NumberThread-1 -> 7
+NumberThread-1 -> 8
+NumberThread-1 -> 9
+NumberThread-1 -> 10
+Thread finished: NumberThread-1
+
+All threads completed.

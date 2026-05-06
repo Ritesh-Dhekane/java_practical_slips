@@ -1,2 +1,17 @@
-Enter a number: abc
-Exception Caught: Invalid input. Cannot convert 'abc' to integer.
+--- Run 1: Valid input ---
+Enter a number: 12
+You entered: 12
+Square of the number: 144
+Program execution complete.
+
+--- Run 2: Invalid input ---
+Enter a number: hello
+Error: "hello" is not a valid integer.
+Exception: For input string: "hello"
+Program execution complete.
+
+--- Run 3: Float input ---
+Enter a number: 3.14
+Error: "3.14" is not a valid integer.
+Exception: For input string: "3.14"
+Program execution complete.

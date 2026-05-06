@@ -1,3 +1,7 @@
-Students with marks > 70:
-RollNo: 102, Name: Bob, Marks: 75.0
-RollNo: 103, Name: Charlie, Marks: 80.0
+RollNo		Name
+------		----
+101		Amit Sharma
+102		Priya Patel
+103		Rahul Verma
+104		Sneha Joshi
+105		Rohan Desai

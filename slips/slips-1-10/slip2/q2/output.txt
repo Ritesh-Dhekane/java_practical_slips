@@ -1,2 +1,16 @@
-This is Person class
-This is Student class overriding Person's display()
+=== Person Details ===
+Name : Ramesh Gupta
+Age  : 40
+
+=== Student Details ===
+Name       : Anjali Mehta
+Age        : 21
+Roll No    : 201
+Percentage : 87.5%
+
+--- Calling display() via Person reference ---
+=== Student Details ===
+Name       : Vikram Nair
+Age        : 22
+Roll No    : 202
+Percentage : 91.0%

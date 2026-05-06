@@ -1,7 +1,4 @@
-Enter 5 salaries:
-5000
-7000
-3000
-9000
-8000
-Second highest salary: 8000.0
+Original Salaries: [45000.0, 72000.0, 38000.0, 91000.0, 60000.0]
+Sorted Salaries  : [38000.0, 45000.0, 60000.0, 72000.0, 91000.0]
+Highest Salary   : Rs. 91000.0
+Second Highest   : Rs. 72000.0

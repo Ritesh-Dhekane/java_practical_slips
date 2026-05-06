@@ -1,2 +1,7 @@
-Area of Circle: 78.53981633974483
-Area of Rectangle: 20.0
+=== Shape Area Calculator ===
+Circle   (radius=7.0) : Area = 153.94
+Rectangle(5.0 x 8.0)   : Area = 40.00
+
+--- Using Shape array ---
+Circle   (radius=3.5) : Area = 38.48
+Rectangle(4.0 x 6.0)   : Area = 24.00

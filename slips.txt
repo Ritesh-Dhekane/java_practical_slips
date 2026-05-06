@@ -1,0 +1,1806 @@
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 1 
+Q1 Write a Java program to: Create an ArrayList of integers. 
+• Add at least 5 elements. 
+• Sort the list using built-in method. 
+• Display the sorted list. 
+Q2 Write a Java program to demonstrate the use of Lambda Expression to print x raised to y 
+(xy).  
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 2 
+Q1 Write a Java program to: 
+• Create a HashMap<Integer, String> (rollNo, name).  
+• Insert at least 5 entries.  
+• Display all entries using entrySet(). 
+Q2 Demonstrate method overriding using classes Person and Student, where the display() 
+method is overridden. 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 3 
+Q1 Write a Java program to: 
+• Store names in a HashSet.  
+• Add duplicate values.  
+• Display the set and observe the result. 
+Q2 Create an abstract class Person with an abstract method showDetails(). 
+• Implement this class in a subclass Employee.  
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP      Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 4 
+Q1 Write a Java program to: 
+• Store 5 salaries in an ArrayList.  
+• Sort the list.  
+• Display the second highest salary.  
+Q2 Define an interface Shape with method area(). 
+• Implement this interface in classes Circle and Rectangle.  
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 5 
+Q1 Create a Java program to implement multithreading using the Runnable interface. 
+• Create a thread that prints numbers from 1 to 10 with proper naming of thread.  
+Q2 Explain the Servlet Life Cycle methods (init(), service(), destroy()) with a suitable 
+example. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 6 
+Q1 Write a Java program that accepts a number from the user as a string. 
+• Convert it to an integer and handle possible exceptions such as invalid input using 
+appropriate exception handling.  
+Q2 Explain JSP implicit objects such as request, response, and session with examples. 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 7 
+Q1 Develop a Servlet that accepts employee name from an HTML form. 
+• Display a personalized message “Welcome <Employee Name>” in the browser.  
+Q2 Create a thread and assign custom name. 
+• Display thread name during execution. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 8 
+Q1 Develop a JSP page that accepts two numbers from the user. 
+• Perform multiplication and display the result using JSP expression tag.  
+Q2 Write a Java program to demonstrate runtime polymorphism using method overriding 
+with Employee and Manager classes. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 9 
+Q1 Write a JSP program using JDBC to connect to a database and retrieve all records from a 
+Student table. 
+Q2 Differentiate between interface and abstract class with suitable code example. 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 10 
+Q1 Create a class Employee demonstrating encapsulation. 
+• Declare variables as private.  
+• Provide getter and setter methods.  
+• Display employee details using these methods.  
+Q2 Explain the Servlet Life Cycle methods (init(), service(), destroy()) with a suitable 
+example. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 11 
+Q1 Write a Java program to: 
+• Store department names in an ArrayList.  
+• Accept a department name from user.  
+• Check whether it exists in the list. 
+Q2 Write a Java program to demonstrate runtime polymorphism using method overriding 
+with Employee and Manager classes. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 12 
+Q1 Write a Java program to: 
+• Store key-value pairs in a TreeMap<Integer, String>.  
+• Insert at least 5 elements.  
+• Display all elements (sorted by key). 
+Q2 Explain and demonstrate the use of final keyword with variables, methods, and classes. 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 13 
+Q1 Write a Java program to accept names of 5 students and store them in an ArrayList. 
+• Convert all names to uppercase and display the updated list.  
+Q2 Differentiate between interface and abstract class with suitable code example. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 14 
+Q1 Write a Java program to: 
+• Create a LinkedList<String>.  
+• Add 5 elements.  
+• Remove an element entered by user.  
+• Display remaining elements. 
+Q2 Write a program to demonstrate constructor overloading in a Person class. 
+ 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 15 
+Q1 Write a Java program to accept 5 integers and store them in an array. 
+• Copy all elements into another array in reverse order and display it.  
+Q2 Explain types of inheritance in Java with suitable examples. 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 16 
+Q1 Create a class Student with marks of 3 subjects. 
+• Calculate total and percentage for each student and display the result.  
+Q2 Explain the concept of method overloading with example. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 17 
+Q1 Write a Java program to store employee names in a Vector. 
+• Search for a specific name entered by the user and display appropriate message.  
+Q2 Write programs for checked and unchecked exceptions each. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 18 
+Q1 Develop a Servlet that displays current system date and time on the browser. 
+Q2 Write a java program to overload the add method in Calculator class. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 19 
+Q1 Create a JSP page to accept customer name and city. 
+• Display the entered details using JSP expression tags.  
+Q2 Write a program to demonstrate the concept of thread priority by creating multiple threads 
+with different priorities. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 20 
+Q1 Write a JSP program using JDBC to insert multiple employee records into a database table. 
+Q2 Write a java program to reverse the entire sentence given by user and display it. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 21 
+Q1 Create a class Person and demonstrate use of static variables and static methods. 
+• Show how static members are shared among objects.  
+Q2 Explain JSP scripting elements (scriptlet, expression, declaration) with examples.(one 
+example each) 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 22 
+Q1 Write a Java program to accept 5 customer names and store them in an array. 
+• Count how many names start with a vowel.  
+Q2 Explain the concept of abstraction using class Vehicle and Car. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 23 
+Q1 Write a Java program to: 
+• Store integers in an ArrayList.  
+• Display numbers within a given range. 
+Q2 Create a user-defined exception InvalidSalaryException that is thrown when salary is less 
+than 10,000 in an Employee class. 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 24 
+Q1 Write a Java program to create two threads 
+• One thread prints numbers from 1 to 5  
+• Another thread prints numbers from 6 to 10  
+Q2 Create a class Manager with attributes managerId, name, and department. 
+• Initialize the object using a parameterized constructor and display the details.  
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 25 
+Q1 Write a Java program to demonstrate handling of multiple exceptions using multiple catch 
+blocks. 
+Q2 Explain how cookies are used in Servlets with example. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 26 
+Q1 Develop a Servlet that reads two numbers from request parameters and displays their sum. 
+Q2 Demonstrate the use of throw and throws keywords with example. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 27 
+Q1 Create a JSP page that displays all details of an Employee using JSP implicit objects. 
+Q2 Explain JSP directives (page, include, taglib). 
+ 
+ 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 28 
+Q1 Write a JSP program using JDBC to delete a record from Student table based on roll 
+number. 
+Q2 Create an interface Shape. Implement it in Circle and Rectangle. Display calculated areas. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 29 
+Q1 Create a class Manager that extends Employee. 
+• Add additional attribute bonus.  
+• Display complete details of manager.  
+Q2 Develop a Servlet that stores username in cookie. 
+• Retrieve and display in next request. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP      Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 30 
+Q1 Write a Java program to accept employee names and store them in an array. 
+• Sort the names in alphabetical order and display them.  
+Q2 Create a JSP page to accept two numbers. 
+• Display addition using expression tag.  
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP      Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 31 
+Q1 Create a class Employee with attributes empId, name, and department. 
+• Store details of 5 employees in an array.  
+• Display only those employees who belong to the "IT" department.  
+Q2 Create a JSP page to display current date and time. 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP      Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 32 
+Q1 Create a class Student with attributes rollNo, name, and marks. 
+• Accept details of 5 students.  
+• Find and display the student who has secured the highest marks.  
+Q2 Create a JSP page to accept employee salary. 
+• Display annual salary. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 33 
+Q1 Write a Java program to: 
+• Store city names in an ArrayList.  
+• Display cities starting with a given letter. 
+Q2 Create a JSP page to accept student marks. 
+• Display total and percentage. 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 34 
+Q1 Write a Java program to: 
+• Store values in a HashMap<Integer, String>.  
+• Display all values using keySet() and values(). 
+Q2 Create a JSP page to accept employee details. 
+• Store data in database using JDBC.  
+• Display inserted records.  
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 35 
+Q1 Write a Java program to create a thread by extending the Thread class. 
+• The thread should display the multiplication table of a number entered by the user.  
+Q2 Create a JSP page to insert student records using JDBC. 
+• Retrieve and display all records. 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 36 
+Q1 Write a Java program that demonstrates handling of NullPointerException. 
+• Display an appropriate message when the exception occurs.  
+Q2 Create a JSP page to update employee salary using JDBC. 
+• Display updated data.  
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 37 
+Q1 Develop a Servlet that accepts employee details through request parameters. 
+• Display the received details in a formatted manner on the browser.  
+Q2 Create a thread and assign custom name. 
+• Display thread name during execution. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 38 
+Q1 Create a JSP page that accepts a number from the user. 
+• Calculate and display its factorial using JSP scripting elements.  
+Q2 Demonstrate different types of constructors in Java with examples.  
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 39 
+Q1 Write a JSP program using JDBC to search for a student record based on roll number. 
+• Display the details if found, otherwise display an appropriate message.  
+Q2 Write a java program to accept salary from user. 
+• Handle invalid input using exception handling. 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 40 
+Q1 Create a class Manager with attributes managerId, name, and department. 
+• Initialize the object using a parameterized constructor and display the details.  
+Q2 Create a JSP page to delete student record using JDBC. 
+• Display remaining records. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP      Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 41 
+Q1 Write a Java program to: 
+• Store integers in an ArrayList.  
+• Count how many numbers are greater than 30. 
+Q2 Demonstrate the use of join and yield methods in multithreading program. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 42 
+Q1 Write a Java program to: 
+• Store integers in a HashSet.  
+• Display the total number of unique elements. 
+Q2 Explain this() for constructor overloading and super() for superclass’s constructor calling 
+with example. 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 43 
+Q1 Write a Java program to accept names of 5 customers. 
+• Reverse each name and display the result.  
+Q2 Write a program to accept senior citizens name and age from command prompt. If age is 
+below 60, throw “InvalidAgeException” exception 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 44 
+Q1 Write a Java program to accept two arrays of integers. 
+• Merge both arrays into a single array and display the result.  
+Q2 Write JSP code to accept registration details for placement portal from candidate and 
+insert the details in database (assume suitable table structure). 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 45 
+Q1 Write a Java program to create two threads. 
+• One thread should print even numbers between 1 and 20.  
+• Another thread should print odd numbers between 1 and 20.  
+Q2 Create class Person and extend it in Employee. 
+Demonstrate use of super() to initialize base class attributes 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 46 
+Q1 Write a Java program that demonstrates handling of multiple exceptions. 
+• Handle ArithmeticException and ArrayIndexOutOfBoundsException using separate 
+catch blocks.  
+Q2 Define Employee class (name, designation, salary). Define a default and parameterized 
+constructor. Keep a count of objects created. display the object count after each object is 
+created. (Use static member and method). Also display the contents of each object. 
+ 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 47 
+Q1 Develop a Servlet that generates and displays the multiplication table of a number entered 
+by the user. 
+Q2 Write a thread program to display even numbers from 1 to 50 after every 5 seconds. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 48 
+Q1 Create a JSP page to display the result of a student including total and percentage. 
+Q2 Demonstrate the use of the this keyword in Java with suitable examples. 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 49 
+Q1 Write a JSP program using JDBC to count the total number of records in a given table. 
+Q2 Write a Java program to: 
+• Create both ArrayList and LinkedList.  
+• Add elements and display them. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 50 
+Q1 Create a class Person with appropriate attributes. 
+• Initialize object using constructor and display the details.  
+Q2 Demonstrate the concept of thread synchronization in Java using example. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 51 
+Q1 Write a Java program to: 
+• Store integers in a TreeSet.  
+• Display elements in sorted order. 
+Q2 Define a class Student (name, roll_no, class and marks of 6 subjects). Create an array of 5 
+Student objects. Calculate the percentage of each student using a method per(). 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 52 
+Q1 Write a Java program to: 
+• Store integers in an ArrayList.  
+• Remove elements less than 40.  
+• Display updated list. 
+Q2 Write JSP program  to register students for convocation in MCA (Use PreparedStatement. 
+(use suitable table structure). 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 53 
+Q1 Write a Java program to accept a string from the user. 
+• Count and display the number of vowels present in the string.  
+Q2. Write JSP program to accept patient details and display them. Use PreparedStatement. (use 
+suitable table structure). 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 54 
+Q1 Write a Java program to check whether a given number is a palindrome or not. 
+• Display appropriate message.  
+Q2 Demonstrate Servlet Life Cycle with example. 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 55 
+Q1 Write a Java program to create a thread that prints numbers in reverse order from 10 to 1. 
+Q2 Write JSP program to accept student details and display them. Use PreparedStatement. (use 
+suitable table structure). 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 56 
+Q1 Create a class Person with aadhar, name, address as properties. Create at least 3 
+constructors. Demonstrate this() constructor and keyword. 
+Q2 Write Servlet program to welcome user if username is scott and password is tiger, else 
+display “Sorry wrong details”. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 57 
+Q1 Develop a Servlet that accepts two numbers as input from the user. 
+• Perform addition and display the result on the browser.  
+Q2 Write a program to accept name and age from command prompt. If age is below 18, throw 
+“NotEligibleException” exception. 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 58 
+Q1 Create a JSP page to design a simple login form with fields for username and password. 
+• Display the entered values on submission.  
+Q2 Write an application to define a user defined exception “Insufficient Fund Exception”. Read 
+the amount from console and if amount is available in your account, then draw the amount. If 
+amount is not available, throw “Insufficient Fund Exception” and display amount available for 
+withdrawal. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 59 
+Q1 Write a JSP program using JDBC to update marks of a student based on roll number. 
+Q2 Create a class Person with aadhar, name, address as properties. Create display method and 
+display the person details. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 60 
+Q1 Create a class Employee and store employee details in an array. 
+• Display all employee details using a suitable loop.  
+Q2 Create a class Person with aadhar, name, address as properties. Create at least 3 
+constructors. Demonstrate this() constructor and keyword. 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 61 
+Q1 Create a class Customer with attributes custId, name, and email. 
+• Accept details of 5 customers.  
+• Display customers whose name length is greater than 5 characters.  
+Q2 Create a JSP page to display employees with salary > 30000 using JDBC. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 62 
+Q1 Create a class Employee and store employee objects in an array. 
+• Find and display the employee having the minimum salary.  
+Q2 Explain the use of the static keyword in Java with example. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 63 
+Q1 Write a Java program to accept a string. 
+• Count the number of uppercase characters present in the string.  
+Q2 Create a JSP page to count total records of student table in database. (assume suitable table 
+structure) 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 64 
+Q1 Write a Java program to accept an array of integers. 
+• Sort the array in descending order and display the result.  
+Q2 Create a class Person with attributes name and age. 
+Use instance variables and a static variable to count total number of objects created. 
+Display the count along with person details. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 65 
+Q1 Write a Java program to create a thread that prints squares of numbers from 1 to 10. 
+Q2 Write a Java program to demonstrate the use of Lambda Expression to find area of a 
+triangle.  
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 66 
+Q1 Create a class Employee. 
+• Throw a user-defined exception if age of employee is less than 18 while accepting input.  
+Q2 Write a JSP page to demonstrate page and include directives. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 67 
+Q1 Develop a Servlet that displays a welcome message along with the current date and time. 
+Q2. Write a Java program to demonstrate the use of Lambda Expression to find area of a 
+square. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 68 
+Q1 Create a JSP page that displays current system date and time. 
+Q2 Write a Java program to: 
+• Store integers in an ArrayList.  
+• Display elements within a given range 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 69 
+Q1 Write a JSP program using JDBC to insert multiple records into a database table. 
+Q2 Create a class Customer with attributes name, mobile and address. 
+Use instance variables and a static variable to count total number of objects created. 
+Display the count along with customer details. 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 70 
+Q1 Create a class Manager that extends Employee. 
+• Display manager details including bonus.  
+Q2 Write a Java program to: 
+• Store strings in an ArrayList.  
+• Sort them alphabetically using built-in method.  
+• Display the list.  
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 71 
+Q1 Create a class Employee with department attribute. 
+• Store multiple employees and count number of employees in each department.  
+Q2 Write a Java program to: 
+• Create both ArrayList and LinkedList.  
+• Add elements and display them.  
+• Compare basic operations (add/remove). 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 72 
+Q1 Write a Java program to accept elements in an array. 
+• Identify and display duplicate elements.  
+Q2 Write a Java program to: 
+• Store city names in an ArrayList.  
+• Display cities starting with a given letter. 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 73 
+Q1 Write a Java program to accept a string. 
+• Convert the string into a character array and display each character.  
+Q2 Develop a Servlet to accept student details from a form. 
+• Display the details on the browser.  
+ 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 74 
+Q1 Write a Java program to create a thread that prints Fibonacci series up to 10 terms. 
+Q2 Explain the use of join() method in threads. 
+ 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 75 
+Q1 Write a Java program to accept a number as string. 
+• Handle invalid input using exception handling.  
+Q2 Create another thread in the same program that prints squares of numbers from 1 to 10. 
+Execute both threads and display their outputs. 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 76 
+Q1 Develop a Servlet to accept student details from a form. 
+• Display the details on the browser.  
+Q2 Create a class Customer with attributes name, mobile and address. 
+Use instance variables and a static variable to count total number of objects created. 
+Display the count along with customer details 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 77 
+Q1 Create a JSP page to perform arithmetic operations (addition, subtraction, multiplication). 
+Q2 Create an abstract class Vehicle with abstract method start(). 
+• Implement it in Car and Bike.  
+• Display appropriate start messages. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 78 
+Q1 Write a JSP program using JDBC to fetch records from a table and display them in sorted 
+order. 
+Q2 Create an interface Payment with method pay(). 
+• Implement it in CashPayment and OnlinePayment.  
+• Demonstrate method implementation. 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 79 
+Q1 Create a class Employee and calculate bonus based on salary. 
+• Display updated salary.  
+Q2 Create a class Customer with attributes id, name, and city. 
+• Use constructor chaining with this().  
+• Initialize values using multiple constructors.  
+• Display details. 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 80 
+Q1 Write a Java program to accept a sentence. 
+• Reverse each word in the sentence.  
+Q2 Create a class Person and extend it into Student. 
+• Use super() to initialize base class attributes.  
+• Display complete student details. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 81 
+Q1 Write a Java program to accept a list of integers from the user. 
+• Store them in an ArrayList. 
+• Remove all duplicate elements and display the updated list. 
+Q2 Create a class Employee with two constructors (default and parameterized). 
+Initialize objects using both constructors and display the details. 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 82 
+Q1 Create a class Student with attributes rollNo, name, and marks of three subjects. 
+Store details of 5 students in an ArrayList. 
+Calculate total and percentage for each student. 
+Display students who have secured distinction (percentage ≥ 75). 
+Q2 Write a Java program to: 
+• Store strings in an ArrayList.  
+• Sort them alphabetically using built-in method.  
+• Display the list. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 83 
+Q1 Write a Java program to: 
+• Store strings in a HashSet.  
+• Add duplicate values.  
+• Display final set. 
+Q2 Create a class Employee where salary must be greater than 10,000. 
+Throw a user-defined exception if the condition is not satisfied. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 84 
+Q1 Write a Java program to create a thread that prints prime numbers between 1 and 50. 
+Q2 Create a class Employee with attributes: empId, name, and salary. 
+• Declare all variables as private.  
+• Provide getter and setter methods.  
+• Accept details for 3 employees and display them using methods 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 85 
+Q1 Write a Java program to perform division of two numbers entered by the user. 
+Handle invalid input and divide-by-zero conditions using appropriate exception handling. 
+Q2 Write JSP page to display addition of two numbers using expression tag. numbers should 
+be accepted from user. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 86 
+Q1 Develop a Servlet that accepts student name and marks from an HTML form. 
+Display the entered details along with pass/fail result. 
+Q2 Create a class Customer with attributes name, mobile and address. 
+Use instance variables and a static variable to count total number of objects created. 
+Display the count along with customer details 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 87 
+Q1 Create a JSP page that accepts employee name and salary. 
+Display the details along with annual salary calculation. 
+Q2 Write a java program to handle multiple exceptions using multiple catch blocks. 
+ 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 88 
+Q1 Write a JSP program using JDBC to create a table Student and insert at least 3 records. 
+Q2 Write a java program to handle multiple exceptions using multiple catch blocks. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP      Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 89 
+Q1 Create a class Employee with attributes empId, name, and salary. Demonstrate constructor 
+chaining using this() keyword. 
+Q2 Create a thread that prints factorial of a number and another which prints even numbers 
+from 1 to 10. Execute both threads. 
+ 
+ 
+ 
+ 
+ 
+. KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 90 
+Q1 Write a Java program to accept an array of integers. 
+Sort the array using built-in methods and display the sorted array. 
+Q2 Write a java program to handle multiple exceptions using multiple catch blocks. 
+ 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 91 
+Q1 Store Customer names in an ArrayList. Display customers’ names start with a given 
+character. 
+Q2 Write a program to demonstrate use of StringBuffer by modifying a string (append, insert, 
+delete operations). 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 92 
+Q1 Write a Java program to accept 5 employee names. Store them in an array and sort them 
+alphabetically. 
+Q2 Create a class Student with attributes: rollNo and name. 
+• Define a default constructor and a parameterized constructor.  
+• Initialize objects using both constructors.  
+• Display student details. 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 93 
+Q1 Write a Java program to: 
+• Create a HashMap<Integer, String>.  
+• Insert elements.  
+• Search for a key and display its value. 
+Q2. Write the servlet to display addition and subtraction results of two numbers accepted from 
+user on html form. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 94 
+Q1 Write a Java program to create a thread that prints multiplication table of a number. 
+Q2 Create a class Shape with method area(). 
+• Override this method in Circle and Rectangle.  
+• Calculate and display area using runtime polymorphism.  
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 95 
+Q1 Write a Java program to read a number as a string. 
+Convert it to integer and handle invalid input using exception handling. 
+Q2. Write servlet program to display multiplication and division results of accepted numbers 
+from user. 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 96 
+Q1 Develop a Servlet that accepts two numbers from a form. Perform addition and display the 
+result. 
+Q2 Create a class Employee with two constructors (default and parameterized). 
+Initialize objects using both constructors and display the details. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP      Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+ 
+Slip 97 
+Q1 Create a JSP page that accepts student details. Display total and percentage using JSP 
+expression tags. 
+Q2 Write a Java program to accept a sentence. Count number of digits and special characters. 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP      Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 98 
+Q1 Write a Java program using JDBC to update salary of an employee based on ID. 
+Q2 Write a Java program to accept a sentence. Count number of words and characters. 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 99 
+Q1 Create a class Person and demonstrate encapsulation using private variables and 
+getter/setter methods. Create another class Employee that uses Person class and displays 
+complete details. 
+Q2. Display current date using JSP. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 100 
+Q1 Demonstrate JSP Declaration and directives. 
+Q2 Write a Java program to accept a list of integers. 
+• Sort the list using collection methods and display the result.  
+• remove duplicate elements and display unique values 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP      Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 101 
+Q1 Write JSP application which will 
+• Store details of 5 employees in emp table.  
+• Count and display the number of employees. (assume suitable table structure) 
+Q2 Create a class Person with attributes name and age. 
+• Demonstrate use of local, instance, and static variables within the class.  
+• Display how their values differ for multiple objects.  
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 102 
+Q1 Write a Java program to: 
+• Store integers in an ArrayList.  
+• Remove elements less than 40.  
+• Display updated list. 
+Q2 Create a class hierarchy with Employee as base class and Manager as derived class. 
+• Add additional attributes in derived class.  
+• Demonstrate inheritance by accessing base class properties and displaying complete 
+details.  
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 103 
+Q1 Write a Java program to accept a sentence from the user. 
+• Replace a specific word with another word entered by the user.  
+• Display the modified sentence.  
+Q2 Create a class Customer with attributes custId, name, and city. 
+• Demonstrate use of different string operations (length, substring, replace) on customer 
+name.  
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 104 
+Q1 Write a Java program to create a thread that prints numbers from 1 to 5 with a delay of 1 
+second between each number. 
+Q2 Create a servlet to display multiplication of two numbers accepted from user. 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 105 
+Q1 Write a Java program to accept employee details using Scanner. 
+• Validate input such that salary should be numeric.  
+• Handle invalid input using exception handling.  
+Q2 Write a servlet to display details such as current date and time along with the greeting 
+message to user. (Hello <username>)  
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 106 
+Q1 Develop a Servlet that accepts username from a form. 
+• Display a greeting message “Welcome <name>” on the browser.  
+Q2 Write a Java program to accept a number from the user. 
+• Display the sum of digits using appropriate looping construct.  
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 107 
+Q1 Create a JSP page that accepts two numbers from the user. 
+• Perform addition and display result using JSP expression tag.  
+Q2 Create a class Employee demonstrating constructor chaining using this() keyword. 
+• Initialize objects using multiple constructors.  
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 108 
+Q1 Write a JSP program using JDBC to create a table Employee. 
+• Insert at least 3 records into the table.  
+Q2. Write a Java program to accept an array of integers and display the array in reverse order 
+after sorting. 
+ 
+ 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 109 
+Q1 Write JSP program to retrieve and display all records of employee table in tabular format 
+Q2 Create a class Manager extending Employee. 
+• Demonstrate use of super() to initialize base class attributes.  
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 110 
+Q1 Write a Java program to accept an array of integers. 
+• Sort the array in ascending order using built-in methods.  
+Q2 Write a JSP page to perform subtraction and multiplication based on user choice. 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+Slip 111 
+Q1 Create a class Employee with attributes empId, name, and salary. 
+• Store details of 7 employees in an array.  
+• Sort the array based on salary and display the sorted list.  
+• Find and display the median salary.  
+Q2 Create a class Person with attribute age. 
+• Throw a user-defined exception if age is less than 18 while accepting input.  
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 112 
+Q1 Create a class Customer with attributes custId, name, and city. 
+• Store customer details in an ArrayList.  
+• Filter and display customers belonging to a city entered by the user.  
+Q2 Write JSP program to retrieve and display only those students whose marks are above a 
+given value. 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 113 
+Q1 Write a Java program to accept a string. 
+• Count the total number of characters, digits, and spaces present in the string.  
+Q2 Create a class Employee with attributes name and salary. 
+• Demonstrate method overloading by creating multiple methods to calculate bonus 
+based on different parameters.  
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 114 
+Q1 Write a Java program to create a thread. 
+• Assign a custom name to the thread and display numbers from 1 to 10 along with thread 
+name.  
+Q2 Create a JSP page to accept employee details. Store data in database using JDBC. 
+Display inserted records. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 115 
+Q1 Write a Java program to demonstrate handling of NullPointerException. 
+• Generate the exception and handle it using try-catch block.  
+Q2 Create a JSP page that accepts employee details (name, salary). 
+• Calculate and display annual salary.  
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 116 
+Q1 Develop a Servlet that accepts two numbers from a form. 
+• Perform addition and subtraction and display the results.  
+Q2 Modify the servlet to handle invalid input using exception handling and display appropriate 
+message. 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 117 
+Q1 Create a JSP page that accepts employee details (name, salary). 
+• Calculate and display annual salary.  
+Q2  Write a Java program to: 
+• Store strings in an ArrayList.  
+• Sort them alphabetically using built-in method.  
+• Display the list. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 118 
+Q1 Write a JSP program using JDBC to insert multiple student records into a database table. 
+Q2 Create a class Customer with attribute name. 
+Perform string operations such as converting to uppercase, extracting substring, and displaying 
+length of the name. 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 119 
+Q1 Create a class Employee and demonstrate multilevel inheritance using classes Person → 
+Employee → Developer. 
+• Display complete details of a developer.  
+Q2 Create a JSP page to display details of students from student table. (use JDBC) 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 120 
+Q1 Write a Java program to accept a number. 
+• Reverse the digits and check whether the number is palindrome or not.  
+Q2 Write a JSP program to display Welcome message to user, name should be accepted in 
+html form. “Welcome <user>” 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 121 
+Q1 Write a Java program to: 
+• Store integers in an ArrayList.  
+• Display elements within a given range 
+Q2 Write a Java program to demonstrate use of StringBuffer by performing append, insert, and 
+delete operations. 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 122 
+Q1 Write a Java program to: 
+• Store key-value pairs in a HashMap.  
+• Display all keys and values.  
+• Search for a key. 
+Q2 Write a Java program to accept a string. 
+• Count number of vowels and consonants.  
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 123 
+Q1 Write a Java program to accept a string. 
+• Count and display number of special characters. 
+Q2 Write a JSP page to display category of employee based on salary (e.g., 
+High/Medium/Low). 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 124 
+Q1 Write a Java program to create two threads. 
+• One thread should increment a counter.  
+• Another thread should display the counter value.  
+• Execute both threads.  
+Q2 Write a servlet program to add two numbers and display the addition. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 125 
+Q1 Write a Java program to perform division of two numbers. 
+• Handle ArithmeticException using try-catch block.  
+Q2 Write a servlet program to demonstrate servlet life cycle. 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 126 
+Q1 Develop a Servlet that accepts employee details from a form. 
+• Display the details in tabular format.  
+Q2 Demonstrate the use of final using class, method and instance member. 
+ 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 127 
+Q1 Create a JSP page to accept student details. 
+• Display the details using JSP expression and scriptlet.  
+Q2 Explain this() for constructor overloading and super() for superclass’s constructor calling 
+with example 
+ 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 128 
+Q1 Write a JSP program using JDBC to fetch employee records from a table. 
+Q2 Write a Java program to accept a list of integers and remove duplicate elements and display 
+unique values. 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 129 
+Q1 Create a class Person and demonstrate runtime polymorphism using method overriding. 
+• Create subclass Employee and override display method.  
+Q2 Create a JSP page which will display records of a student table. (assume proper structure) 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP       Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 130 
+Q1 Write a Java program to accept a list of integers. 
+• Sort the list using collection methods and display the result.  
+Q2 Write a JSP program to display records of employees in sorted order based on salary. 
+ 
+ 
+ 
+KES’s Pratibha Institute of Business Management 
+MCA Dept – Term End Practical Examination—May 2026 
+Course Name: MCA I Sem-II       
+Subject Code: PBJ555MJP      Total marks: 30 
+Subject name: Practical based on Java (INT)    Time: 2.00 Hrs. 
+ 
+Slip 131 
+Q1 Create a class Employee with attributes empId, name, and department. 
+• Store details of 5 employees in an array.  
+• Display only those employees who belong to the "IT" department.  
+Q2 Create a JSP page to display current date and time. 

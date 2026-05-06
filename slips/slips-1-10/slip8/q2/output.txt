@@ -1,2 +1,18 @@
-Employee Salary: Base Salary
-Manager Salary: Base Salary + Bonus
+---- Employee ----
+Name   : Kavita Rao
+Salary : Rs. 35000.0
+
+---- Manager ----
+Name       : Anil Sharma
+Salary     : Rs. 75000.0
+Department : IT
+Team Size  : 8
+
+--- Runtime Polymorphism ---
+---- Manager ----
+Name       : Deepa Nair
+Salary     : Rs. 80000.0
+Department : Finance
+Team Size  : 5
+
+Deepa Nair manages the Finance department (5 members).

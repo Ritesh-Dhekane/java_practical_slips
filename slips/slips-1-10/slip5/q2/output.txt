@@ -1,5 +1,22 @@
---- Servlet Life Cycle Demonstration ---
-init() - Called once when Servlet is created.
-service() - Called for every request.
-service() - Called for every request.
-destroy() - Called once when Servlet is stopped.
+Server console output:
+*** SERVLET LIFECYCLE ***
+init() called – Servlet initialized.
+Servlet Name: LifeCycleServlet
+
+[First Request]
+service()/doGet() called – Request #1
+
+[Second Request]
+service()/doGet() called – Request #2
+
+[Server shutdown]
+destroy() called – Servlet destroyed. Total requests served: 2
+
+Browser output (first request):
+---------------------------------------------
+Servlet Life Cycle Demo
+
+init()  : Called once when servlet loads.
+service(): Called for each request. Request # 1
+destroy(): Called once when servlet is removed.
+---------------------------------------------

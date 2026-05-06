@@ -1,3 +1,13 @@
-Abstract classes can have state...
-Drawing Circle
-Area of Red Circle
+===== Abstract Class Demo =====
+Brand: Toyota, Speed: 180 km/h
+Toyota uses Petrol/Diesel.
+Brand: Tesla, Speed: 250 km/h
+Tesla uses Electric Battery.
+
+===== Interface Demo =====
+MultifunctionPrinter: Printing document...
+MultifunctionPrinter: Scanning document...
+
+===== Key Differences =====
+Abstract Class: can have constructors, fields, concrete methods.
+Interface     : all methods abstract by default (Java 7); supports multiple implementation.

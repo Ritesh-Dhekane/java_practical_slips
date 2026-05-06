@@ -1,1 +1,10 @@
-JSP Expression Tag used: <%= res %>
+Browser Output (input: 12, 15):
+==================================
+Multiplication Result
+
+Number 1 : 12.0
+Number 2 : 15.0
+--------------------
+12.0 × 15.0 = 180.0
+
+[← Calculate Again]

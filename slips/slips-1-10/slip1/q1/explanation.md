@@ -1,1 +1,13 @@
-This program uses `ArrayList` to store objects and implements `Comparable` to sort them based on salary. (Unit 2: Collections)
+# Slip 1 – Q1: ArrayList Sort
+
+## What the program does
+Creates an `ArrayList` of integers, adds 6 elements, sorts them using
+`Collections.sort()`, and displays both the original and sorted list.
+
+## Java Concepts Used
+- **ArrayList** – dynamic array from `java.util`
+- **Collections.sort()** – built-in ascending sort
+- **Generics** – `ArrayList<Integer>`
+
+## Syllabus Unit
+**UNIT 2** – Collections (ArrayList)

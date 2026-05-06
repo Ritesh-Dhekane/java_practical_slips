@@ -1,7 +1,10 @@
-# Slip 9
+# Slip 9 – Meta
 
-Topics:
-- JSP & JDBC
-- Interface vs Abstract Class
-
-Units: Unit 1, Unit 4
+| Field      | Detail                                               |
+|------------|------------------------------------------------------|
+| Slip No.   | 9                                                    |
+| Q1 Topic   | JSP + JDBC – Retrieve all records from Student table |
+| Q2 Topic   | Interface vs Abstract Class – comparison with code   |
+| Unit (Q1)  | UNIT 4 – JSP, JDBC                                   |
+| Unit (Q2)  | UNIT 1 – Interface, Abstract Class, Abstraction      |
+| Status     | Complete                                             |

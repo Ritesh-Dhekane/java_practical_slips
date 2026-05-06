@@ -1,2 +1,19 @@
-Employee ID: 1001
-Name: John Doe
+---------------------------
+Employee Details
+---------------------------
+ID         : 1001
+Name       : Suresh Kumar
+Age        : 30
+Department : IT
+Salary     : Rs. 55000.0
+---------------------------
+
+---------------------------
+Employee Details
+---------------------------
+ID         : 1002
+Name       : Meena Patil
+Age        : 27
+Department : HR
+Salary     : Rs. 42000.0
+---------------------------

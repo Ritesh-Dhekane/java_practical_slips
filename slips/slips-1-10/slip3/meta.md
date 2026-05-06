@@ -1,7 +1,10 @@
-# Slip 3
+# Slip 3 – Meta
 
-Topics:
-- HashSet
-- Abstract Class
-
-Units: Unit 1, Unit 2
+| Field      | Detail                                      |
+|------------|---------------------------------------------|
+| Slip No.   | 3                                           |
+| Q1 Topic   | HashSet – Duplicate rejection               |
+| Q2 Topic   | Abstract class Person → Employee            |
+| Unit (Q1)  | UNIT 2 – Collections, Set, Hashing         |
+| Unit (Q2)  | UNIT 1 – Abstract Class, Abstraction        |
+| Status     | Complete                                    |

@@ -1,5 +1,7 @@
-Initial Set: [Bob, Alice, Charlie]
-Attempt to insert duplicate 'Alice' successful? false
-Final Set: [Bob, Alice, Charlie]
+Names added (with duplicates): Alice, Bob, Charlie, Alice, David, Bob, Eve
 
-Explanation: HashSet does not allow duplicate elements...
+HashSet (duplicates removed): [Bob, Alice, Charlie, Eve, David]
+Total unique names: 5
+
+Observation: HashSet does NOT allow duplicate values.
+             Each element is stored only once.

@@ -1,1 +1,26 @@
-Thread is running. Name: MySpecialThread
+Main thread: main
+
+Thread Name : WorkerThread-Alpha
+Thread State: RUNNABLE
+Thread ID   : 12
+Priority    : 5
+
+Thread Name : WorkerThread-Beta
+Thread State: RUNNABLE
+Thread ID   : 13
+Priority    : 5
+
+[WorkerThread-Alpha] Executing step 1
+[WorkerThread-Beta] Executing step 1
+[WorkerThread-Alpha] Executing step 2
+[WorkerThread-Beta] Executing step 2
+[WorkerThread-Alpha] Executing step 3
+[WorkerThread-Beta] Executing step 3
+[WorkerThread-Alpha] Executing step 4
+[WorkerThread-Beta] Executing step 4
+[WorkerThread-Alpha] Executing step 5
+[WorkerThread-Beta] Executing step 5
+[WorkerThread-Alpha] Finished.
+[WorkerThread-Beta] Finished.
+
+All named threads have completed.

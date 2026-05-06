@@ -1,4 +1,23 @@
+# How to Run – Slip 1 Q2
+
+## Compile
 ```bash
 javac Main.java
+```
+
+## Run
+```bash
 java Main
+```
+
+## Expected Output
+```
+x = 2, y = 10
+x^y = 2.0^10 = 1024.0
+
+x = 3, y = 4
+x^y = 3.0^4 = 81.0
+
+x = 5, y = 3
+x^y = 5.0^3 = 125.0
 ```

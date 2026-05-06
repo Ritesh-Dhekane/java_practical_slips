@@ -4,17 +4,137 @@
       "name": "Slips 1 to 10",
       "folder": "slips-1-10",
       "slips": [
-        { "id": 1, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip1/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip1/q2" } ] },
-        { "id": 2, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip2/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip2/q2" } ] },
-        { "id": 3, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip3/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip3/q2" } ] },
-        { "id": 4, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip4/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip4/q2" } ] },
-        { "id": 5, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip5/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip5/q2" } ] },
-        { "id": 6, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip6/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip6/q2" } ] },
-        { "id": 7, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip7/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip7/q2" } ] },
-        { "id": 8, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip8/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip8/q2" } ] },
-        { "id": 9, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip9/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip9/q2" } ] },
-        { "id": 10, "questions": [ { "title": "Question 1", "path": "slips/slips-1-10/slip10/q1" }, { "title": "Question 2", "path": "slips/slips-1-10/slip10/q2" } ] }
+        {
+          "id": 1,
+          "questions": [
+            { "title": "ArrayList – Add, Sort & Display", "path": "slips/slips-1-10/slip1/q1" },
+            { "title": "Lambda Expression – x raised to y", "path": "slips/slips-1-10/slip1/q2" }
+          ]
+        },
+        {
+          "id": 2,
+          "questions": [
+            { "title": "HashMap – Insert & Display via entrySet()", "path": "slips/slips-1-10/slip2/q1" },
+            { "title": "Method Overriding – Person & Student", "path": "slips/slips-1-10/slip2/q2" }
+          ]
+        },
+        {
+          "id": 3,
+          "questions": [
+            { "title": "HashSet – Store Names, Add Duplicates", "path": "slips/slips-1-10/slip3/q1" },
+            { "title": "Abstract Class Person → Employee", "path": "slips/slips-1-10/slip3/q2" }
+          ]
+        },
+        {
+          "id": 4,
+          "questions": [
+            { "title": "ArrayList – Sort Salaries, Find 2nd Highest", "path": "slips/slips-1-10/slip4/q1" },
+            { "title": "Interface Shape – Circle & Rectangle", "path": "slips/slips-1-10/slip4/q2" }
+          ]
+        },
+        {
+          "id": 5,
+          "questions": [
+            { "title": "Multithreading – Runnable, Print 1–10 with Thread Name", "path": "slips/slips-1-10/slip5/q1" },
+            { "title": "Servlet Life Cycle – init(), service(), destroy()", "path": "slips/slips-1-10/slip5/q2" }
+          ]
+        },
+        {
+          "id": 6,
+          "questions": [
+            { "title": "Exception Handling – NumberFormatException", "path": "slips/slips-1-10/slip6/q1" },
+            { "title": "JSP Implicit Objects – request, response, session", "path": "slips/slips-1-10/slip6/q2" }
+          ]
+        },
+        {
+          "id": 7,
+          "questions": [
+            { "title": "Servlet – Accept Employee Name, Display Welcome Message", "path": "slips/slips-1-10/slip7/q1" },
+            { "title": "Thread – Custom Name & Display During Execution", "path": "slips/slips-1-10/slip7/q2" }
+          ]
+        },
+        {
+          "id": 8,
+          "questions": [
+            { "title": "JSP – Multiply Two Numbers Using Expression Tag", "path": "slips/slips-1-10/slip8/q1" },
+            { "title": "Runtime Polymorphism – Employee & Manager Override", "path": "slips/slips-1-10/slip8/q2" }
+          ]
+        },
+        {
+          "id": 9,
+          "questions": [
+            { "title": "JSP + JDBC – Retrieve All Records from Student Table", "path": "slips/slips-1-10/slip9/q1" },
+            { "title": "Interface vs Abstract Class – Comparison with Code", "path": "slips/slips-1-10/slip9/q2" }
+          ]
+        },
+        {
+          "id": 10,
+          "questions": [
+            { "title": "Encapsulation – Employee with Private Fields, Getters & Setters", "path": "slips/slips-1-10/slip10/q1" },
+            { "title": "Servlet Life Cycle – init(), service(), destroy() (Detailed)", "path": "slips/slips-1-10/slip10/q2" }
+          ]
+        }
       ]
+    },
+    {
+      "name": "Slips 11 to 20",
+      "folder": "slips-11-20",
+      "slips": []
+    },
+    {
+      "name": "Slips 21 to 30",
+      "folder": "slips-21-30",
+      "slips": []
+    },
+    {
+      "name": "Slips 31 to 40",
+      "folder": "slips-31-40",
+      "slips": []
+    },
+    {
+      "name": "Slips 41 to 50",
+      "folder": "slips-41-50",
+      "slips": []
+    },
+    {
+      "name": "Slips 51 to 60",
+      "folder": "slips-51-60",
+      "slips": []
+    },
+    {
+      "name": "Slips 61 to 70",
+      "folder": "slips-61-70",
+      "slips": []
+    },
+    {
+      "name": "Slips 71 to 80",
+      "folder": "slips-71-80",
+      "slips": []
+    },
+    {
+      "name": "Slips 81 to 90",
+      "folder": "slips-81-90",
+      "slips": []
+    },
+    {
+      "name": "Slips 91 to 100",
+      "folder": "slips-91-100",
+      "slips": []
+    },
+    {
+      "name": "Slips 101 to 110",
+      "folder": "slips-101-110",
+      "slips": []
+    },
+    {
+      "name": "Slips 111 to 120",
+      "folder": "slips-111-120",
+      "slips": []
+    },
+    {
+      "name": "Slips 121 to 130",
+      "folder": "slips-121-130",
+      "slips": []
     }
   ]
 }

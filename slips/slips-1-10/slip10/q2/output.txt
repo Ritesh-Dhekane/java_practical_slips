@@ -1,4 +1,25 @@
---- Servlet Life Cycle ---
-1. init()...
-2. service()...
-3. destroy()...
+Server console:
+[LIFECYCLE] init() called at: Thu May 06 00:00:00 IST 2026
+[LIFECYCLE] Servlet ready to serve requests.
+[LIFECYCLE] service()/doGet() - Request #1
+[LIFECYCLE] service()/doGet() - Request #2
+[LIFECYCLE] destroy() called. Total requests served: 2
+[LIFECYCLE] Servlet removed from service.
+
+Browser Output (Request #1):
+=================================================
+Servlet Life Cycle Demo
+
+Phase 1 – init()
+  Called once at startup.
+  Init time: Thu May 06 00:00:00 IST 2026
+
+Phase 2 – service() / doGet()
+  Called for every request.
+  Request count: 1
+
+Phase 3 – destroy()
+  Called once when server shuts down. Check server console.
+
+[Refresh to see request count increase]
+=================================================

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+    Slip 8 - Question 1
+    HTML form: accept two numbers and submit to multiply.jsp
+-->
+<html>
+<head>
+    <title>Multiplication – JSP</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 50px; background: #f5f5f5; }
+        .box { background: white; padding: 30px; border-radius: 8px; width: 320px; }
+        input[type=number] { width: 100%; padding: 8px; margin: 8px 0; box-sizing: border-box; }
+        input[type=submit] { background: #1976D2; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Multiplication Calculator</h2>
+        <form action="multiply.jsp" method="post">
+            <label>Number 1:</label>
+            <input type="number" name="num1" placeholder="Enter first number" required />
+            <label>Number 2:</label>
+            <input type="number" name="num2" placeholder="Enter second number" required />
+            <br/>
+            <input type="submit" value="Calculate" />
+        </form>
+    </div>
+</body>
+</html>

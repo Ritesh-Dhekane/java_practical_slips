@@ -1,2 +1,7 @@
-Simulating WelcomeServlet execution...
-<h1>Welcome John Doe</h1>
+Browser Output (after submitting "Ritesh" in the form):
+=========================================================
+Welcome Ritesh!
+
+Hello Ritesh, you have successfully logged in.
+
+[Go Back]

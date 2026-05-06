@@ -1,19 +1,31 @@
-import java.util.Scanner;
-
-interface Power {
-    double calculate(double x, double y);
-}
-
+/**
+ * Slip 1 - Question 2
+ * Program: Lambda Expression to compute x raised to y (x^y).
+ * Concepts: Lambda Expressions, Functional Interface
+ * Unit: UNIT 1 – Lambda Expressions
+ */
 public class Main {
+
+    // Functional interface for power operation
+    @FunctionalInterface
+    interface Power {
+        double compute(double x, double y);
+    }
+
     public static void main(String[] args) {
-        Power p = (x, y) -> Math.pow(x, y);
+        // Lambda expression: x raised to y
+        Power power = (x, y) -> Math.pow(x, y);
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter base (x): ");
-        double x = sc.hasNextDouble() ? sc.nextDouble() : 2;
-        System.out.print("Enter exponent (y): ");
-        double y = sc.hasNextDouble() ? sc.nextDouble() : 3;
+        double x = 2, y = 10;
+        System.out.println("x = " + (int) x + ", y = " + (int) y);
+        System.out.println("x^y = " + x + "^" + (int) y + " = " + power.compute(x, y));
 
-        System.out.println(x + "^" + y + " = " + p.calculate(x, y));
+        x = 3; y = 4;
+        System.out.println("\nx = " + (int) x + ", y = " + (int) y);
+        System.out.println("x^y = " + x + "^" + (int) y + " = " + power.compute(x, y));
+
+        x = 5; y = 3;
+        System.out.println("\nx = " + (int) x + ", y = " + (int) y);
+        System.out.println("x^y = " + x + "^" + (int) y + " = " + power.compute(x, y));
     }
 }

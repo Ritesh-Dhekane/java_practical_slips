@@ -1,29 +1,30 @@
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
-class Student {
-    int rollNo;
-    String name;
-    double marks;
-    public Student(int rollNo, String name, double marks) {
-        this.rollNo = rollNo; this.name = name; this.marks = marks;
-    }
-    public String toString() {
-        return "RollNo: " + rollNo + ", Name: " + name + ", Marks: " + marks;
-    }
-}
-
+/**
+ * Slip 2 - Question 1
+ * Program: HashMap<Integer,String> with rollNo and name – insert and display using entrySet().
+ * Concepts: Collections, HashMap, entrySet()
+ * Unit: UNIT 2 – Collections, Map, Hashing
+ */
 public class Main {
     public static void main(String[] args) {
-        HashMap<Integer, Student> map = new HashMap<>();
-        map.put(101, new Student(101, "Alice", 65));
-        map.put(102, new Student(102, "Bob", 75));
-        map.put(103, new Student(103, "Charlie", 80));
+        // Create a HashMap<Integer, String> (rollNo -> name)
+        HashMap<Integer, String> students = new HashMap<>();
 
-        System.out.println("Students with marks > 70:");
-        for(Student s : map.values()) {
-            if(s.marks > 70) {
-                System.out.println(s);
-            }
+        // Insert at least 5 entries
+        students.put(101, "Amit Sharma");
+        students.put(102, "Priya Patel");
+        students.put(103, "Rahul Verma");
+        students.put(104, "Sneha Joshi");
+        students.put(105, "Rohan Desai");
+
+        System.out.println("RollNo\t\tName");
+        System.out.println("------\t\t----");
+
+        // Display all entries using entrySet()
+        for (Map.Entry<Integer, String> entry : students.entrySet()) {
+            System.out.println(entry.getKey() + "\t\t" + entry.getValue());
         }
     }
 }

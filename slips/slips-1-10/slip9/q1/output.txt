@@ -1,1 +1,11 @@
-JSP with JDBC generated in code/index.jsp
+Browser Output (JSP page):
+============================
+Student Table – All Records
+
+| Roll No | Name         | Course | Marks |
+|---------|--------------|--------|-------|
+| 101     | Amit Sharma  | MCA    | 85    |
+| 102     | Priya Patel  | MCA    | 91    |
+| 103     | Rahul Verma  | MCA    | 78    |
+| 104     | Sneha Joshi  | MCA    | 88    |
+| 105     | Rohan Desai  | MCA    | 74    |

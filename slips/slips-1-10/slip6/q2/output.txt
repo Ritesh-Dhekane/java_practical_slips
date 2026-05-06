@@ -1,4 +1,24 @@
---- JSP Implicit Objects ---
-1. request...
-2. response...
-3. session...
+Browser Output (JSP page rendered):
+====================================
+JSP Implicit Objects Demo
+
+1. request Object
+| Property    | Value              |
+|-------------|--------------------|
+| Client IP   | 127.0.0.1          |
+| HTTP Method | GET                |
+| Request URI | /WebApp/implicit   |
+| User Agent  | Mozilla/5.0 ...    |
+
+2. session Object
+| Property       | Value                    |
+|----------------|--------------------------|
+| Session ID     | A1B2C3D4E5F6...          |
+| Username stored| Ritesh                   |
+
+3. response Object
+Custom header X-Custom-Header: JSP-Demo has been added to the response.
+Content-Type set to: text/html; charset=UTF-8
+
+4. out Object
+Written using out implicit object.
