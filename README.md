@@ -1,42 +1,44 @@
-# Java Practical Slip Repository 🏆
+# Java Practical Slip Repository
 
-A comprehensive repository containing solutions for all **131 Java Practical Slips** for the SPPU MCA Semester II curriculum (PBJ555MJP).
+A repository for SPPU MCA Semester II Java practical work, including both:
+- normal exam-oriented slips in `slips/`
+- reusable reference projects in `super-slips/`
 
-## 📊 Project Completion: 100%
+## Repository sections
+- `slips/`: the standard slip-by-slip implementations
+- `super-slips/`: high-quality reference implementations for recurring patterns
+- `data/slips.json`: viewer registry for slips and Super Slips
+- `web-viewer/`: browser-based navigation pages
 
-| Category | Status |
-|---|---|
-| Slips Implemented | 131 / 131 |
-| Total Programs | 262 |
-| Metadata & Documentation | ✅ Complete |
-| Web Viewer Registry | ✅ Complete |
+## Super Slips
+Super Slips are not exam slips. They are reference implementations meant to teach complete workflows and reusable structure.
 
-## 🚀 Getting Started
+Currently available:
+- Servlet Super Slip
+- JSP Super Slip
+- JDBC Super Slip
+- Multithreading Super Slip
+- Collections Super Slip
 
-### 🖥️ Using the Web Viewer
-1. Open `index.html` in any modern web browser.
-2. Browse slips by group (1-10, 11-20, etc.).
-3. Click on a slip to view the code, explanation, and run instructions for both Q1 and Q2.
+These are useful when many normal slips repeat the same patterns such as:
+- servlet form handling
+- JSP page flow
+- JDBC connectivity
+- thread coordination
+- collection operations
 
-### 🛠️ Running the Programs
-- **Core Java:** Navigate to the `code/` folder of any question and run:
-  ```bash
-  javac Main.java
-  java Main
-  ```
-- **Servlets & JSP:**
-  1. Deploy the `code/` files to your Tomcat `webapps` directory.
-  2. Ensure `mysql-connector-java.jar` is in your Tomcat `lib` folder.
-  3. Start Tomcat and access via `http://localhost:8080/`.
+## Viewer usage
+1. Open [index.html](/D:/Workspace/College/java_practical_slips/index.html)
+2. Browse the normal slip groups
+3. Open the separate `Super Slips` section for reference projects
 
-## 📁 Repository Structure
-- `slips/`: Contains all 131 slips categorized into group folders.
-- `data/`: Contains `slips.json`, the master registry for the web viewer.
-- `web-viewer/`: Contains the UI logic and styling for the browser-based interface.
-- `docs/`: Original syllabus/slip PDF.
+## Running code
+- Core Java examples: compile with `javac` and run with `java`
+- Servlet/JSP examples: deploy to Tomcat
+- JDBC examples: add MySQL Connector/J and ensure MySQL is running
 
-## ⚖️ License
-Educational purpose only. Designed for the KES's Pratibha Institute of Business Management MCA Dept.
+## Notes
+- Super Slips should be treated as the reusable baseline for future fixes and new slip implementations
+- They are intentionally more complete than normal slip snippets
 
----
-*Last updated: May 2026*
+*Last updated: 2026-05-10*

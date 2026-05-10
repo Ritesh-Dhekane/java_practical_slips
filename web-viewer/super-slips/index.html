@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Super Slips | Java Repository</title>
+</head>
+<body>
+    <div class="container animate-in">
+        <a href="../../index.html" class="back-link">← Back to Home</a>
+        <h1>Super Slips</h1>
+        <p class="hero-subtitle">
+            Gold-standard reference projects for repeated Java practical patterns
+        </p>
+
+        <div id="super-grid" class="grid"></div>
+
+        <footer class="footer">
+            <p class="disclaimer">
+                Super Slips are reference implementations. They are meant to teach the full workflow behind recurring slip patterns.
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        fetch('../../data/slips.json')
+            .then(response => response.json())
+            .then(data => {
+                const grid = document.getElementById('super-grid');
+                (data.superSlips || []).forEach((item, index) => {
+                    const card = document.createElement('div');
+                    card.className = 'card animate-in';
+                    card.style.animationDelay = `${index * 0.05}s`;
+                    card.innerHTML = `
+                        <div class="tag">Reference Project</div>
+                        <h2>${item.title}</h2>
+                        <p>${item.summary}</p>
+                        <div class="meta-info">
+                            <span>${item.files.length} key files</span>
+                            <span>VIEW DETAILS -></span>
+                        </div>
+                    `;
+                    card.onclick = () => window.location.href = `detail.html?id=${item.id}`;
+                    grid.appendChild(card);
+                });
+            });
+    </script>
+</body>
+</html>

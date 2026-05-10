@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servlet Super Slip - Student Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef4ff;
+            margin: 0;
+            padding: 40px 20px;
+            color: #1f2937;
+        }
+        .wrapper {
+            max-width: 760px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12);
+            padding: 32px;
+        }
+        h1 {
+            margin-top: 0;
+            color: #1d4ed8;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .info {
+            background: #eff6ff;
+            border-left: 4px solid #2563eb;
+            padding: 14px 16px;
+            margin: 20px 0 28px;
+            border-radius: 8px;
+        }
+        form {
+            display: grid;
+            gap: 16px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 6px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            font-size: 15px;
+            box-sizing: border-box;
+        }
+        .actions {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        button, .link-btn {
+            border: none;
+            border-radius: 8px;
+            padding: 12px 18px;
+            font-size: 15px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        button {
+            background: #2563eb;
+            color: white;
+        }
+        .link-btn {
+            background: #e2e8f0;
+            color: #0f172a;
+        }
+        code {
+            background: #f8fafc;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Servlet Super Slip</h1>
+        <p>
+            This reference project shows a realistic Tomcat servlet flow:
+            HTML form -> servlet mapping -> request parameter reading -> HTML response generation.
+        </p>
+
+        <div class="info">
+            Submit this form using <strong>POST</strong>. You can also test the servlet with a direct
+            <strong>GET</strong> request such as
+            <code>StudentServlet?studentName=Amit&amp;course=MCA&amp;semester=2&amp;message=Hello</code>.
+        </div>
+
+        <form action="student" method="post">
+            <div>
+                <label for="studentName">Student Name</label>
+                <input type="text" id="studentName" name="studentName" placeholder="Enter student name" required>
+            </div>
+
+            <div>
+                <label for="course">Course</label>
+                <select id="course" name="course" required>
+                    <option value="">Select course</option>
+                    <option value="MCA">MCA</option>
+                    <option value="MBA">MBA</option>
+                    <option value="MSc Computer Science">MSc Computer Science</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="semester">Semester</label>
+                <input type="number" id="semester" name="semester" min="1" max="6" placeholder="Enter semester" required>
+            </div>
+
+            <div>
+                <label for="message">Message to Servlet</label>
+                <textarea id="message" name="message" rows="4" placeholder="Optional note for the servlet response"></textarea>
+            </div>
+
+            <div class="actions">
+                <button type="submit">Submit to StudentServlet</button>
+                <a class="link-btn" href="student">Open Servlet with GET</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

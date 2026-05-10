@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Super Slip Details | Java Repository</title>
+</head>
+<body>
+    <div class="container animate-in">
+        <a href="index.html" class="back-link">← Back to Super Slips</a>
+        <h1 id="title">Super Slip</h1>
+        <p id="subtitle" class="hero-subtitle"></p>
+        <div id="content" class="split-layout"></div>
+    </div>
+
+    <script>
+        function escapeHtml(value) {
+            return value
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;');
+        }
+
+        function copyCode(button) {
+            const code = button.nextElementSibling.innerText;
+            navigator.clipboard.writeText(code);
+            const oldText = button.innerText;
+            button.innerText = 'Copied!';
+            setTimeout(() => button.innerText = oldText, 1500);
+        }
+
+        async function fetchText(path) {
+            const response = await fetch(`../../${path}`);
+            if (!response.ok) {
+                return 'Unable to load file.';
+            }
+            return response.text();
+        }
+
+        async function render() {
+            const params = new URLSearchParams(window.location.search);
+            const id = params.get('id');
+            const data = await fetch('../../data/slips.json').then(r => r.json());
+            const item = (data.superSlips || []).find(entry => entry.id === id);
+            if (!item) {
+                document.getElementById('content').innerHTML = '<p>Super Slip not found.</p>';
+                return;
+            }
+
+            document.getElementById('title').innerText = item.title;
+            document.getElementById('subtitle').innerText = item.summary;
+
+            const content = document.getElementById('content');
+
+            const docs = await Promise.all([
+                fetchText(item.docs.explanation),
+                fetchText(item.docs.run),
+                fetchText(item.docs.architecture)
+            ]);
+
+            const docSection = document.createElement('section');
+            docSection.className = 'question-section animate-in';
+            docSection.innerHTML = `
+                <div class="tag">Documentation</div>
+                <h2>Overview</h2>
+                <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px;">
+                    <div>
+                        <h3 style="color: var(--primary);">Explanation</h3>
+                        <pre>${escapeHtml(docs[0])}</pre>
+                    </div>
+                    <div>
+                        <h3 style="color: var(--primary);">Run Guide</h3>
+                        <pre>${escapeHtml(docs[1])}</pre>
+                    </div>
+                    <div>
+                        <h3 style="color: var(--primary);">Architecture</h3>
+                        <pre>${escapeHtml(docs[2])}</pre>
+                    </div>
+                </div>
+            `;
+            content.appendChild(docSection);
+
+            for (const file of item.files) {
+                const text = await fetchText(file.path);
+                const section = document.createElement('section');
+                section.className = 'question-section animate-in';
+                section.innerHTML = `
+                    <div class="tag">${file.kind}</div>
+                    <h2>${file.label}</h2>
+                    <p style="color: var(--text-dim); margin-bottom: 16px;">${file.path}</p>
+                    <div style="position: relative;">
+                        <button class="copy-btn" onclick="copyCode(this)">Copy File</button>
+                        <pre><code>${escapeHtml(text)}</code></pre>
+                    </div>
+                `;
+                content.appendChild(section);
+            }
+        }
+
+        render();
+    </script>
+</body>
+</html>

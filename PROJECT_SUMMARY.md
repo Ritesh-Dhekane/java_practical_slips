@@ -1,62 +1,36 @@
-# Project Summary – Java Practical Slip Repository
+# Project Summary - Java Practical Slip Repository
 
 ## Overview
-Java practical solution archive for SPPU MCA Semester II (PBJ555MJP)
-KES's Pratibha Institute of Business Management – May 2026 Exam
+Java practical solution archive for SPPU MCA Semester II (PBJ555MJP).
 
----
+## Current Status
+- Repository content exists for all 131 slips
+- Audit for slips 11-20 completed on 2026-05-10
+- Verified issues are still pending in part of slips 11-20, so this project should not currently be described as fully validated
+- Super Slips reference section created on 2026-05-10
 
-## Status: 🏆 100% Complete
-
-All **131 Slips** (262 Questions) have been implemented, documented, and registered.
-
----
-
-## Update Log
-
-### May 2026 – Final Phase
-- ✅ **Slips 11–131** fully implemented.
-- ✅ All code files (Java, JSP, Servlet) created.
-- ✅ Metadata (`meta.md`, `run.md`, `explanation.md`, `output.txt`) generated for every slip.
-- ✅ `data/slips.json` master index fully populated.
-- ✅ Repository structure standardized across all folders.
-
----
+## Audit Update: Slips 11-20
+- Audit report created: `SLIPS_11_20_AUDIT.md`
+- Path mapping check passed for slips 11-20 in `data/slips.json`
+- Standalone Java validation passed for most slips in this range
+- Verified blockers found:
+  - Slip 16 Q2 compile failure
+  - Slip 18 Q1 servlet compile failure
+  - Slip 20 Q1 JSP translation/runtime issues
+- Verified quality gaps found:
+  - Slip 13 Q1 does not accept user input as stated
+  - Slip 15 Q1 does not accept user input as stated
+  - Viewer cannot load some servlet/JSP filenames used by slips 18-20
+  - Some servlet/JSP deployment guides do not match the checked-in folder layout
 
 ## Technical Environment
-- **JDK:** Java 8 or higher
-- **Server:** Apache Tomcat 9.0+
-- **Database:** MySQL (using `college_db` or `hospital_db`)
-- **Connector:** MySQL Connector/J (placed in Tomcat's `lib/` folder)
+- JDK 17 available locally for validation
+- Servlet API jar not present in repo
+- MySQL Connector/J not present in repo
+- Tomcat/MySQL deployment for slips 18-20 requires external setup
 
----
+## Recommended Next Step
+- Use `SLIPS_11_20_AUDIT.md` as the source of truth before making implementation fixes in slips 11-20
+- Use `super-slips/` as the reusable implementation baseline for common servlet, JSP, JDBC, threading, and collections patterns
 
-## Slip Implementation Progress
-
-| Group | Range | Status |
-|-------|-------|--------|
-| Group 1 | Slips 1–10 | ✅ Complete |
-| Group 2 | Slips 11–20 | ✅ Complete |
-| Group 3 | Slips 21–30 | ✅ Complete |
-| Group 4 | Slips 31–40 | ✅ Complete |
-| Group 5 | Slips 41–50 | ✅ Complete |
-| Group 6 | Slips 51–60 | ✅ Complete |
-| Group 7 | Slips 61–70 | ✅ Complete |
-| Group 8 | Slips 71–80 | ✅ Complete |
-| Group 9 | Slips 81–90 | ✅ Complete |
-| Group 10 | Slips 91–100 | ✅ Complete |
-| Group 11 | Slips 101–110 | ✅ Complete |
-| Group 12 | Slips 111–120 | ✅ Complete |
-| Group 13 | Slips 121–131 | ✅ Complete |
-
----
-
-## Validation Summary
-- **Compilation:** All Java files follow standard syntax and are ready for compilation.
-- **Web-Ready:** All Servlets and JSPs include necessary HTML forms for testing.
-- **Database:** JDBC code assumes a local MySQL server with `root/root` credentials.
-- **Navigation:** The root `index.html` viewer provides seamless access to every slip.
-
----
-
-*Last updated: May 2026 | All 131 Slips Complete*
+*Last updated: 2026-05-10*

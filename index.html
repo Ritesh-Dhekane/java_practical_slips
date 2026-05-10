@@ -5,50 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./web-viewer/css/styles.css">
     <title>Java Practical Repository | MCA Sem II</title>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KCJY01NC94"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-KCJY01NC94');
-</script>
 </head>
 <body>
     <div class="container animate-in">
         <header>
             <h1>Java Practical Repository</h1>
             <p class="hero-subtitle">
-                SPPU MCA Semester II (PBJ555MJP) • 131 Slips Complete
+                SPPU MCA Semester II reference repository with exam slips and reusable Super Slips
             </p>
         </header>
 
         <main>
-            <div style="position: relative; max-width: 700px; margin: 0 auto;">
-                <input type="text" id="search" placeholder="Search by topic, group, or slip number...">
+            <div style="position: relative; max-width: 760px; margin: 0 auto;">
+                <input type="text" id="search" placeholder="Search by slip number, topic, group, or Super Slip...">
                 <div id="search-status" style="text-align: center; margin-top: -40px; margin-bottom: 30px; font-size: 0.85rem; color: var(--primary); opacity: 0; transition: opacity 0.3s;">
-                    Searching across all 131 slips...
+                    Searching across slips and Super Slips...
                 </div>
             </div>
-            
+
             <div id="results-count" style="text-align: center; margin-bottom: 20px; color: var(--text-dim); display: none;"></div>
-            
+
             <div id="display-area" class="grid">
-                <!-- Content will be injected here -->
             </div>
         </main>
-        
+
         <footer class="footer">
-           
             <p class="disclaimer">
-                All solutions displayed on this website are generated using ai tools. They are meant purely for learning, understanding concepts, and improving coding skills.
+                This repository is designed for learning, revision, and understanding implementation patterns used across Java practical slips.
             </p>
         </footer>
     </div>
 
     <script>
         let allGroups = [];
+        let allSuperSlips = [];
         const displayArea = document.getElementById('display-area');
         const searchInput = document.getElementById('search');
         const resultsCount = document.getElementById('results-count');
@@ -57,93 +47,138 @@
         fetch('./data/slips.json')
             .then(r => r.json())
             .then(data => {
-                allGroups = data.groups;
-                renderGroups(allGroups);
+                allGroups = data.groups || [];
+                allSuperSlips = data.superSlips || [];
+                renderHome();
             })
-            .catch(err => {
-                displayArea.innerHTML = `<p style="text-align:center; color:#ef4444;">Error loading data.</p>`;
+            .catch(() => {
+                displayArea.innerHTML = '<p style="text-align:center; color:#ef4444;">Error loading data.</p>';
             });
 
-        function renderGroups(groups) {
+        function renderHome() {
             displayArea.innerHTML = '';
             resultsCount.style.display = 'none';
-            groups.forEach((g, index) => {
-                const el = document.createElement('div');
-                el.className = 'card animate-in';
-                el.style.animationDelay = `${index * 0.05}s`;
-                el.innerHTML = `
-                    <div class="tag">Group</div>
-                    <h2>${g.name}</h2>
-                    <p>Contains slips ${g.slips[0].id} to ${g.slips[g.slips.length-1].id}.</p>
+
+            if (allSuperSlips.length > 0) {
+                const superCard = document.createElement('div');
+                superCard.className = 'card animate-in';
+                superCard.innerHTML = `
+                    <div class="tag">Reference</div>
+                    <h2>Super Slips</h2>
+                    <p>Browse complete reusable reference projects for Servlets, JSP, JDBC, Multithreading, and Collections.</p>
                     <div class="meta-info">
-                        <span>${g.slips.length} Slips</span>
-                        <span>VIEW ALL →</span>
+                        <span>${allSuperSlips.length} Reference Projects</span>
+                        <span>OPEN SECTION -></span>
                     </div>
                 `;
-                el.onclick = () => window.location.href = `./web-viewer/folder.html?folder=${g.folder}`;
+                superCard.onclick = () => window.location.href = './web-viewer/super-slips/index.html';
+                displayArea.appendChild(superCard);
+            }
+
+            allGroups.forEach((group, index) => {
+                const el = document.createElement('div');
+                el.className = 'card animate-in';
+                el.style.animationDelay = `${index * 0.04}s`;
+                el.innerHTML = `
+                    <div class="tag">Group</div>
+                    <h2>${group.name}</h2>
+                    <p>Contains slips ${group.slips[0].id} to ${group.slips[group.slips.length - 1].id}.</p>
+                    <div class="meta-info">
+                        <span>${group.slips.length} Slips</span>
+                        <span>VIEW ALL -></span>
+                    </div>
+                `;
+                el.onclick = () => window.location.href = `./web-viewer/folder.html?folder=${group.folder}`;
                 displayArea.appendChild(el);
             });
         }
 
-        function renderSlips(slips) {
+        function renderSearchResults(results) {
             displayArea.innerHTML = '';
             resultsCount.style.display = 'block';
-            resultsCount.innerText = `Found ${slips.length} matching slips`;
-            
-            slips.forEach((item, index) => {
-                const s = item.slip;
-                const folder = item.folder;
+            resultsCount.innerText = `Found ${results.length} matching results`;
+
+            results.forEach((item, index) => {
                 const el = document.createElement('div');
                 el.className = 'card animate-in';
                 el.style.animationDelay = `${index * 0.03}s`;
-                el.innerHTML = `
-                    <div class="tag">Slip ${s.id}</div>
-                    <h2>${s.questions[0].title.length > 40 ? s.questions[0].title.substring(0, 40) + '...' : s.questions[0].title}</h2>
-                    <p>Q2: ${s.questions[1].title}</p>
-                    <div class="meta-info">
-                        <span style="color: var(--text-dim)">Click to view code</span>
-                        <span>OPEN SLIP →</span>
-                    </div>
-                `;
-                el.onclick = () => window.location.href = `./web-viewer/slip.html?folder=${folder}&id=${s.id}`;
+
+                if (item.type === 'super') {
+                    el.innerHTML = `
+                        <div class="tag">Super Slip</div>
+                        <h2>${item.title}</h2>
+                        <p>${item.summary}</p>
+                        <div class="meta-info">
+                            <span>Reference Project</span>
+                            <span>OPEN -></span>
+                        </div>
+                    `;
+                    el.onclick = () => window.location.href = `./web-viewer/super-slips/detail.html?id=${item.id}`;
+                } else {
+                    const slip = item.slip;
+                    el.innerHTML = `
+                        <div class="tag">Slip ${slip.id}</div>
+                        <h2>${slip.questions[0].title.length > 42 ? slip.questions[0].title.substring(0, 42) + '...' : slip.questions[0].title}</h2>
+                        <p>Q2: ${slip.questions[1].title}</p>
+                        <div class="meta-info">
+                            <span>${item.groupName}</span>
+                            <span>OPEN SLIP -></span>
+                        </div>
+                    `;
+                    el.onclick = () => window.location.href = `./web-viewer/slip.html?folder=${item.folder}&id=${slip.id}`;
+                }
+
                 displayArea.appendChild(el);
             });
         }
 
-        searchInput.addEventListener('input', (e) => {
-            const q = e.target.value.toLowerCase().trim();
-            
-            if (q.length > 0) {
-                searchStatus.style.opacity = '1';
-            } else {
-                searchStatus.style.opacity = '0';
-            }
+        searchInput.addEventListener('input', event => {
+            const q = event.target.value.toLowerCase().trim();
 
-            if (q === '') {
-                renderGroups(allGroups);
+            searchStatus.style.opacity = q ? '1' : '0';
+
+            if (!q) {
+                renderHome();
                 return;
             }
 
-            const matchingSlips = [];
+            const results = [];
+
+            allSuperSlips.forEach(superSlip => {
+                const haystack = [
+                    superSlip.title,
+                    superSlip.summary,
+                    ...(superSlip.topics || [])
+                ].join(' ').toLowerCase();
+
+                if (haystack.includes(q) || superSlip.id.toLowerCase().includes(q)) {
+                    results.push({ type: 'super', ...superSlip });
+                }
+            });
+
             allGroups.forEach(group => {
                 group.slips.forEach(slip => {
-                    const matchesTitle = slip.questions.some(qn => qn.title.toLowerCase().includes(q));
+                    const matchesTitle = slip.questions.some(question => question.title.toLowerCase().includes(q));
                     const matchesId = slip.id.toString() === q || `slip ${slip.id}`.includes(q);
                     const matchesGroupName = group.name.toLowerCase().includes(q);
 
                     if (matchesTitle || matchesId || matchesGroupName) {
-                        matchingSlips.push({ slip, folder: group.folder });
+                        results.push({
+                            type: 'slip',
+                            slip,
+                            folder: group.folder,
+                            groupName: group.name
+                        });
                     }
                 });
             });
 
-            renderSlips(matchingSlips);
+            renderSearchResults(results);
         });
 
-        // Add some basic keyboard shortcuts
-        document.addEventListener('keydown', (e) => {
-            if (e.key === '/' && document.activeElement !== searchInput) {
-                e.preventDefault();
+        document.addEventListener('keydown', event => {
+            if (event.key === '/' && document.activeElement !== searchInput) {
+                event.preventDefault();
                 searchInput.focus();
             }
         });

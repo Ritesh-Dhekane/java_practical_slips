@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS college_db;
+USE college_db;
+
+CREATE TABLE IF NOT EXISTS super_students (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    course VARCHAR(40) NOT NULL,
+    marks INT NOT NULL
+);

@@ -1,53 +1,57 @@
-# AI Context – Java Practical Slip Repository
-## (Brain / Context Recovery File)
+# AI Context - Java Practical Slip Repository
+## Context Recovery Notes
 
----
+## 1. Current Validation State
+- Do not assume the repository is fully validated
+- Slips 11-20 were audited on 2026-05-10
+- Use `SLIPS_11_20_AUDIT.md` before making fixes in that range
 
-## 1. Project Status: ✅ FULLY VALIDATED (May 2026)
+## 2. Verified Findings from Slips 11-20 Audit
+- Confirmed compile failures:
+  - `slips/slips-11-20/slip16/q2/code/Main.java`
+  - `slips/slips-11-20/slip18/q1/code/DateTimeServlet.java`
+- Confirmed JSP issue:
+  - `slips/slips-11-20/slip20/q1/code/insertEmployees.jsp`
+- Confirmed question/implementation mismatches:
+  - `slips/slips-11-20/slip13/q1`
+  - `slips/slips-11-20/slip15/q1`
+- Confirmed viewer limitation:
+  - `web-viewer/slip.html` only supports a hardcoded filename list and does not load some servlet/JSP files used by slips 18-20
 
-This repository has undergone a full systematic audit. All **131 Slips** are implemented and the infrastructure is 100% complete.
+## 3. Environment Notes
+- JDK 17 is available locally
+- `python` is not on PATH in this environment, but the bundled runtime exists at:
+  - `C:\Users\ritesh\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe`
+- No servlet API jar found in repo
+- No MySQL Connector/J jar found in repo
 
----
+## 4. Deployment and Runtime Limits
+- Servlet/JSP examples in slips 18-20 are not stored as full Tomcat webapp folders
+- End-to-end servlet/JSP validation requires external Tomcat setup
+- End-to-end JDBC validation requires MySQL plus Connector/J
 
-## 2. Key Maintenance Notes
+## 5. Recommended Next Steps
+1. Fix the verified blockers in slips 16, 18, and 20
+2. Align slip 13 Q1 and slip 15 Q1 with their question wording
+3. Repair `web-viewer/slip.html` source-file loading
+4. Refresh summary/status docs after fixes are revalidated
 
-### 🛠️ Important Fix Scripts
-If you encounter syntax errors in Java files (specifically single quotes used for Strings), run the following from the root:
-1. `python scratch/fix_quotes_v3.py` (For .java files)
-2. `python scratch/fix_jsp_quotes.py` (For .jsp files)
+## 6. Super Slips
+- `super-slips/` contains reference implementations, not exam slips
+- These projects are intended to be the gold-standard baseline for recurring concepts
+- Current Super Slips:
+  - `servlet-super-slip`
+  - `jsp-super-slip`
+  - `jdbc-super-slip`
+  - `multithreading-super-slip`
+  - `collections-super-slip`
 
-### 🐛 Known Limitations
-- **Servlet Compilation:** Java files importing `javax.servlet` will fail local `javac` unless the Servlet API is added to the classpath. This is expected and documented in `run.md`.
-- **JDBC Connectivity:** Database code uses `college_db` with `root/root`. Ensure the MySQL service is running for testing.
+## 7. How future work should use Super Slips
+- When fixing servlet slips, refer to `super-slips/servlet-super-slip`
+- When fixing JSP flow slips, refer to `super-slips/jsp-super-slip`
+- When fixing JDBC slips, refer to `super-slips/jdbc-super-slip`
+- When fixing thread slips, refer to `super-slips/multithreading-super-slip`
+- When fixing collection slips, refer to `super-slips/collections-super-slip`
+- Prefer reusing these structures and workflows instead of recreating infrastructure from scratch
 
----
-
-## 3. UI & Frontend Architecture
-- **Master Data:** `data/slips.json` is the single source of truth. Any new slips must be registered here.
-- **Search Engine:** `index.html` implements a deep search across group names, slip IDs, and question titles.
-- **Mobile Support:** CSS uses responsive design (clamp, flexbox, grid).
-
----
-
-## 4. Syllabus Consistency Pass
-- **Unit 1-5:** All implemented topics strictly follow the SPPU MCA Semester II curriculum.
-- **No Overengineering:** Solutions are kept simple and exam-focused.
-
----
-
-## 5. Deployment Instructions (GitHub Pages)
-- The site is ready for static deployment.
-- `index.html` MUST remain in the root directory.
-- All asset paths are relative (`./web-viewer/...`).
-
----
-
-## 6. How to Continue Work
-If adding more content or modifying existing slips:
-1. Follow the `slipX/qY/code/` hierarchy.
-2. Every question requires: `explanation.md`, `run.md`, `output.txt`.
-3. Every slip requires: `meta.md`.
-4. Run `python scratch/validate_repo.py` to verify the new content doesn't break the JSON or folder structure.
-
----
-*Last updated: May 2026 | Full Audit & Validation Complete*
+*Last updated: 2026-05-10*
